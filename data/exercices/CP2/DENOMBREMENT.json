@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "texte": "Dans le nombre 42, quel est le chiffre des dizaines ?",
+    "options": ["2", "4", "40"],
+    "reponse_correcte": "4",
+    "explication": "Il y a 4 dizaines et 2 unités."
+  },
+  {
+    "id": 2,
+    "texte": "Quel nombre vient juste après 59 ?",
+    "options": ["58", "60", "70"],
+    "reponse_correcte": "60",
+    "explication": "Après la famille des 50, on passe à 60."
+  },
+  {
+    "id": 3,
+    "texte": "Comment écrit-on 'soixante-quinze' en chiffres ?",
+    "options": ["65", "705", "75"],
+    "reponse_correcte": "75",
+    "explication": "Soixante-quinze, c'est 60 + 15, donc 7 dizaines et 5 unités."
+  },
+  {
+    "id": 4,
+    "texte": "Lequel est le plus grand : 89 ou 91 ?",
+    "options": ["89", "91", "Ils sont égaux"],
+    "reponse_correcte": "91",
+    "explication": "9 dizaines est plus grand que 8 dizaines."
+  },
+  {
+    "id": 5,
+    "texte": "Combien y a-t-il d'unités dans 3 dizaines ?",
+    "options": ["3", "13", "30"],
+    "reponse_correcte": "30",
+    "explication": "Une dizaine c'est 10, donc trois dizaines c'est 30."
+  },
+  {
+    "id": 6,
+    "texte": "Quel nombre est entre 28 et 30 ?",
+    "options": ["27", "29", "31"],
+    "reponse_correcte": "29",
+    "explication": "On compte : 28, 29, 30."
+  },
+  {
+    "id": 7,
+    "texte": "Complète la suite : 10, 20, 30, ...",
+    "options": ["31", "40", "50"],
+    "reponse_correcte": "40",
+    "explication": "On compte de 10 en 10."
+  },
+  {
+    "id": 8,
+    "texte": "Que signifie le chiffre 0 dans le nombre 80 ?",
+    "options": ["Il n'y a pas d'unités", "Il n'y a pas de dizaines", "C'est le début"],
+    "reponse_correcte": "Il n'y a pas d'unités",
+    "explication": "Le 0 indique qu'il y a 8 dizaines 'piles'."
+  },
+  {
+    "id": 9,
+    "texte": "Lequel est le plus petit : 12, 21 ou 19 ?",
+    "options": ["12", "21", "19"],
+    "reponse_correcte": "12",
+    "explication": "12 n'a qu'une dizaine et seulement 2 unités."
+  },
+  {
+    "id": 10,
+    "texte": "8 dizaines et 4 unités, c'est...",
+    "options": ["48", "84", "804"],
+    "reponse_correcte": "84",
+    "explication": "Le 8 à gauche et le 4 à droite."
+  },
+  {
+    "id": 11,
+    "texte": "Si je compte de 2 en 2 : 2, 4, 6, ... quel est le suivant ?",
+    "options": ["7", "8", "9"],
+    "reponse_correcte": "8",
+    "explication": "6 + 2 = 8."
+  },
+  {
+    "id": 12,
+    "texte": "Comment écrit-on 100 en lettres ?",
+    "options": ["Cinq", "Cinquante", "Cent"],
+    "reponse_correcte": "Cent",
+    "explication": "C-E-N-T."
+  },
+  {
+    "id": 13,
+    "texte": "Combien de dizaines y a-t-il dans 100 ?",
+    "options": ["1", "10", "100"],
+    "reponse_correcte": "10",
+    "explication": "10 paquets de 10 font 100."
+  },
+  {
+    "id": 14,
+    "texte": "Quel est le nombre juste avant 80 ?",
+    "options": ["79", "81", "70"],
+    "reponse_correcte": "79",
+    "explication": "Avant de passer à 8 dizaines, on finit la famille des 70."
+  },
+  {
+    "id": 15,
+    "texte": "Dans 97, quel est le chiffre des unités ?",
+    "options": ["9", "7", "90"],
+    "reponse_correcte": "7",
+    "explication": "Le chiffre des unités est celui de droite."
+  },
+  {
+    "id": 16,
+    "texte": "Rangement croissant : 45, 12, 33. Lequel vient en premier ?",
+    "options": ["45", "12", "33"],
+    "reponse_correcte": "12",
+    "explication": "Croissant veut dire du plus petit au plus grand."
+  },
+  {
+    "id": 17,
+    "texte": "Quel nombre fait 60 + 8 ?",
+    "options": ["608", "86", "68"],
+    "reponse_correcte": "68",
+    "explication": "On remplace le 0 des unités par le 8."
+  },
+  {
+    "id": 18,
+    "texte": "Quel est le plus grand nombre à 2 chiffres ?",
+    "options": ["90", "99", "100"],
+    "reponse_correcte": "99",
+    "explication": "Juste après, on passe à 100 qui a 3 chiffres."
+  },
+  {
+    "id": 19,
+    "texte": "Combien font 5 dizaines et 15 unités ?",
+    "options": ["515", "65", "55"],
+    "reponse_correcte": "65",
+    "explication": "15 unités = 1 dizaine + 5 unités. Donc 5+1 = 6 dizaines."
+  },
+  {
+    "id": 20,
+    "texte": "Quel nombre est 'soixante-dix' ?",
+    "options": ["60", "70", "80"],
+    "reponse_correcte": "70",
+    "explication": "C'est 60 + 10."
+  },
+  {
+    "id": 21,
+    "texte": "Combien de dizaines dans 64 ?",
+    "options": ["4", "6", "60"],
+    "reponse_correcte": "6",
+    "explication": "Le chiffre de gauche représente les dizaines."
+  },
+  {
+    "id": 22,
+    "texte": "Quel est le plus petit : 56 ou 65 ?",
+    "options": ["56", "65", "Égaux"],
+    "reponse_correcte": "56",
+    "explication": "5 dizaines est plus petit que 6 dizaines."
+  },
+  {
+    "id": 23,
+    "texte": "Écris en chiffres : quatre-vingt-deux.",
+    "options": ["402", "82", "92"],
+    "reponse_correcte": "82",
+    "explication": "Quatre-vingts c'est 80, plus 2 égale 82."
+  },
+  {
+    "id": 24,
+    "texte": "Quel nombre vient juste avant 100 ?",
+    "options": ["90", "98", "99"],
+    "reponse_correcte": "99",
+    "explication": "C'est le dernier nombre avant la centaine."
+  },
+  {
+    "id": 25,
+    "texte": "30 + 30 + 5 = ?",
+    "options": ["60", "65", "75"],
+    "reponse_correcte": "65",
+    "explication": "60 plus 5 unités."
+  },
+  {
+    "id": 26,
+    "texte": "Dans 17, le chiffre 1 vaut...",
+    "options": ["1 unité", "1 dizaine", "100"],
+    "reponse_correcte": "1 dizaine",
+    "explication": "Il est placé dans la colonne des dizaines."
+  },
+  {
+    "id": 27,
+    "texte": "Compte de 10 en 10 : 50, 60, 70...",
+    "options": ["71", "80", "90"],
+    "reponse_correcte": "80",
+    "explication": "On ajoute une dizaine à chaque fois."
+  },
+  {
+    "id": 28,
+    "texte": "Lequel est bien rangé du plus petit au plus grand ?",
+    "options": ["10, 30, 20", "20, 40, 60", "50, 40, 30"],
+    "reponse_correcte": "20, 40, 60",
+    "explication": "C'est l'ordre croissant."
+  },
+  {
+    "id": 29,
+    "texte": "7 dizaines et 0 unité, c'est...",
+    "options": ["7", "70", "17"],
+    "reponse_correcte": "70",
+    "explication": "C'est soixante-dix."
+  },
+  {
+    "id": 30,
+    "texte": "Quel nombre est 'quatre-vingt-dix' ?",
+    "options": ["80", "90", "100"],
+    "reponse_correcte": "90",
+    "explication": "C'est 80 + 10."
+  },
+  {
+    "id": 31,
+    "texte": "Quel chiffre est à la place des unités dans 83 ?",
+    "options": ["8", "3", "30"],
+    "reponse_correcte": "3",
+    "explication": "C'est le chiffre de droite."
+  },
+  {
+    "id": 32,
+    "texte": "Si j'ai 5 paquets de 10 billes, j'ai...",
+    "options": ["15 billes", "50 billes", "5 billes"],
+    "reponse_correcte": "50 billes",
+    "explication": "5 dizaines = 50."
+  },
+  {
+    "id": 33,
+    "texte": "Quel nombre est plus grand que 78 ?",
+    "options": ["77", "69", "80"],
+    "reponse_correcte": "80",
+    "explication": "80 vient après 78."
+  },
+  {
+    "id": 34,
+    "texte": "Écris 'cinquante-quatre' en chiffres.",
+    "options": ["45", "54", "504"],
+    "reponse_correcte": "54",
+    "explication": "5 dizaines et 4 unités."
+  },
+  {
+    "id": 35,
+    "texte": "Combien d'unités dans 9 dizaines ?",
+    "options": ["9", "19", "90"],
+    "reponse_correcte": "90",
+    "explication": "9 dizaines = 90."
+  },
+  {
+    "id": 36,
+    "texte": "Quel nombre est entre 98 et 100 ?",
+    "options": ["97", "99", "101"],
+    "reponse_correcte": "99",
+    "explication": "98, 99, 100."
+  },
+  {
+    "id": 37,
+    "texte": "10 + 10 + 10 + 10 + 10 + 10 = ?",
+    "options": ["50", "60", "70"],
+    "reponse_correcte": "60",
+    "explication": "Six dizaines font soixante."
+  },
+  {
+    "id": 38,
+    "texte": "Dans 40, combien y a-t-il d'unités ?",
+    "options": ["0", "4", "40"],
+    "reponse_correcte": "40",
+    "explication": "40 unités forment exactement 4 dizaines."
+  },
+  {
+    "id": 39,
+    "texte": "Quel est le plus grand : 100 ou 99 ?",
+    "options": ["100", "99", "Égaux"],
+    "reponse_correcte": "100",
+    "explication": "100 a trois chiffres, c'est le plus grand."
+  },
+  {
+    "id": 40,
+    "texte": "Le nombre 26 c'est :",
+    "options": ["2+6", "20+6", "60+2"],
+    "reponse_correcte": "20+6",
+    "explication": "On décompose en dizaines et unités."
+  },
+  {
+    "id": 41,
+    "texte": "Quel nombre a 0 dizaine et 8 unités ?",
+    "options": ["80", "8", "18"],
+    "reponse_correcte": "8",
+    "explication": "C'est un chiffre tout seul."
+  },
+  {
+    "id": 42,
+    "texte": "Compte à l'envers : 30, 29, 28...",
+    "options": ["27", "31", "26"],
+    "reponse_correcte": "27",
+    "explication": "C'est le nombre juste avant 28."
+  },
+  {
+    "id": 43,
+    "texte": "Quatre-vingt-onze s'écrit...",
+    "options": ["81", "91", "411"],
+    "reponse_correcte": "91",
+    "explication": "80 + 11 = 91."
+  },
+  {
+    "id": 44,
+    "texte": "Quelle est la valeur du 5 dans 52 ?",
+    "options": ["5", "50", "2"],
+    "reponse_correcte": "50",
+    "explication": "Il représente 5 dizaines."
+  },
+  {
+    "id": 45,
+    "texte": "Lequel est le plus petit : 13 ou 31 ?",
+    "options": ["13", "31", "Égaux"],
+    "reponse_correcte": "13",
+    "explication": "1 dizaine est plus petite que 3 dizaines."
+  },
+  {
+    "id": 46,
+    "texte": "6 dizaines et 13 unités, c'est...",
+    "options": ["613", "73", "63"],
+    "reponse_correcte": "73",
+    "explication": "60 + 13 = 73."
+  },
+  {
+    "id": 47,
+    "texte": "Quel nombre vient après 69 ?",
+    "options": ["60", "70", "80"],
+    "reponse_correcte": "70",
+    "explication": "Après 6 dizaines et 9 unités, on passe à 7 dizaines."
+  },
+  {
+    "id": 48,
+    "texte": "Comment écrit-on 80 en lettres ?",
+    "options": ["Huit", "Huitante", "Quatre-vingts"],
+    "reponse_correcte": "Quatre-vingts",
+    "explication": "Attention au 's' à la fin quand il n'y a rien après."
+  },
+  {
+    "id": 49,
+    "texte": "Range du plus grand au plus petit : 10, 50, 30.",
+    "options": ["10-30-50", "50-30-10", "30-50-10"],
+    "reponse_correcte": "50-30-10",
+    "explication": "C'est l'ordre décroissant."
+  },
+  {
+    "id": 50,
+    "texte": "Combien de dizaines dans 100 ?",
+    "options": ["1", "10", "0"],
+    "reponse_correcte": "10",
+    "explication": "10 fois 10 égale 100."
+  },
+  {
+    "id": 51,
+    "texte": "Quel nombre est 40 + 20 ?",
+    "options": ["4020", "50", "60"],
+    "reponse_correcte": "60",
+    "explication": "4 dizaines + 2 dizaines = 6 dizaines."
+  },
+  {
+    "id": 52,
+    "texte": "Dans 5, combien y a-t-il de dizaines ?",
+    "options": ["0", "5", "1"],
+    "reponse_correcte": "0",
+    "explication": "5 est plus petit que 10."
+  },
+  {
+    "id": 53,
+    "texte": "Quel nombre suit 79 ?",
+    "options": ["70", "80", "81"],
+    "reponse_correcte": "80",
+    "explication": "C'est le début de la famille des 80."
+  },
+  {
+    "id": 54,
+    "texte": "90 + 9 = ?",
+    "options": ["99", "100", "909"],
+    "reponse_correcte": "99",
+    "explication": "9 dizaines et 9 unités."
+  },
+  {
+    "id": 55,
+    "texte": "Le chiffre 7 dans 74 veut dire...",
+    "options": ["7 unités", "7 dizaines", "700"],
+    "reponse_correcte": "7 dizaines",
+    "explication": "Car il est à gauche."
+  },
+  {
+    "id": 56,
+    "texte": "Lequel est le plus grand : 44 ou 41 ?",
+    "options": ["44", "41", "Égaux"],
+    "reponse_correcte": "44",
+    "explication": "Ils ont les mêmes dizaines, mais 4 unités est plus grand que 1."
+  },
+  {
+    "id": 57,
+    "texte": "Écris 'soixante-six' en chiffres.",
+    "options": ["606", "76", "66"],
+    "reponse_correcte": "66",
+    "explication": "6 dizaines et 6 unités."
+  },
+  {
+    "id": 58,
+    "texte": "Compte de 5 en 5 : 0, 5, 10...",
+    "options": ["11", "15", "20"],
+    "reponse_correcte": "15",
+    "explication": "On ajoute 5 à 10."
+  },
+  {
+    "id": 59,
+    "texte": "Quel nombre est juste avant 50 ?",
+    "options": ["40", "49", "51"],
+    "reponse_correcte": "49",
+    "explication": "C'est la fin de la famille des 40."
+  },
+  {
+    "id": 60,
+    "texte": "Combien font 3 dizaines et 3 unités ?",
+    "options": ["3", "33", "6"],
+    "reponse_correcte": "33",
+    "explication": "On met les chiffres côte à côte."
+  },
+  {
+    "id": 61,
+    "texte": "Lequel est égal à 25 ?",
+    "options": ["2+5", "10+10+5", "20+50"],
+    "reponse_correcte": "10+10+5",
+    "explication": "10+10=20, et 20+5=25."
+  },
+  {
+    "id": 62,
+    "texte": "Combien d'unités dans 2 dizaines ?",
+    "options": ["2", "12", "20"],
+    "reponse_correcte": "20",
+    "explication": "Chaque dizaine vaut 10."
+  },
+  {
+    "id": 63,
+    "texte": "Le nombre après 89 ?",
+    "options": ["80", "90", "99"],
+    "reponse_correcte": "90",
+    "explication": "89 + 1 = 90."
+  },
+  {
+    "id": 64,
+    "texte": "Soixante-dix-neuf s'écrit...",
+    "options": ["69", "79", "6019"],
+    "reponse_correcte": "79",
+    "explication": "60 + 19 = 79."
+  },
+  {
+    "id": 65,
+    "texte": "Le chiffre des dizaines dans 5 c'est ?",
+    "options": ["0", "5", "Aucun"],
+    "reponse_correcte": "0",
+    "explication": "Il n'y a pas assez d'unités pour faire une dizaine."
+  },
+  {
+    "id": 66,
+    "texte": "Lequel est le plus petit : 90 ou 19 ?",
+    "options": ["90", "19", "Égaux"],
+    "reponse_correcte": "19",
+    "explication": "1 dizaine est plus petite que 9 dizaines."
+  },
+  {
+    "id": 67,
+    "texte": "4 dizaines + 4 dizaines = ?",
+    "options": ["44", "8", "80"],
+    "reponse_correcte": "80",
+    "explication": "8 dizaines égalent quatre-vingts."
+  },
+  {
+    "id": 68,
+    "texte": "Dans 88, le 8 de droite est celui des...",
+    "options": ["Dizaines", "Unités", "Centaines"],
+    "reponse_correcte": "Unités",
+    "explication": "À droite, ce sont toujours les unités."
+  },
+  {
+    "id": 69,
+    "texte": "Quel nombre est 50 + 50 ?",
+    "options": ["5050", "100", "90"],
+    "reponse_correcte": "100",
+    "explication": "C'est une centaine entière."
+  },
+  {
+    "id": 70,
+    "texte": "Vingt-quatre c'est...",
+    "options": ["24", "42", "204"],
+    "reponse_correcte": "24",
+    "explication": "2 dizaines et 4 unités."
+  },
+  {
+    "id": 71,
+    "texte": "10 + 10 + 10 + 2 = ?",
+    "options": ["12", "32", "22"],
+    "reponse_correcte": "32",
+    "explication": "3 dizaines et 2 unités."
+  },
+  {
+    "id": 72,
+    "texte": "Quel nombre est entre 70 et 72 ?",
+    "options": ["69", "71", "73"],
+    "reponse_correcte": "71",
+    "explication": "70, 71, 72."
+  },
+  {
+    "id": 73,
+    "texte": "Combien de dizaines dans 91 ?",
+    "options": ["1", "9", "90"],
+    "reponse_correcte": "9",
+    "explication": "C'est le chiffre de gauche."
+  },
+  {
+    "id": 74,
+    "texte": "Lequel est le plus grand : 5, 55 ou 50 ?",
+    "options": ["5", "55", "50"],
+    "reponse_correcte": "55",
+    "explication": "55 a le plus d'unités à dizaines égales."
+  },
+  {
+    "id": 75,
+    "texte": "Écris 'trente-sept' en chiffres.",
+    "options": ["37", "73", "307"],
+    "reponse_correcte": "37",
+    "explication": "3 dizaines et 7 unités."
+  },
+  {
+    "id": 76,
+    "texte": "Si j'ajoute 1 unité à 39, j'ai...",
+    "options": ["30", "40", "41"],
+    "reponse_correcte": "40",
+    "explication": "On change de dizaine."
+  },
+  {
+    "id": 77,
+    "texte": "Comment s'écrit 15 en lettres ?",
+    "options": ["Cinq", "Dix-cinq", "Quinze"],
+    "reponse_correcte": "Quinze",
+    "explication": "C'est un mot particulier."
+  },
+  {
+    "id": 78,
+    "texte": "Dans 60, le chiffre des unités est...",
+    "options": ["0", "6", "60"],
+    "reponse_correcte": "0",
+    "explication": "Il n'y a pas d'unités seules."
+  },
+  {
+    "id": 79,
+    "texte": "Quel nombre est le plus petit à 2 chiffres ?",
+    "options": ["1", "10", "99"],
+    "reponse_correcte": "10",
+    "explication": "C'est la première dizaine."
+  },
+  {
+    "id": 80,
+    "texte": "80 + 10 = ?",
+    "options": ["70", "90", "100"],
+    "reponse_correcte": "90",
+    "explication": "8 dizaines plus 1 dizaine."
+  },
+  {
+    "id": 81,
+    "texte": "Quatre-vingt-trois, c'est...",
+    "options": ["43", "83", "93"],
+    "reponse_correcte": "83",
+    "explication": "80 et 3."
+  },
+  {
+    "id": 82,
+    "texte": "Combien font 10 paquets de 1 image ?",
+    "options": ["1", "10", "100"],
+    "reponse_correcte": "10",
+    "explication": "1 dizaine d'images."
+  },
+  {
+    "id": 83,
+    "texte": "Quel est le plus grand : 67 ou 76 ?",
+    "options": ["67", "76", "Égaux"],
+    "reponse_correcte": "76",
+    "explication": "7 dizaines est plus grand que 6."
+  },
+  {
+    "id": 84,
+    "texte": "Range croissant : 12, 8, 20.",
+    "options": ["8, 12, 20", "20, 12, 8", "12, 8, 20"],
+    "reponse_correcte": "8, 12, 20",
+    "explication": "Du plus petit au plus grand."
+  },
+  {
+    "id": 85,
+    "texte": "Dans 100, quel est le chiffre des unités ?",
+    "options": ["1", "0", "10"],
+    "reponse_correcte": "0",
+    "explication": "C'est le dernier chiffre à droite."
+  },
+  {
+    "id": 86,
+    "texte": "Combien de dizaines dans 48 ?",
+    "options": ["8", "4", "40"],
+    "reponse_correcte": "4",
+    "explication": "Le premier chiffre."
+  },
+  {
+    "id": 87,
+    "texte": "Quel nombre est 70 + 5 ?",
+    "options": ["705", "85", "75"],
+    "reponse_correcte": "75",
+    "explication": "Soixante-quinze."
+  },
+  {
+    "id": 88,
+    "texte": "Le nombre juste avant 11 ?",
+    "options": ["9", "10", "12"],
+    "reponse_correcte": "10",
+    "explication": "C'est la fin des unités seules."
+  },
+  {
+    "id": 89,
+    "texte": "Écris 'quatorze' en chiffres.",
+    "options": ["4", "14", "41"],
+    "reponse_correcte": "14",
+    "explication": "1 dizaine et 4 unités."
+  },
+  {
+    "id": 90,
+    "texte": "9 dizaines et 9 unités + 1 unité = ?",
+    "options": ["99", "100", "910"],
+    "reponse_correcte": "100",
+    "explication": "99 + 1 = 100."
+  },
+  {
+    "id": 91,
+    "texte": "Compte de 2 en 2 : 10, 12, 14...",
+    "options": ["15", "16", "17"],
+    "reponse_correcte": "16",
+    "explication": "14 + 2 = 16."
+  },
+  {
+    "id": 92,
+    "texte": "Lequel est faux ?",
+    "options": ["10 < 20", "50 > 40", "30 > 80"],
+    "reponse_correcte": "30 > 80",
+    "explication": "30 est plus petit que 80."
+  },
+  {
+    "id": 93,
+    "texte": "La famille des 80 commence à 80 et finit à...",
+    "options": ["89", "90", "99"],
+    "reponse_correcte": "89",
+    "explication": "À 90, on change de famille."
+  },
+  {
+    "id": 94,
+    "texte": "Comment s'appelle le nombre 0 ?",
+    "options": ["Rien", "Zéro", "Zoro"],
+    "reponse_correcte": "Zéro",
+    "explication": "C'est le nombre nul."
+  },
+  {
+    "id": 95,
+    "texte": "Dans 22, les deux chiffres ont la même valeur ?",
+    "options": ["Oui", "Non", "Parfois"],
+    "reponse_correcte": "Non",
+    "explication": "Le 2 de gauche vaut 20, celui de droite vaut 2."
+  },
+  {
+    "id": 96,
+    "texte": "Quel nombre est 10 dizaines ?",
+    "options": ["10", "100", "1000"],
+    "reponse_correcte": "100",
+    "explication": "C'est la définition d'une centaine."
+  },
+  {
+    "id": 97,
+    "texte": "Range décroissant : 5, 15, 10.",
+    "options": ["15, 10, 5", "5, 10, 15", "15, 5, 10"],
+    "reponse_correcte": "15, 10, 5",
+    "explication": "Du plus grand au plus petit."
+  },
+  {
+    "id": 98,
+    "texte": "Combien d'unités dans 0 dizaine et 7 unités ?",
+    "options": ["0", "7", "70"],
+    "reponse_correcte": "7",
+    "explication": "Il n'y a que les unités."
+  },
+  {
+    "id": 99,
+    "texte": "Quel est le dernier nombre à 1 chiffre ?",
+    "options": ["0", "9", "10"],
+    "reponse_correcte": "9",
+    "explication": "Après 9, on passe à 10 (deux chiffres)."
+  },
+  {
+    "id": 100,
+    "texte": "Cinquante + Cinquante = ?",
+    "options": ["Soixante", "Quatre-vingts", "Cent"],
+    "reponse_correcte": "Cent",
+    "explication": "50 + 50 = 100."
+  }
+]

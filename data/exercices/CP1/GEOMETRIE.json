@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "texte": "Quelle forme a 3 côtés et 3 sommets (coins) ?",
+    "options": ["Le carré", "Le triangle", "Le cercle"],
+    "reponse_correcte": "Le triangle",
+    "explication": "Tri-angle signifie trois angles et trois côtés."
+  },
+  {
+    "id": 2,
+    "texte": "Quelle forme est toute ronde et n'a pas de côtés droits ?",
+    "options": ["Le rectangle", "Le carré", "Le cercle"],
+    "reponse_correcte": "Le cercle",
+    "explication": "Le cercle est une ligne courbe fermée, il n'a pas de sommets."
+  },
+  {
+    "id": 3,
+    "texte": "Quelle forme a 4 côtés de la même longueur ?",
+    "options": ["Le carré", "Le triangle", "Le cercle"],
+    "reponse_correcte": "Le carré",
+    "explication": "Le carré est régulier : ses 4 côtés sont identiques."
+  },
+  {
+    "id": 4,
+    "texte": "Le rectangle a combien de côtés ?",
+    "options": ["3", "4", "5"],
+    "reponse_correcte": "4",
+    "explication": "Comme le carré, le rectangle a 4 côtés et 4 sommets."
+  },
+  {
+    "id": 5,
+    "texte": "Si le chat est 'sous' la table, où est-il ?",
+    "options": ["En haut", "En bas", "À côté"],
+    "reponse_correcte": "En bas",
+    "explication": "Sous signifie qu'il est recouvert par la table."
+  },
+  {
+    "id": 6,
+    "texte": "Où est l'oiseau s'il est 'sur' la branche ?",
+    "options": ["Au-dessus", "En dessous", "Derrière"],
+    "reponse_correcte": "Au-dessus",
+    "explication": "Sur signifie qu'il est posé en haut de la branche."
+  },
+  {
+    "id": 7,
+    "texte": "Laquelle de ces formes ressemble à un écran de télévision ?",
+    "options": ["Un cercle", "Un rectangle", "Un triangle"],
+    "reponse_correcte": "Un rectangle",
+    "explication": "La plupart des écrans sont plus larges que hauts : ce sont des rectangles."
+  },
+  {
+    "id": 8,
+    "texte": "Combien de sommets (coins) a un carré ?",
+    "options": ["3", "4", "0"],
+    "reponse_correcte": "4",
+    "explication": "Le carré a 4 angles droits qui forment 4 sommets."
+  },
+  {
+    "id": 9,
+    "texte": "Un ballon de football a la forme d'un...",
+    "options": ["Carré", "Cercle", "Triangle"],
+    "reponse_correcte": "Cercle",
+    "explication": "Pour rouler, le ballon doit être rond comme un cercle (ou une sphère)."
+  },
+  {
+    "id": 10,
+    "texte": "Si tu es 'devant' la porte, tu es...",
+    "options": ["À l'intérieur", "Face à la porte", "Derrière le mur"],
+    "reponse_correcte": "Face à la porte",
+    "explication": "Devant signifie que tu regardes l'objet en face de toi."
+  },
+  {
+    "id": 11,
+    "texte": "Quelle forme a un chapeau d'anniversaire pointu ?",
+    "options": ["Un rectangle", "Un triangle", "Un cercle"],
+    "reponse_correcte": "Un triangle",
+    "explication": "Il monte en pointe comme un triangle."
+  },
+  {
+    "id": 12,
+    "texte": "Le contour d'une pièce de monnaie est un...",
+    "options": ["Cercle", "Carré", "Triangle"],
+    "reponse_correcte": "Cercle",
+    "explication": "Les pièces sont rondes pour ne pas piquer dans les poches."
+  },
+  {
+    "id": 13,
+    "texte": "Combien de côtés a un triangle ?",
+    "options": ["2", "3", "4"],
+    "reponse_correcte": "3",
+    "explication": "Un triangle se trace avec 3 traits droits."
+  },
+  {
+    "id": 14,
+    "texte": "Une feuille de papier standard a la forme d'un...",
+    "options": ["Carré", "Rectangle", "Cercle"],
+    "reponse_correcte": "Rectangle",
+    "explication": "Elle a deux côtés longs et deux côtés plus courts."
+  },
+  {
+    "id": 15,
+    "texte": "Où est ton sac s'il est 'derrière' ton dos ?",
+    "options": ["Devant toi", "Dans ton ventre", "Dans ton dos"],
+    "reponse_correcte": "Dans ton dos",
+    "explication": "Derrière signifie que tu ne peux pas le voir sans te retourner."
+  },
+  {
+    "id": 16,
+    "texte": "Laquelle de ces formes n'a aucun sommet ?",
+    "options": ["Le triangle", "Le cercle", "Le carré"],
+    "reponse_correcte": "Le cercle",
+    "explication": "Comme il est tout rond, il n'y a pas de 'coins'."
+  },
+  {
+    "id": 17,
+    "texte": "Un dé à jouer a des faces en forme de...",
+    "options": ["Carrés", "Triangles", "Cercles"],
+    "reponse_correcte": "Carrés",
+    "explication": "Chaque côté d'un dé est un carré parfait."
+  },
+  {
+    "id": 18,
+    "texte": "Si la gomme est 'à côté' du crayon, ils sont...",
+    "options": ["L'un sur l'autre", "L'un près de l'autre", "Loin l'un de l'autre"],
+    "reponse_correcte": "L'un près de l'autre",
+    "explication": "À côté signifie une proximité sur la même ligne."
+  },
+  {
+    "id": 19,
+    "texte": "Une porte de maison est souvent un...",
+    "options": ["Triangle", "Cercle", "Rectangle"],
+    "reponse_correcte": "Rectangle",
+    "explication": "Elle est haute pour laisser passer les gens."
+  },
+  {
+    "id": 20,
+    "texte": "Lequel de ces objets est à 'gauche' de ton cahier ?",
+    "options": ["L'objet du côté de ta main gauche", "L'objet sur le cahier", "L'objet sous le cahier"],
+    "reponse_correcte": "L'objet du côté de ta main gauche",
+    "explication": "La gauche est le côté opposé à la main qui écrit (pour les droitiers)."
+  },
+  {
+    "id": 21,
+    "texte": "Lequel de ces objets a la forme d'un cercle ?",
+    "options": ["Une horloge ronde", "Un livre", "Une règle"],
+    "reponse_correcte": "Une horloge ronde",
+    "explication": "Le cadran d'une horloge est souvent un cercle parfait."
+  },
+  {
+    "id": 22,
+    "texte": "Un carré a combien de sommets ?",
+    "options": ["4", "3", "2"],
+    "reponse_correcte": "4",
+    "explication": "Un sommet est un 'coin'. Le carré en a quatre."
+  },
+  {
+    "id": 23,
+    "texte": "Si le stylo est 'dans' la trousse, il est...",
+    "options": ["À l'extérieur", "À l'intérieur", "Dessous"],
+    "reponse_correcte": "À l'intérieur",
+    "explication": "Dedans signifie qu'il est enfermé à l'intérieur."
+  },
+  {
+    "id": 24,
+    "texte": "Quelle forme ressemble à un toit de maison ?",
+    "options": ["Le triangle", "Le cercle", "Le rectangle"],
+    "reponse_correcte": "Le triangle",
+    "explication": "Le toit monte souvent en pointe comme un triangle."
+  },
+  {
+    "id": 25,
+    "texte": "Un rectangle a combien de côtés ?",
+    "options": ["4", "3", "5"],
+    "reponse_correcte": "4",
+    "explication": "Le rectangle possède 4 côtés, comme le carré."
+  },
+  {
+    "id": 26,
+    "texte": "Où sont tes chaussures par rapport à tes pieds ?",
+    "options": ["Sur tes pieds", "Sous tes pieds", "Derrière tes pieds"],
+    "reponse_correcte": "Sur tes pieds",
+    "explication": "On enfile ses chaussures sur ses pieds."
+  },
+  {
+    "id": 27,
+    "texte": "La roue d'un vélo est un...",
+    "options": ["Cercle", "Triangle", "Rectangle"],
+    "reponse_correcte": "Cercle",
+    "explication": "Elle doit être ronde pour rouler sans choc."
+  },
+  {
+    "id": 28,
+    "texte": "Lequel est 'plus haut' que toi ?",
+    "options": ["Une fourmi", "Le plafond", "Ton cahier"],
+    "reponse_correcte": "Le plafond",
+    "explication": "Le plafond est tout en haut de la pièce."
+  },
+  {
+    "id": 29,
+    "texte": "Combien de côtés a un triangle ?",
+    "options": ["3", "4", "2"],
+    "reponse_correcte": "3",
+    "explication": "Un triangle a toujours 3 côtés."
+  },
+  {
+    "id": 30,
+    "texte": "Un tapis peut avoir la forme d'un...",
+    "options": ["Rectangle", "Cercle", "Les deux sont possibles"],
+    "reponse_correcte": "Les deux sont possibles",
+    "explication": "On trouve des tapis rectangulaires et des tapis ronds."
+  },
+  {
+    "id": 31,
+    "texte": "Où est le soleil pendant la journée ?",
+    "options": ["En bas", "En haut dans le ciel", "Sous la terre"],
+    "reponse_correcte": "En haut dans le ciel",
+    "explication": "Le soleil brille au-dessus de nous."
+  },
+  {
+    "id": 32,
+    "texte": "Un carré a tous ses côtés...",
+    "options": ["De la même longueur", "Différents", "Tordus"],
+    "reponse_correcte": "De la même longueur",
+    "explication": "C'est la règle principale du carré."
+  },
+  {
+    "id": 33,
+    "texte": "La règle sert à tracer des traits...",
+    "options": ["Courbes", "Droits", "Ronds"],
+    "reponse_correcte": "Droits",
+    "explication": "Le bord de la règle est une ligne droite."
+  },
+  {
+    "id": 34,
+    "texte": "Lequel est 'entre' tes deux yeux ?",
+    "options": ["Ton nez", "Ta bouche", "Tes oreilles"],
+    "reponse_correcte": "Ton nez",
+    "explication": "Le nez est au milieu du visage."
+  },
+  {
+    "id": 35,
+    "texte": "Une pizza entière ressemble à un...",
+    "options": ["Cercle", "Triangle", "Carré"],
+    "reponse_correcte": "Cercle",
+    "explication": "La pizza est ronde avant d'être coupée."
+  },
+  {
+    "id": 36,
+    "texte": "Si tu tournes le dos au tableau, il est...",
+    "options": ["Devant toi", "Derrière toi", "Sur toi"],
+    "reponse_correcte": "Derrière toi",
+    "explication": "Le dos fait face à ce qui est derrière."
+  },
+  {
+    "id": 37,
+    "texte": "Un rectangle a combien de sommets ?",
+    "options": ["4", "3", "0"],
+    "reponse_correcte": "4",
+    "explication": "Il a 4 coins, donc 4 sommets."
+  },
+  {
+    "id": 38,
+    "texte": "Une éponge carrée a combien de côtés ?",
+    "options": ["4", "3", "2"],
+    "reponse_correcte": "4",
+    "explication": "C'est un carré, donc 4 côtés."
+  },
+  {
+    "id": 39,
+    "texte": "Le ballon est 'à gauche' de la boîte. Où dois-tu regarder ?",
+    "options": ["Vers ta main gauche", "Vers ta main droite", "En haut"],
+    "reponse_correcte": "Vers ta main gauche",
+    "explication": "C'est la direction de ton bras gauche."
+  },
+  {
+    "id": 40,
+    "texte": "Un panneau 'Stop' a beaucoup de côtés, mais un triangle en a seulement...",
+    "options": ["3", "4", "5"],
+    "reponse_correcte": "3",
+    "explication": "Le triangle est la forme avec le moins de côtés."
+  },
+  {
+    "id": 41,
+    "texte": "Quelle forme a un miroir rond ?",
+    "options": ["Un cercle", "Un carré", "Un triangle"],
+    "reponse_correcte": "Un cercle",
+    "explication": "S'il est rond, c'est un cercle."
+  },
+  {
+    "id": 42,
+    "texte": "Un rectangle a combien de coins ?",
+    "options": ["3", "4", "5"],
+    "reponse_correcte": "4",
+    "explication": "Les coins s'appellent des sommets. Il y en a 4."
+  },
+  {
+    "id": 43,
+    "texte": "Si le livre est 'à droite' du sac, où est-il ?",
+    "options": ["Du côté de ta main droite", "Sous le sac", "Dans le sac"],
+    "reponse_correcte": "Du côté de ta main droite",
+    "explication": "C'est la direction opposée à la gauche."
+  },
+  {
+    "id": 44,
+    "texte": "Un carré a 4 côtés. Sont-ils tous pareils ?",
+    "options": ["Oui", "Non", "Seulement deux"],
+    "reponse_correcte": "Oui",
+    "explication": "Les 4 côtés du carré ont la même longueur."
+  },
+  {
+    "id": 45,
+    "texte": "Où est le plafond ?",
+    "options": ["En haut", "En bas", "Derrière"],
+    "reponse_correcte": "En haut",
+    "explication": "Le plafond est au-dessus de nos têtes."
+  },
+  {
+    "id": 46,
+    "texte": "Une part de gâteau coupée en pointe ressemble à un...",
+    "options": ["Cercle", "Triangle", "Carré"],
+    "reponse_correcte": "Triangle",
+    "explication": "Elle a 3 côtés et une pointe."
+  },
+  {
+    "id": 47,
+    "texte": "Le bas d'une porte touche le...",
+    "options": ["Sol", "Plafond", "Mur"],
+    "reponse_correcte": "Sol",
+    "explication": "Le sol est en bas."
+  },
+  {
+    "id": 48,
+    "texte": "Peut-on tracer un cercle avec une règle ?",
+    "options": ["Oui", "Non", "Peut-être"],
+    "reponse_correcte": "Non",
+    "explication": "La règle sert à tracer des traits droits, pas des courbes."
+  },
+  {
+    "id": 49,
+    "texte": "Si tu mets ton bonnet, il est où ?",
+    "options": ["Sur ta tête", "Sous tes pieds", "Dans ta poche"],
+    "reponse_correcte": "Sur ta tête",
+    "explication": "Le bonnet se pose en haut, sur la tête."
+  },
+  {
+    "id": 50,
+    "texte": "Un écran d'ordinateur est souvent un...",
+    "options": ["Cercle", "Rectangle", "Triangle"],
+    "reponse_correcte": "Rectangle",
+    "explication": "Il est plus large que haut."
+  },
+  {
+    "id": 51,
+    "texte": "Combien de sommets a un triangle ?",
+    "options": ["2", "3", "4"],
+    "reponse_correcte": "3",
+    "explication": "Il a 3 pointes (sommets)."
+  },
+  {
+    "id": 52,
+    "texte": "Où est le jardin s'il est 'dehors' ?",
+    "options": ["À l'intérieur", "À l'extérieur", "Sous la maison"],
+    "reponse_correcte": "À l'extérieur",
+    "explication": "Dehors signifie qu'on n'est pas dans la maison."
+  },
+  {
+    "id": 53,
+    "texte": "Laquelle de ces formes n'a pas de 'coins' ?",
+    "options": ["Le carré", "Le cercle", "Le rectangle"],
+    "reponse_correcte": "Le cercle",
+    "explication": "Il est tout rond."
+  },
+  {
+    "id": 54,
+    "texte": "Le drapeau est en haut du mât. Le mât est...",
+    "options": ["Sous le drapeau", "Sur le drapeau", "Derrière"],
+    "reponse_correcte": "Sous le drapeau",
+    "explication": "Le mât porte le drapeau par le bas."
+  },
+  {
+    "id": 55,
+    "texte": "Combien de côtés a un cercle ?",
+    "options": ["0", "1", "4"],
+    "reponse_correcte": "0",
+    "explication": "Un cercle n'a pas de côtés droits."
+  },
+  {
+    "id": 56,
+    "texte": "Une enveloppe de lettre a la forme d'un...",
+    "options": ["Rectangle", "Cercle", "Triangle"],
+    "reponse_correcte": "Rectangle",
+    "explication": "C'est une forme à 4 côtés."
+  },
+  {
+    "id": 57,
+    "texte": "Où sont tes yeux ?",
+    "options": ["Sur ton visage", "Derrière ta tête", "Sous tes bras"],
+    "reponse_correcte": "Sur ton visage",
+    "explication": "Ils sont placés devant, sur le visage."
+  },
+  {
+    "id": 58,
+    "texte": "Si tu dessines un soleil, quelle forme utilises-tu ?",
+    "options": ["Un carré", "Un cercle", "Un triangle"],
+    "reponse_correcte": "Un cercle",
+    "explication": "Le soleil est représenté par un rond."
+  },
+  {
+    "id": 59,
+    "texte": "Un tapis carré a combien de côtés ?",
+    "options": ["3", "4", "5"],
+    "reponse_correcte": "4",
+    "explication": "Tous les carrés ont 4 côtés."
+  },
+  {
+    "id": 60,
+    "texte": "Pour aller au tableau, l'élève marche 'vers' le tableau. Il va...",
+    "options": ["En arrière", "En avant", "En haut"],
+    "reponse_correcte": "En avant",
+    "explication": "On avance pour atteindre un but devant soi."
+  },
+  {
+    "id": 61,
+    "texte": "La règle est 'entre' le cahier et le stylo. Elle est...",
+    "options": ["Au milieu", "Dessus", "Dessous"],
+    "reponse_correcte": "Au milieu",
+    "explication": "Entre signifie au milieu de deux objets."
+  },
+  {
+    "id": 62,
+    "texte": "Une brique de jus a des faces en forme de...",
+    "options": ["Rectangle", "Cercle", "Triangle"],
+    "reponse_correcte": "Rectangle",
+    "explication": "Elle est longue et rectangulaire."
+  },
+  {
+    "id": 63,
+    "texte": "Quelle forme a un panneau 'Attention' ?",
+    "options": ["Un carré", "Un triangle", "Un cercle"],
+    "reponse_correcte": "Un triangle",
+    "explication": "Les panneaux de danger sont souvent des triangles."
+  },
+  {
+    "id": 64,
+    "texte": "Combien de côtés a un carré ?",
+    "options": ["2", "4", "6"],
+    "reponse_correcte": "4",
+    "explication": "1, 2, 3 et 4 côtés."
+  },
+  {
+    "id": 65,
+    "texte": "Si tu caches tes mains 'derrière' ton dos, on les voit ?",
+    "options": ["Oui", "Non", "Peut-être"],
+    "reponse_correcte": "Non",
+    "explication": "Elles sont masquées par ton corps."
+  },
+  {
+    "id": 66,
+    "texte": "Le cercle ressemble à la lettre...",
+    "options": ["A", "O", "M"],
+    "reponse_correcte": "O",
+    "explication": "La lettre O est ronde comme un cercle."
+  },
+  {
+    "id": 67,
+    "texte": "Un carré a 4 sommets. Un triangle en a...",
+    "options": ["3", "4", "5"],
+    "reponse_correcte": "3",
+    "explication": "Le triangle a trois pointes."
+  },
+  {
+    "id": 68,
+    "texte": "Où est le tapis ?",
+    "options": ["Au sol", "Au plafond", "Sur le mur"],
+    "reponse_correcte": "Au sol",
+    "explication": "Le tapis se pose par terre."
+  },
+  {
+    "id": 69,
+    "texte": "Laquelle de ces formes est la plus longue ?",
+    "options": ["Un cercle", "Un grand rectangle", "Un petit carré"],
+    "reponse_correcte": "Un grand rectangle",
+    "explication": "Le rectangle peut être très étiré."
+  },
+  {
+    "id": 70,
+    "texte": "Si le cartable est 'ouvert', peut-on voir dedans ?",
+    "options": ["Oui", "Non", "Seulement la nuit"],
+    "reponse_correcte": "Oui",
+    "explication": "Ouvert permet de voir l'intérieur."
+  },
+  {
+    "id": 71,
+    "texte": "Un cadre photo carré a combien de coins ?",
+    "options": ["4", "3", "0"],
+    "reponse_correcte": "4",
+    "explication": "C'est un carré, donc 4 coins."
+  },
+  {
+    "id": 72,
+    "texte": "Quelle forme a une assiette ?",
+    "options": ["Un cercle", "Un triangle", "Un carré"],
+    "reponse_correcte": "Un cercle",
+    "explication": "La plupart des assiettes sont rondes."
+  },
+  {
+    "id": 73,
+    "texte": "Où est ton chapeau s'il est 'sous' ton lit ?",
+    "options": ["En haut", "Par terre", "Sur le lit"],
+    "reponse_correcte": "Par terre",
+    "explication": "Sous indique une position inférieure."
+  },
+  {
+    "id": 74,
+    "texte": "Un rectangle a 4 côtés. Sont-ils tous égaux ?",
+    "options": ["Oui", "Non", "Seulement deux"],
+    "reponse_correcte": "Non",
+    "explication": "Il a 2 grands côtés et 2 petits côtés."
+  },
+  {
+    "id": 75,
+    "texte": "Comment est une ligne tracée avec une règle ?",
+    "options": ["Tordue", "Droite", "Arrondie"],
+    "reponse_correcte": "Droite",
+    "explication": "La règle assure la droiture."
+  },
+  {
+    "id": 76,
+    "texte": "Le triangle a-t-il des côtés courbes ?",
+    "options": ["Oui", "Non", "Parfois"],
+    "reponse_correcte": "Non",
+    "explication": "Ses 3 côtés sont des segments droits."
+  },
+  {
+    "id": 77,
+    "texte": "Où est la télé si elle est 'face' à toi ?",
+    "options": ["Devant toi", "Derrière toi", "À côté"],
+    "reponse_correcte": "Devant toi",
+    "explication": "Face signifie devant."
+  },
+  {
+    "id": 78,
+    "texte": "Quelle forme a un mouchoir déplié ?",
+    "options": ["Un carré", "Un cercle", "Un triangle"],
+    "reponse_correcte": "Un carré",
+    "explication": "Les mouchoirs sont souvent carrés."
+  },
+  {
+    "id": 79,
+    "texte": "Combien de côtés a un rectangle ?",
+    "options": ["3", "4", "5"],
+    "reponse_correcte": "4",
+    "explication": "4 côtés, comme le carré."
+  },
+  {
+    "id": 80,
+    "texte": "Si tu lèves la main, elle va vers le...",
+    "options": ["Bas", "Haut", "Côté"],
+    "reponse_correcte": "Haut",
+    "explication": "Lever signifie monter."
+  },
+  {
+    "id": 81,
+    "texte": "Un bouton de chemise est souvent un...",
+    "options": ["Cercle", "Triangle", "Carré"],
+    "reponse_correcte": "Cercle",
+    "explication": "Les boutons sont généralement ronds."
+  },
+  {
+    "id": 82,
+    "texte": "Un carré a combien de côtés ?",
+    "options": ["4", "3", "2"],
+    "reponse_correcte": "4",
+    "explication": "Quatre côtés égaux."
+  },
+  {
+    "id": 83,
+    "texte": "Le chat est 'dans' son panier. Il est...",
+    "options": ["À l'extérieur", "À l'intérieur", "Sur le bord"],
+    "reponse_correcte": "À l'intérieur",
+    "explication": "Dans signifie dedans."
+  },
+  {
+    "id": 84,
+    "texte": "Un triangle a combien de sommets ?",
+    "options": ["3", "4", "2"],
+    "reponse_correcte": "3",
+    "explication": "3 pointes."
+  },
+  {
+    "id": 85,
+    "texte": "La lune quand elle est pleine est un...",
+    "options": ["Cercle", "Carré", "Triangle"],
+    "reponse_correcte": "Cercle",
+    "explication": "Elle est toute ronde."
+  },
+  {
+    "id": 86,
+    "texte": "Où est la cave ?",
+    "options": ["En haut", "En bas", "Au milieu"],
+    "reponse_correcte": "En bas",
+    "explication": "La cave est sous la maison."
+  },
+  {
+    "id": 87,
+    "texte": "Un rectangle a 4 sommets. Un carré en a...",
+    "options": ["4", "3", "0"],
+    "reponse_correcte": "4",
+    "explication": "Pareil que le rectangle."
+  },
+  {
+    "id": 88,
+    "texte": "Si tu tournes la page, tu vas...",
+    "options": ["En arrière", "En avant", "En haut"],
+    "reponse_correcte": "En avant",
+    "explication": "On avance dans le livre."
+  },
+  {
+    "id": 89,
+    "texte": "Quelle forme a un panneau 'Cédez le passage' ?",
+    "options": ["Triangle", "Cercle", "Carré"],
+    "reponse_correcte": "Triangle",
+    "explication": "C'est un triangle la pointe vers le bas."
+  },
+  {
+    "id": 90,
+    "texte": "Le ballon est 'à côté' du but. Est-il dedans ?",
+    "options": ["Oui", "Non", "Peut-être"],
+    "reponse_correcte": "Non",
+    "explication": "À côté veut dire qu'il a raté le but."
+  },
+  {
+    "id": 91,
+    "texte": "Le tour de ton doigt est un...",
+    "options": ["Cercle", "Carré", "Triangle"],
+    "reponse_correcte": "Cercle",
+    "explication": "Le doigt est rond."
+  },
+  {
+    "id": 92,
+    "texte": "Un carré a 4 côtés de même...",
+    "options": ["Couleur", "Longueur", "Poids"],
+    "reponse_correcte": "Longueur",
+    "explication": "Ils mesurent tous la même chose."
+  },
+  {
+    "id": 93,
+    "texte": "Où est ton cartable s'il est 'sur' ton dos ?",
+    "options": ["Derrière toi", "Devant toi", "Sous tes pieds"],
+    "reponse_correcte": "Derrière toi",
+    "explication": "On le porte dans le dos."
+  },
+  {
+    "id": 94,
+    "texte": "Combien de côtés a un triangle ?",
+    "options": ["1", "2", "3"],
+    "reponse_correcte": "3",
+    "explication": "Toujours trois."
+  },
+  {
+    "id": 95,
+    "texte": "Une fenêtre est souvent un...",
+    "options": ["Cercle", "Rectangle", "Triangle"],
+    "reponse_correcte": "Rectangle",
+    "explication": "Elle a 4 côtés."
+  },
+  {
+    "id": 96,
+    "texte": "Où est le ciel ?",
+    "options": ["En haut", "En bas", "À gauche"],
+    "reponse_correcte": "En haut",
+    "explication": "Le ciel est au-dessus de tout."
+  },
+  {
+    "id": 97,
+    "texte": "Un cercle a-t-il des sommets ?",
+    "options": ["Oui", "Non", "Un seul"],
+    "reponse_correcte": "Non",
+    "explication": "Il n'a pas de pointes."
+  },
+  {
+    "id": 98,
+    "texte": "Une règle est...",
+    "options": ["Droite", "Ronde", "Carrée"],
+    "reponse_correcte": "Droite",
+    "explication": "Elle sert à faire des lignes droites."
+  },
+  {
+    "id": 99,
+    "texte": "Si tu es 'au milieu' de la classe, tu es...",
+    "options": ["Au fond", "Entre le devant et le fond", "À la porte"],
+    "reponse_correcte": "Entre le devant et le fond",
+    "explication": "Le milieu est au centre."
+  },
+  {
+    "id": 100,
+    "texte": "Un carré est une figure...",
+    "options": ["Fermée", "Ouverte", "Tordue"],
+    "reponse_correcte": "Fermée",
+    "explication": "Tous les côtés se rejoignent."
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1, "texte": "Comment appelle-t-on un polygone à 3 côtés ?", "options": ["Un carré", "Un triangle", "Un rectangle"], "reponse_correcte": "Un triangle", "explication": "Tri- signifie trois."
+  },
+  {
+    "id": 2, "texte": "Combien de sommets a un rectangle ?", "options": ["3", "4", "5"], "reponse_correcte": "4", "explication": "Il a 4 coins (sommets)."
+  },
+  {
+    "id": 3, "texte": "Un carré a-t-il tous ses côtés égaux ?", "options": ["Oui", "Non", "Seulement deux"], "reponse_correcte": "Oui", "explication": "C'est sa définition principale."
+  },
+  {
+    "id": 4, "texte": "Lequel est un solide ?", "options": ["Le cercle", "Le pavé droit", "Le triangle"], "reponse_correcte": "Le pavé droit", "explication": "Il a un volume, on peut le tenir."
+  },
+  {
+    "id": 5, "texte": "Combien de faces a un cube ?", "options": ["4", "6", "8"], "reponse_correcte": "6", "explication": "Comme un dé à jouer."
+  },
+  {
+    "id": 6, "texte": "Que faut-il pour tracer un cercle ?", "options": ["Une règle", "Un compas", "Une équerre"], "reponse_correcte": "Un compas", "explication": "La pointe permet de rester au centre."
+  },
+  {
+    "id": 7, "texte": "Comment sont les côtés opposés d'un rectangle ?", "options": ["Différents", "Égaux", "Tordus"], "reponse_correcte": "Égaux", "explication": "Ils ont la même longueur deux par deux."
+  },
+  {
+    "id": 8, "texte": "Une sphère ressemble à...", "options": ["Une boîte", "Un ballon", "Une pyramide"], "reponse_correcte": "Un ballon", "explication": "Elle est parfaitement ronde dans toutes les directions."
+  },
+  {
+    "id": 9, "texte": "L'équerre sert à vérifier...", "options": ["La longueur", "L'angle droit", "Le centre"], "reponse_correcte": "L'angle droit", "explication": "C'est son rôle principal."
+  },
+  {
+    "id": 10, "texte": "Un segment est une ligne droite qui a...", "options": ["Un début et une fin", "Pas de fin", "Des vagues"], "reponse_correcte": "Un début et une fin", "explication": "On le note entre crochets [AB]."
+  },
+  {
+    "id": 11, "texte": "Quelle figure a 4 côtés égaux et 4 angles droits ?", "options": ["Rectangle", "Carré", "Losange"], "reponse_correcte": "Carré", "explication": "Il a toutes les propriétés de régularité."
+  },
+  {
+    "id": 12, "texte": "Un cylindre a deux faces en forme de...", "options": ["Carrés", "Disques", "Triangles"], "reponse_correcte": "Disques", "explication": "Ses bases sont rondes."
+  },
+  {
+    "id": 13, "texte": "Le sommet d'une forme, c'est...", "options": ["Un côté", "Un coin", "Une face"], "reponse_correcte": "Un coin", "explication": "C'est là où les côtés se rejoignent."
+  },
+  {
+    "id": 14, "texte": "Le dictionnaire est un...", "options": ["Cube", "Pavé droit", "Cylindre"], "reponse_correcte": "Pavé droit", "explication": "Il a des faces rectangulaires."
+  },
+  {
+    "id": 15, "texte": "Combien de côtés a un triangle ?", "options": ["2", "3", "4"], "reponse_correcte": "3", "explication": "3 côtés et 3 sommets."
+  },
+  {
+    "id": 16, "texte": "Une ligne qui ne s'arrête jamais est une...", "options": ["Droite", "Demi-droite", "Segment"], "reponse_correcte": "Droite", "explication": "Elle est infinie."
+  },
+  {
+    "id": 17, "texte": "Le contour d'un disque est un...", "options": ["Cercle", "Carré", "Ovale"], "reponse_correcte": "Cercle", "explication": "Le cercle est la ligne, le disque est la surface."
+  },
+  {
+    "id": 18, "texte": "Une pyramide a une pointe appelée...", "options": ["Base", "Sommet", "Arête"], "reponse_correcte": "Sommet", "explication": "Toutes les faces triangulaires s'y rejoignent."
+  },
+  {
+    "id": 19, "texte": "Le milieu d'un segment le coupe en...", "options": ["Deux parts égales", "Trois parts", "On ne sait pas"], "reponse_correcte": "Deux parts égales", "explication": "C'est le point central."
+  },
+  {
+    "id": 20, "texte": "Lequel n'est pas un polygone ?", "options": ["Le carré", "Le cercle", "Le triangle"], "reponse_correcte": "Le cercle", "explication": "Un polygone doit avoir des côtés droits (segments)."
+  },
+  {
+    "id": 21, "texte": "Combien d'angles droits possède un carré ?", "options": ["2", "4", "0"], "reponse_correcte": "4", "explication": "Tous ses angles sont droits."
+  },
+  {
+    "id": 22, "texte": "Une face d'un cube est un...", "options": ["Carré", "Rectangle", "Triangle"], "reponse_correcte": "Carré", "explication": "Toutes les faces sont identiques."
+  },
+  {
+    "id": 23, "texte": "L'instrument pour mesurer un segment est...", "options": ["Le compas", "La règle graduée", "L'équerre"], "reponse_correcte": "La règle graduée", "explication": "Elle donne la mesure en cm."
+  },
+  {
+    "id": 24, "texte": "Un losange a 4 côtés égaux ?", "options": ["Oui", "Non", "Seulement 2"], "reponse_correcte": "Oui", "explication": "Mais il n'a pas forcément d'angles droits."
+  },
+  {
+    "id": 25, "texte": "Le 'bord' d'un solide s'appelle...", "options": ["Un sommet", "Une arête", "Une face"], "reponse_correcte": "Une arête", "explication": "C'est la ligne entre deux faces."
+  },
+  {
+    "id": 26, "texte": "Un triangle rectangle possède...", "options": ["Un angle droit", "Deux angles droits", "Zéro angle droit"], "reponse_correcte": "Un angle droit", "explication": "C'est pour cela qu'il s'appelle ainsi."
+  },
+  {
+    "id": 27, "texte": "Si je plie une feuille en deux et que les bords se touchent, j'ai trouvé...", "options": ["Le milieu", "L'axe de symétrie", "Le sommet"], "reponse_correcte": "L'axe de symétrie", "explication": "C'est une ligne de partage parfait."
+  },
+  {
+    "id": 28, "texte": "Un cône ressemble à...", "options": ["Un chapeau de fête", "Une boîte de conserve", "Un dé"], "reponse_correcte": "Un chapeau de fête", "explication": "Il a une base ronde et finit en pointe."
+  },
+  {
+    "id": 29, "texte": "Deux droites qui ne se croisent jamais sont...", "options": ["Perpendiculaires", "Parallèles", "Alignées"], "reponse_correcte": "Parallèles", "explication": "Comme les rails d'un train."
+  },
+  {
+    "id": 30, "texte": "Combien de côtés a un rectangle ?", "options": ["3", "4", "6"], "reponse_correcte": "4", "explication": "C'est un quadrilatère."
+  },
+  {
+    "id": 31, "texte": "Un polygone à 4 côtés s'appelle un...", "options": ["Triangle", "Quadrilatère", "Hexagone"], "reponse_correcte": "Quadrilatère", "explication": "Quadri- signifie quatre."
+  },
+  {
+    "id": 32, "texte": "Le centre d'un cercle est...", "options": ["Sur le bord", "À l'intérieur", "À l'extérieur"], "reponse_correcte": "À l'intérieur", "explication": "Il est pile au milieu."
+  },
+  {
+    "id": 33, "texte": "Une bille est une...", "options": ["Sphère", "Disque", "Cercle"], "reponse_correcte": "Sphère", "explication": "C'est un volume tout rond."
+  },
+  {
+    "id": 34, "texte": "Pour tracer un angle droit, j'utilise...", "options": ["Ma règle", "Mon équerre", "Mon compas"], "reponse_correcte": "Mon équerre", "explication": "Elle possède un angle droit."
+  },
+  {
+    "id": 35, "texte": "La base d'un cube peut être sa face de dessous ?", "options": ["Oui", "Non", "Seulement si il est grand"], "reponse_correcte": "Oui", "explication": "La base est la face sur laquelle il repose."
+  },
+  {
+    "id": 36, "texte": "Une boîte de chaussures est souvent un...", "options": ["Cube", "Pavé droit", "Cône"], "reponse_correcte": "Pavé droit", "explication": "Ses faces ne sont pas toutes des carrés."
+  },
+  {
+    "id": 37, "texte": "Un triangle avec 3 côtés égaux s'appelle...", "options": ["Isocèle", "Équilatéral", "Rectangle"], "reponse_correcte": "Équilatéral", "explication": "Équi- veut dire égal."
+  },
+  {
+    "id": 38, "texte": "Un cercle a combien de sommets ?", "options": ["0", "1", "Infinis"], "reponse_correcte": "0", "explication": "Il n'a pas de coins."
+  },
+  {
+    "id": 39, "texte": "Les lignes d'un cahier sont...", "options": ["Parallèles", "Perpendiculaires", "Courbes"], "reponse_correcte": "Parallèles", "explication": "Elles gardent le même écart."
+  },
+  {
+    "id": 40, "texte": "Un solide que l'on peut faire rouler est...", "options": ["Le cube", "La sphère", "Le pavé"], "reponse_correcte": "La sphère", "explication": "Elle n'a aucune face plane pour l'arrêter."
+  },
+  {
+    "id": 41, "texte": "Combien d'arêtes a un cube ?", "options": ["6", "8", "12"], "reponse_correcte": "12", "explication": "Il y a 4 en haut, 4 en bas et 4 sur les côtés."
+  },
+  {
+    "id": 42, "texte": "Le rayon d'un cercle part du centre vers...", "options": ["Le bord", "L'autre côté", "Le milieu"], "reponse_correcte": "Le bord", "explication": "C'est la moitié du diamètre."
+  },
+  {
+    "id": 43, "texte": "Une feuille A4 est un...", "options": ["Carré", "Rectangle", "Cercle"], "reponse_correcte": "Rectangle", "explication": "Elle a 4 angles droits et des côtés inégaux."
+  },
+  {
+    "id": 44, "texte": "Un angle plus petit qu'un angle droit est un angle...", "options": ["Aigu", "Obtus", "Plat"], "reponse_correcte": "Aigu", "explication": "Il est tout 'pointu'."
+  },
+  {
+    "id": 45, "texte": "Une boîte de conserve est un...", "options": ["Cône", "Cylindre", "Cube"], "reponse_correcte": "Cylindre", "explication": "Forme ronde allongée."
+  },
+  {
+    "id": 46, "texte": "L'ombre d'un carré au soleil est souvent un...", "options": ["Carré", "Quadrilatère", "Triangle"], "reponse_correcte": "Quadrilatère", "explication": "La forme peut s'étirer mais garde 4 côtés."
+  },
+  {
+    "id": 47, "texte": "Un polygone à 6 côtés s'appelle un...", "options": ["Pentagone", "Hexagone", "Octogone"], "reponse_correcte": "Hexagone", "explication": "Comme la forme de la France."
+  },
+  {
+    "id": 48, "texte": "La pointe du compas se met sur le...", "options": ["Bord", "Centre", "Rayon"], "reponse_correcte": "Centre", "explication": "Pour tourner autour de façon régulière."
+  },
+  {
+    "id": 49, "texte": "Deux droites qui se croisent en formant un '+' sont...", "options": ["Parallèles", "Perpendiculaires", "Courbes"], "reponse_correcte": "Perpendiculaires", "explication": "Elles forment un angle droit."
+  },
+  {
+    "id": 50, "texte": "Le périmètre, c'est la mesure de...", "options": ["L'intérieur", "Le contour", "Le poids"], "reponse_correcte": "Le contour", "explication": "C'est la longueur de tout le bord."
+  },
+  {
+    "id": 51, "texte": "Un triangle isocèle a...", "options": ["2 côtés égaux", "3 côtés égaux", "0 côté égal"], "reponse_correcte": "2 côtés égaux", "explication": "Il a comme 'deux jambes' pareilles."
+  },
+  {
+    "id": 52, "texte": "Combien de sommets a un cube ?", "options": ["6", "8", "10"], "reponse_correcte": "8", "explication": "4 en haut et 4 en bas."
+  },
+  {
+    "id": 53, "texte": "Une étoile est-elle un polygone ?", "options": ["Oui", "Non", "Seulement si elle brille"], "reponse_correcte": "Oui", "explication": "Elle est formée de segments de droite."
+  },
+  {
+    "id": 54, "texte": "La règle sert à vérifier si des points sont...", "options": ["Alignés", "Colorés", "Gros"], "reponse_correcte": "Alignés", "explication": "S'ils sont sur la même droite."
+  },
+  {
+    "id": 55, "texte": "Un dictionnaire a des faces...", "options": ["Carrées", "Rectangulaires", "Rondes"], "reponse_correcte": "Rectangulaires", "explication": "C'est un pavé droit."
+  },
+  {
+    "id": 56, "texte": "Un angle droit fait penser à la lettre...", "options": ["O", "L", "V"], "reponse_correcte": "L", "explication": "Le 'L' forme un coin parfait."
+  },
+  {
+    "id": 57, "texte": "Une brique de lait est un...", "options": ["Cube", "Pavé droit", "Sphère"], "reponse_correcte": "Pavé droit", "explication": "Elle est allongée."
+  },
+  {
+    "id": 58, "texte": "Le diamètre d'un cercle passe par le...", "options": ["Bord", "Centre", "Sommet"], "reponse_correcte": "Centre", "explication": "Il traverse le cercle d'un bout à l'autre."
+  },
+  {
+    "id": 59, "texte": "Un losange est un carré ?", "options": ["Toujours", "Pas forcément", "Jamais"], "reponse_correcte": "Pas forcément", "explication": "Il lui manque les angles droits."
+  },
+  {
+    "id": 60, "texte": "Pour construire un cube, on utilise un...", "options": ["Patron", "Ciseau", "Miroir"], "reponse_correcte": "Patron", "explication": "C'est le dessin à plat qu'on plie."
+  },
+  {
+    "id": 61, "texte": "Quelle forme a un panneau 'Stop' ?", "options": ["Hexagone", "Octogone", "Cercle"], "reponse_correcte": "Octogone", "explication": "Il a 8 côtés."
+  },
+  {
+    "id": 62, "texte": "Un angle obtus est plus ... qu'un angle droit.", "options": ["Petit", "Grand", "Pareil"], "reponse_correcte": "Grand", "explication": "Il est très ouvert."
+  },
+  {
+    "id": 63, "texte": "Un cerf-volant a souvent une forme de...", "options": ["Triangle", "Losange", "Cercle"], "reponse_correcte": "Losange", "explication": "C'est sa forme aérodynamique classique."
+  },
+  {
+    "id": 64, "texte": "Combien de dimensions a un solide ?", "options": ["1", "2", "3"], "reponse_correcte": "3", "explication": "Longueur, largeur et hauteur."
+  },
+  {
+    "id": 65, "texte": "Une ligne courbe est-elle un segment ?", "options": ["Oui", "Non", "Si elle est courte"], "reponse_correcte": "Non", "explication": "Un segment est obligatoirement droit."
+  },
+  {
+    "id": 66, "texte": "Le contour d'une pièce de monnaie est un...", "options": ["Disque", "Cercle", "Carré"], "reponse_correcte": "Cercle", "explication": "C'est le bord rond."
+  },
+  {
+    "id": 67, "texte": "Un carré est-il un rectangle ?", "options": ["Oui", "Non", "Parfois"], "reponse_correcte": "Oui", "explication": "C'est un rectangle avec tous les côtés égaux."
+  },
+  {
+    "id": 68, "texte": "Un quadrillage est formé de lignes...", "options": ["Parallèles", "Perpendiculaires", "Les deux"], "reponse_correcte": "Les deux", "explication": "Des lignes horizontales et verticales qui se croisent."
+  },
+  {
+    "id": 69, "texte": "L'unité de mesure de la règle est le...", "options": ["Mètre", "Centimètre", "Gramme"], "reponse_correcte": "Centimètre", "explication": "On utilise les cm."
+  },
+  {
+    "id": 70, "texte": "Une face de pyramide est un...", "options": ["Carré", "Triangle", "Cercle"], "reponse_correcte": "Triangle", "explication": "Les côtés de la pyramide sont des triangles."
+  },
+  {
+    "id": 71, "texte": "Un objet plat a combien de dimensions ?", "options": ["1", "2", "3"], "reponse_correcte": "2", "explication": "Longueur et largeur."
+  },
+  {
+    "id": 72, "texte": "Un angle droit mesure combien de degrés ?", "options": ["45", "90", "180"], "reponse_correcte": "90", "explication": "C'est un quart de tour."
+  },
+  {
+    "id": 73, "texte": "Un miroir ovale n'a pas de...", "options": ["Bord", "Sommet", "Centre"], "reponse_correcte": "Sommet", "explication": "Il est tout arrondi."
+  },
+  {
+    "id": 74, "texte": "Si je regarde un cylindre de dessus, je vois un...", "options": ["Rectangle", "Cercle", "Triangle"], "reponse_correcte": "Cercle", "explication": "C'est la forme de sa base."
+  },
+  {
+    "id": 75, "texte": "Le périmètre d'un carré de 2cm de côté est...", "options": ["4cm", "8cm", "2cm"], "reponse_correcte": "8cm", "explication": "2 + 2 + 2 + 2 = 8."
+  },
+  {
+    "id": 76, "texte": "Une droite se note avec des...", "options": ["Crochets [ ]", "Parenthèses ( )", "Rien"], "reponse_correcte": "Parenthèses ( )", "explication": "Pour montrer qu'elle ne s'arrête pas."
+  },
+  {
+    "id": 77, "texte": "Un solide qui a 2 bases rondes est un...", "options": ["Cône", "Cylindre", "Sphère"], "reponse_correcte": "Cylindre", "explication": "Comme une pile électrique."
+  },
+  {
+    "id": 78, "texte": "Un polygone à 5 côtés est un...", "options": ["Pentagone", "Hexagone", "Octogone"], "reponse_correcte": "Pentagone", "explication": "Penta- veut dire cinq."
+  },
+  {
+    "id": 79, "texte": "La symétrie, c'est comme un effet...", "options": ["Loupe", "Miroir", "Ombre"], "reponse_correcte": "Miroir", "explication": "Tout est inversé par rapport à l'axe."
+  },
+  {
+    "id": 80, "texte": "Le contour d'un stade est une ligne...", "options": ["Fermée", "Ouverte", "Droite"], "reponse_correcte": "Fermée", "explication": "On revient au point de départ."
+  },
+  {
+    "id": 81, "texte": "Un angle se forme au croisement de deux...", "options": ["Points", "Droites", "Surfaces"], "reponse_correcte": "Droites", "explication": "Ou deux segments."
+  },
+  {
+    "id": 82, "texte": "Un cube a des arêtes de longueurs...", "options": ["Différentes", "Identiques", "Aléatoires"], "reponse_correcte": "Identiques", "explication": "Car ses faces sont des carrés."
+  },
+  {
+    "id": 83, "texte": "Une équerre a souvent ... angles.", "options": ["2", "3", "4"], "reponse_correcte": "3", "explication": "C'est un triangle particulier."
+  },
+  {
+    "id": 84, "texte": "Un disque est-il un solide ?", "options": ["Oui", "Non", "Seulement s'il est épais"], "reponse_correcte": "Non", "explication": "C'est une figure plane."
+  },
+  {
+    "id": 85, "texte": "Le point de départ d'une demi-droite s'appelle...", "options": ["L'origine", "Le milieu", "La fin"], "reponse_correcte": "L'origine", "explication": "Elle commence là et continue à l'infini."
+  },
+  {
+    "id": 86, "texte": "Combien de faces a un pavé droit ?", "options": ["4", "6", "8"], "reponse_correcte": "6", "explication": "Comme le cube."
+  },
+  {
+    "id": 87, "texte": "Un triangle isocèle a combien d'axes de symétrie ?", "options": ["1", "3", "0"], "reponse_correcte": "1", "explication": "Celui qui passe par le sommet principal."
+  },
+  {
+    "id": 88, "texte": "Un angle droit est formé par des lignes...", "options": ["Parallèles", "Perpendiculaires", "Obliques"], "reponse_correcte": "Perpendiculaires", "explication": "C'est la définition."
+  },
+  {
+    "id": 89, "texte": "Le mot 'Géométrie' vient du grec et parle de mesurer...", "options": ["Le temps", "La Terre", "Le ciel"], "reponse_correcte": "La Terre", "explication": "Géo = Terre."
+  },
+  {
+    "id": 90, "texte": "Une boîte de camembert est un...", "options": ["Cylindre", "Cube", "Pavé"], "reponse_correcte": "Cylindre", "explication": "Un cylindre très plat."
+  },
+  {
+    "id": 91, "texte": "Un carré de 1cm de côté a un périmètre de...", "options": ["1cm", "2cm", "4cm"], "reponse_correcte": "4cm", "explication": "1+1+1+1=4."
+  },
+  {
+    "id": 92, "texte": "Un sommet est le point de rencontre de deux...", "options": ["Faces", "Arêtes", "Volumes"], "reponse_correcte": "Arêtes", "explication": "Dans un polygone, ce sont les côtés."
+  },
+  {
+    "id": 93, "texte": "Lequel est 'tout rond' ?", "options": ["Le cube", "La sphère", "Le pavé"], "reponse_correcte": "La sphère", "explication": "Aucun coin."
+  },
+  {
+    "id": 94, "texte": "Un rectangle peut-il avoir 4 côtés égaux ?", "options": ["Oui, c'est un carré", "Jamais", "Seulement le dimanche"], "reponse_correcte": "Oui, c'est un carré", "explication": "Le carré est un rectangle spécial."
+  },
+  {
+    "id": 95, "texte": "Une ligne brisée est faite de...", "options": ["Vagues", "Segments", "Points"], "reponse_correcte": "Segments", "explication": "Plusieurs morceaux droits attachés."
+  },
+  {
+    "id": 96, "texte": "Le quadrillage aide à faire des...", "options": ["Calculs", "Reproductions de figures", "Dessins libres"], "reponse_correcte": "Reproductions de figures", "explication": "On compte les carreaux."
+  },
+  {
+    "id": 97, "texte": "Un triangle équilatéral a combien d'axes de symétrie ?", "options": ["1", "2", "3"], "reponse_correcte": "3", "explication": "Un par sommet."
+  },
+  {
+    "id": 98, "texte": "L'arête d'un cube est un...", "options": ["Segment", "Cercle", "Point"], "reponse_correcte": "Segment", "explication": "C'est une ligne droite."
+  },
+  {
+    "id": 99, "texte": "Une règle non graduée sert à...", "options": ["Mesurer", "Tracer droit", "Peser"], "reponse_correcte": "Tracer droit", "explication": "Elle n'a pas de chiffres mais reste droite."
+  },
+  {
+    "id": 100, "texte": "La géométrie sert à comprendre...", "options": ["L'espace", "L'histoire", "La grammaire"], "reponse_correcte": "L'espace", "explication": "L'étude des formes et des positions."
+  }
+]

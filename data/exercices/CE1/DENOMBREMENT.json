@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1, "texte": "Dans 145, quel est le chiffre des centaines ?", "options": ["1", "4", "5"], "reponse_correcte": "1", "explication": "Le 1er chiffre à gauche dans un nombre à trois chiffres."
+  },
+  {
+    "id": 2, "texte": "Comment écrit-on 'deux-cent-trente' ?", "options": ["20030", "203", "230"], "reponse_correcte": "230", "explication": "2 centaines et 3 dizaines."
+  },
+  {
+    "id": 3, "texte": "Quel nombre vient juste après 199 ?", "options": ["190", "200", "201"], "reponse_correcte": "200", "explication": "On passe à la centaine supérieure."
+  },
+  {
+    "id": 4, "texte": "Lequel est le plus grand : 456 ou 465 ?", "options": ["456", "465", "Égaux"], "reponse_correcte": "465", "explication": "6 dizaines est plus grand que 5."
+  },
+  {
+    "id": 5, "texte": "10 dizaines, c'est égal à...", "options": ["10", "100", "1000"], "reponse_correcte": "100", "explication": "C'est la définition d'une centaine."
+  },
+  {
+    "id": 6, "texte": "Combien y a-t-il d'unités dans 3 centaines ?", "options": ["3", "30", "300"], "reponse_correcte": "300", "explication": "3 x 100 = 300."
+  },
+  {
+    "id": 7, "texte": "Décompose 508 :", "options": ["50+8", "500+8", "500+80"], "reponse_correcte": "500+8", "explication": "Il y a 0 dizaine."
+  },
+  {
+    "id": 8, "texte": "Quel est le chiffre des unités dans 987 ?", "options": ["9", "8", "7"], "reponse_correcte": "7", "explication": "Le chiffre tout à droite."
+  },
+  {
+    "id": 9, "texte": "Compte de 10 en 10 : 150, 160, 170...", "options": ["171", "180", "200"], "reponse_correcte": "180", "explication": "On ajoute une dizaine."
+  },
+  {
+    "id": 10, "texte": "Quel nombre est 'sept-cent-quatre-vingt-dix' ?", "options": ["780", "790", "70090"], "reponse_correcte": "790", "explication": "700 + 90."
+  },
+  {
+    "id": 11, "texte": "1 centaine + 2 dizaines + 5 unités = ?", "options": ["125", "521", "152"], "reponse_correcte": "125", "explication": "On place les chiffres dans l'ordre C-D-U."
+  },
+  {
+    "id": 12, "texte": "Lequel est le plus petit : 801 ou 799 ?", "options": ["801", "799", "Égaux"], "reponse_correcte": "799", "explication": "7 centaines est plus petit que 8."
+  },
+  {
+    "id": 13, "texte": "Dans 640, combien y a-t-il de dizaines en tout ?", "options": ["4", "64", "6"], "reponse_correcte": "64", "explication": "6 centaines font 60 dizaines, plus les 4."
+  },
+  {
+    "id": 14, "texte": "Quel nombre est entre 499 et 501 ?", "options": ["490", "500", "510"], "reponse_correcte": "500", "explication": "499, 500, 501."
+  },
+  {
+    "id": 15, "texte": "Écris en lettres : 101.", "options": ["Cent", "Cent-un", "Dix-un"], "reponse_correcte": "Cent-un", "explication": "On écrit cent puis un."
+  },
+  {
+    "id": 16, "texte": "9 dizaines + 11 unités = ?", "options": ["911", "101", "119"], "reponse_correcte": "101", "explication": "90 + 11 = 101."
+  },
+  {
+    "id": 17, "texte": "Range croissant : 123, 321, 213.", "options": ["123, 213, 321", "321, 213, 123", "123, 321, 213"], "reponse_correcte": "123, 213, 321", "explication": "Du plus petit au plus grand."
+  },
+  {
+    "id": 18, "texte": "Combien de centaines dans 1000 ?", "options": ["1", "10", "100"], "reponse_correcte": "10", "explication": "10 x 100 = 1000."
+  },
+  {
+    "id": 19, "texte": "Quel est le plus grand nombre à 3 chiffres ?", "options": ["900", "990", "999"], "reponse_correcte": "999", "explication": "Juste avant 1000."
+  },
+  {
+    "id": 20, "texte": "Le nombre 800 c'est...", "options": ["8 centaines", "80 centaines", "8 dizaines"], "reponse_correcte": "8 centaines", "explication": "8 x 100."
+  },
+  {
+    "id": 21, "texte": "Dans 52, quel est le chiffre des dizaines ?", "options": ["5", "2", "50"], "reponse_correcte": "5", "explication": "Le chiffre de gauche."
+  },
+  {
+    "id": 22, "texte": "Quel nombre est juste avant 600 ?", "options": ["500", "599", "601"], "reponse_correcte": "599", "explication": "Fin de la centaine précédente."
+  },
+  {
+    "id": 23, "texte": "400 + 50 + 2 = ?", "options": ["452", "4052", "254"], "reponse_correcte": "452", "explication": "Décomposition classique."
+  },
+  {
+    "id": 24, "texte": "Écris 'neuf-cent-deux' en chiffres.", "options": ["920", "902", "9002"], "reponse_correcte": "902", "explication": "9 centaines et 2 unités."
+  },
+  {
+    "id": 25, "texte": "Lequel est bien rangé (décroissant) ?", "options": ["100, 200, 300", "300, 200, 100", "200, 300, 100"], "reponse_correcte": "300, 200, 100", "explication": "Du plus grand au plus petit."
+  },
+  {
+    "id": 26, "texte": "Combien de dizaines dans 200 ?", "options": ["2", "20", "200"], "reponse_correcte": "20", "explication": "2 x 10 = 20 dizaines."
+  },
+  {
+    "id": 27, "texte": "Dans 705, le chiffre 0 est à la place des...", "options": ["Centaines", "Dizaines", "Unités"], "reponse_correcte": "Dizaines", "explication": "C'est la place du milieu."
+  },
+  {
+    "id": 28, "texte": "Si j'ajoute 10 à 390, j'ai...", "options": ["391", "400", "410"], "reponse_correcte": "400", "explication": "39 dizaines + 1 dizaine = 40 dizaines."
+  },
+  {
+    "id": 29, "texte": "Quel est le plus petit nombre à 3 chiffres ?", "options": ["100", "111", "999"], "reponse_correcte": "100", "explication": "C'est le début des centaines."
+  },
+  {
+    "id": 30, "texte": "Combien font 2 centaines et 15 unités ?", "options": ["215", "2015", "315"], "reponse_correcte": "215", "explication": "200 + 15."
+  },
+  {
+    "id": 31, "texte": "Compte de 2 en 2 : 200, 202, 204...", "options": ["205", "206", "210"], "reponse_correcte": "206", "explication": "On ajoute 2."
+  },
+  {
+    "id": 32, "texte": "Quel nombre est 600 + 80 ?", "options": ["608", "680", "860"], "reponse_correcte": "680", "explication": "Six-cent-quatre-vingts."
+  },
+  {
+    "id": 33, "texte": "Le chiffre 5 dans 512 vaut...", "options": ["5", "50", "500"], "reponse_correcte": "500", "explication": "Il est à la place des centaines."
+  },
+  {
+    "id": 34, "texte": "Lequel est le plus grand : 99 ou 101 ?", "options": ["99", "101", "Égaux"], "reponse_correcte": "101", "explication": "Un nombre à 3 chiffres est plus grand qu'un à 2."
+  },
+  {
+    "id": 35, "texte": "Comment écrit-on 444 en lettres ?", "options": ["Quatre-cent-quarante-quatre", "Quatre-quatre-quatre", "Quarante-quatre"], "reponse_correcte": "Quatre-cent-quarante-quatre", "explication": "On écrit chaque rang."
+  },
+  {
+    "id": 36, "texte": "Dans 888, tous les 8 ont la même valeur ?", "options": ["Oui", "Non", "Seulement deux"], "reponse_correcte": "Non", "explication": "800, 80 et 8."
+  },
+  {
+    "id": 37, "texte": "Combien de paquets de 10 dans 130 ?", "options": ["1", "3", "13"], "reponse_correcte": "13", "explication": "13 x 10 = 130."
+  },
+  {
+    "id": 38, "texte": "Quel nombre suit 889 ?", "options": ["880", "890", "900"], "reponse_correcte": "890", "explication": "Après 89, on passe à 90."
+  },
+  {
+    "id": 39, "texte": "3 centaines + 4 unités = ?", "options": ["34", "340", "304"], "reponse_correcte": "304", "explication": "Attention au zéro des dizaines."
+  },
+  {
+    "id": 40, "texte": "La moitié de 200 est...", "options": ["50", "100", "150"], "reponse_correcte": "100", "explication": "100+100=200."
+  },
+  {
+    "id": 41, "texte": "Combien de centaines dans 456 ?", "options": ["4", "5", "6"], "reponse_correcte": "4", "explication": "Le premier chiffre."
+  },
+  {
+    "id": 42, "texte": "Lequel est le plus petit : 123 ou 132 ?", "options": ["123", "132", "Pareil"], "reponse_correcte": "123", "explication": "2 dizaines < 3 dizaines."
+  },
+  {
+    "id": 43, "texte": "Écris 'cinq-cent-cinquante' en chiffres.", "options": ["505", "550", "50050"], "reponse_correcte": "550", "explication": "5 centaines et 5 dizaines."
+  },
+  {
+    "id": 44, "texte": "900 + 90 + 9 = ?", "options": ["909", "999", "900909"], "reponse_correcte": "999", "explication": "Le plus grand nombre à 3 chiffres."
+  },
+  {
+    "id": 45, "texte": "Quel nombre est entre 798 et 800 ?", "options": ["797", "799", "801"], "reponse_correcte": "799", "explication": "On suit la suite."
+  },
+  {
+    "id": 46, "texte": "Dans 250, le chiffre des unités est...", "options": ["2", "5", "0"], "reponse_correcte": "0", "explication": "Il est à droite."
+  },
+  {
+    "id": 47, "texte": "Combien font 10 centaines ?", "options": ["100", "1000", "10"], "reponse_correcte": "1000", "explication": "C'est un millier."
+  },
+  {
+    "id": 48, "texte": "Compte de 50 en 50 : 0, 50, 100...", "options": ["110", "150", "200"], "reponse_correcte": "150", "explication": "On ajoute une demi-centaine."
+  },
+  {
+    "id": 49, "texte": "Le chiffre des dizaines dans 4 c'est ?", "options": ["0", "4", "Aucun"], "reponse_correcte": "0", "explication": "Moins de 10."
+  },
+  {
+    "id": 50, "texte": "7 centaines et 8 dizaines, c'est...", "options": ["78", "708", "780"], "reponse_correcte": "780", "explication": "Sept-cent-quatre-vingts."
+  },
+  {
+    "id": 51, "texte": "Dans 321, que vaut le 3 ?", "options": ["3", "30", "300"], "reponse_correcte": "300", "explication": "Place des centaines."
+  },
+  {
+    "id": 52, "texte": "Quel nombre est juste avant 1000 ?", "options": ["900", "990", "999"], "reponse_correcte": "999", "explication": "Dernier nombre avant le millier."
+  },
+  {
+    "id": 53, "texte": "200 + 200 + 200 = ?", "options": ["400", "600", "800"], "reponse_correcte": "600", "explication": "3 fois 200."
+  },
+  {
+    "id": 54, "texte": "Écris 'trois-cent-quinze' en chiffres.", "options": ["305", "315", "350"], "reponse_correcte": "315", "explication": "300 + 15."
+  },
+  {
+    "id": 55, "texte": "Lequel est vrai ?", "options": ["450 > 540", "200 < 199", "800 > 700"], "reponse_correcte": "800 > 700", "explication": "8 centaines > 7 centaines."
+  },
+  {
+    "id": 56, "texte": "Combien de dizaines dans 500 ?", "options": ["5", "50", "500"], "reponse_correcte": "50", "explication": "50 x 10."
+  },
+  {
+    "id": 57, "texte": "Dans 123, le chiffre 2 est au milieu ?", "options": ["Oui", "Non", "Seulement parfois"], "reponse_correcte": "Oui", "explication": "C'est le chiffre des dizaines."
+  },
+  {
+    "id": 58, "texte": "Si j'enlève 1 centaine à 450, j'ai...", "options": ["350", "440", "550"], "reponse_correcte": "350", "explication": "4-1 = 3 centaines."
+  },
+  {
+    "id": 59, "texte": "Quel est le plus grand : 777 ou 778 ?", "options": ["777", "778", "Égaux"], "reponse_correcte": "778", "explication": "On regarde les unités."
+  },
+  {
+    "id": 60, "texte": "Combien font 4 centaines et 4 dizaines ?", "options": ["44", "404", "440"], "reponse_correcte": "440", "explication": "400 + 40."
+  },
+  {
+    "id": 61, "texte": "Compte à l'envers : 200, 199, 198...", "options": ["197", "201", "196"], "reponse_correcte": "197", "explication": "On recule de 1."
+  },
+  {
+    "id": 62, "texte": "Quel nombre est 800 + 8 ?", "options": ["808", "880", "88"], "reponse_correcte": "808", "explication": "Huit-cent-huit."
+  },
+  {
+    "id": 63, "texte": "Le chiffre 9 dans 129 vaut...", "options": ["9", "90", "900"], "reponse_correcte": "9", "explication": "Place des unités."
+  },
+  {
+    "id": 64, "texte": "Lequel est entre 100 et 200 ?", "options": ["99", "150", "201"], "reponse_correcte": "150", "explication": "Il a 1 centaine et quelque chose."
+  },
+  {
+    "id": 65, "texte": "Comment écrit-on 600 en lettres ?", "options": ["Six-cent", "Soixante-cent", "Six-cents"], "reponse_correcte": "Six-cents", "explication": "On met un 's' car il n'y a rien après."
+  },
+  {
+    "id": 66, "texte": "Dans 1000, combien y a-t-il d'unités ?", "options": ["1", "100", "1000"], "reponse_correcte": "1000", "explication": "C'est sa valeur totale."
+  },
+  {
+    "id": 67, "texte": "Combien de dizaines dans 90 ?", "options": ["0", "9", "90"], "reponse_correcte": "9", "explication": "9 x 10."
+  },
+  {
+    "id": 68, "texte": "Quel nombre suit 499 ?", "options": ["400", "500", "501"], "reponse_correcte": "500", "explication": "On complète la centaine."
+  },
+  {
+    "id": 69, "texte": "1 centaine + 1 unité = ?", "options": ["11", "110", "101"], "reponse_correcte": "101", "explication": "Cent-un."
+  },
+  {
+    "id": 70, "texte": "La moitié de 1000 est...", "options": ["100", "500", "900"], "reponse_correcte": "500", "explication": "500+500=1000."
+  },
+  {
+    "id": 71, "texte": "Combien de centaines dans 812 ?", "options": ["8", "1", "2"], "reponse_correcte": "8", "explication": "Le premier chiffre."
+  },
+  {
+    "id": 72, "texte": "Lequel est le plus grand : 333 ou 330 ?", "options": ["333", "330", "Pareil"], "reponse_correcte": "333", "explication": "3 unités > 0."
+  },
+  {
+    "id": 73, "texte": "Écris 'deux-cent-deux' en chiffres.", "options": ["220", "202", "2002"], "reponse_correcte": "202", "explication": "2 centaines et 2 unités."
+  },
+  {
+    "id": 74, "texte": "700 + 70 + 7 = ?", "options": ["707", "777", "770"], "reponse_correcte": "777", "explication": "Triple sept."
+  },
+  {
+    "id": 75, "texte": "Quel nombre est avant 201 ?", "options": ["199", "200", "202"], "reponse_correcte": "200", "explication": "Juste avant."
+  },
+  {
+    "id": 76, "texte": "Dans 440, le chiffre des dizaines est...", "options": ["4", "0", "40"], "reponse_correcte": "4", "explication": "Le chiffre du milieu."
+  },
+  {
+    "id": 77, "texte": "Combien font 5 centaines ?", "options": ["50", "500", "5000"], "reponse_correcte": "500", "explication": "Cinq cents."
+  },
+  {
+    "id": 78, "texte": "Compte de 100 en 100 : 100, 200, 300...", "options": ["301", "400", "500"], "reponse_correcte": "400", "explication": "On ajoute une centaine."
+  },
+  {
+    "id": 79, "texte": "Le chiffre des centaines dans 99 c'est ?", "options": ["0", "9", "Aucun"], "reponse_correcte": "0", "explication": "Il n'y a que 2 chiffres."
+  },
+  {
+    "id": 80, "texte": "6 centaines et 6 unités, c'est...", "options": ["66", "606", "660"], "reponse_correcte": "606", "explication": "Six-cent-six."
+  },
+  {
+    "id": 81, "texte": "Dans 981, que vaut le 8 ?", "options": ["8", "80", "800"], "reponse_correcte": "80", "explication": "Place des dizaines."
+  },
+  {
+    "id": 82, "texte": "Quel nombre est juste après 799 ?", "options": ["700", "800", "801"], "reponse_correcte": "800", "explication": "On finit la centaine des 700."
+  },
+  {
+    "id": 83, "texte": "100 + 100 + 100 + 100 = ?", "options": ["300", "400", "500"], "reponse_correcte": "400", "explication": "4 centaines."
+  },
+  {
+    "id": 84, "texte": "Écris 'cent-quatre-vingts' en chiffres.", "options": ["140", "180", "10080"], "reponse_correcte": "180", "explication": "100 + 80."
+  },
+  {
+    "id": 85, "texte": "Lequel est vrai ?", "options": ["123 < 124", "999 < 900", "500 = 50"], "reponse_correcte": "123 < 124", "explication": "Comparaison directe."
+  },
+  {
+    "id": 86, "texte": "Combien de dizaines dans 110 ?", "options": ["1", "11", "110"], "reponse_correcte": "11", "explication": "11 x 10."
+  },
+  {
+    "id": 87, "texte": "Dans 405, le 0 veut dire qu'il n'y a pas de...", "options": ["Centaines", "Dizaines", "Unités"], "reponse_correcte": "Dizaines", "explication": "Zéro dizaine seule."
+  },
+  {
+    "id": 88, "texte": "Si j'ajoute 100 à 500, j'ai...", "options": ["600", "510", "501"], "reponse_correcte": "600", "explication": "On change de centaine."
+  },
+  {
+    "id": 89, "texte": "Quel est le plus grand : 0 ou 1 ?", "options": ["0", "1", "Pareil"], "reponse_correcte": "1", "explication": "1 est plus que rien."
+  },
+  {
+    "id": 90, "texte": "Combien font 9 centaines et 9 unités ?", "options": ["99", "909", "990"], "reponse_correcte": "909", "explication": "Neuf-cent-neuf."
+  },
+  {
+    "id": 91, "texte": "Compte de 10 en 10 : 90, 100, 110...", "options": ["111", "120", "200"], "reponse_correcte": "120", "explication": "On suit la suite des dizaines."
+  },
+  {
+    "id": 92, "texte": "Quel nombre est 200 + 30 ?", "options": ["203", "230", "320"], "reponse_correcte": "230", "explication": "Deux-cent-trente."
+  },
+  {
+    "id": 93, "texte": "Le chiffre 1 dans 1000 vaut...", "options": ["1", "100", "1000"], "reponse_correcte": "1000", "explication": "Place des milliers."
+  },
+  {
+    "id": 94, "texte": "Lequel est entre 800 et 900 ?", "options": ["799", "850", "901"], "reponse_correcte": "850", "explication": "Huit-cent-cinquante."
+  },
+  {
+    "id": 95, "texte": "Comment écrit-on 500 en lettres ?", "options": ["Cinq-cent", "Cinquante-cent", "Cinq-cents"], "reponse_correcte": "Cinq-cents", "explication": "Avec un 's'."
+  },
+  {
+    "id": 96, "texte": "Dans 100, combien y a-t-il d'unités ?", "options": ["1", "10", "100"], "reponse_correcte": "100", "explication": "C'est sa valeur."
+  },
+  {
+    "id": 97, "texte": "Combien de dizaines dans 30 ?", "options": ["0", "3", "30"], "reponse_correcte": "3", "explication": "3 x 10."
+  },
+  {
+    "id": 98, "texte": "Quel nombre suit 998 ?", "options": ["999", "1000", "990"], "reponse_correcte": "999", "explication": "Un de plus."
+  },
+  {
+    "id": 99, "texte": "8 centaines + 2 unités = ?", "options": ["82", "820", "802"], "reponse_correcte": "802", "explication": "Huit-cent-deux."
+  },
+  {
+    "id": 100, "texte": "Le nombre 1000 s'appelle...", "options": ["Une centaine", "Un millier", "Une dizaine"], "reponse_correcte": "Un millier", "explication": "C'est la base de la classe des mille."
+  }
+]

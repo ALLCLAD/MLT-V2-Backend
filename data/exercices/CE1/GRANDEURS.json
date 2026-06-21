@@ -1,0 +1,299 @@
+[
+  {
+    "id": 1, "texte": "Quelle est l'unité principale pour mesurer une longueur ?", "options": ["Le gramme", "Le mètre", "Le litre"], "reponse_correcte": "Le mètre", "explication": "On utilise le mètre (m)."
+  },
+  {
+    "id": 2, "texte": "Combien de minutes y a-t-il dans une heure ?", "options": ["30", "60", "100"], "reponse_correcte": "60", "explication": "C'est une règle de base du temps."
+  },
+  {
+    "id": 3, "texte": "Quelle pièce vaut le plus ?", "options": ["50 centimes", "1 euro", "2 euros"], "reponse_correcte": "2 euros", "explication": "2 est plus grand que 1."
+  },
+  {
+    "id": 4, "texte": "Combien de centimètres dans un mètre ?", "options": ["10", "100", "1000"], "reponse_correcte": "100", "explication": "Cent-centimètres font un mètre."
+  },
+  {
+    "id": 5, "texte": "L'aiguille des heures est la plus...", "options": ["Longue", "Courte", "Rapide"], "reponse_correcte": "Courte", "explication": "La petite aiguille pour les heures."
+  },
+  {
+    "id": 6, "texte": "Quel billet n'existe pas ?", "options": ["5 euros", "10 euros", "15 euros"], "reponse_correcte": "15 euros", "explication": "Il n'y a pas de billet de 15."
+  },
+  {
+    "id": 7, "texte": "Un kilogramme (kg) sert à mesurer...", "options": ["Le temps", "La masse (poids)", "La longueur"], "reponse_correcte": "La masse (poids)", "explication": "On pèse en kg."
+  },
+  {
+    "id": 8, "texte": "Combien de jours dans une année classique ?", "options": ["300", "365", "400"], "reponse_correcte": "365", "explication": "C'est la durée d'un tour de la Terre."
+  },
+  {
+    "id": 9, "texte": "Si j'ai 3 pièces de 2 euros, j'ai...", "options": ["5 euros", "6 euros", "8 euros"], "reponse_correcte": "6 euros", "explication": "2 + 2 + 2 = 6."
+  },
+  {
+    "id": 10, "texte": "1 litre (L) sert à mesurer...", "options": ["Les liquides", "Les solides", "Le temps"], "reponse_correcte": "Les liquides", "explication": "Comme le lait ou l'eau."
+  },
+  {
+    "id": 11, "texte": "Quelle heure est-il quand les deux aiguilles sont sur le 12 ?", "options": ["6 heures", "Midi ou Minuit", "3 heures"], "reponse_correcte": "Midi ou Minuit", "explication": "C'est le sommet de l'horloge."
+  },
+  {
+    "id": 12, "texte": "10 mm est égal à...", "options": ["1 cm", "10 cm", "1 m"], "reponse_correcte": "1 cm", "explication": "C'est la plus petite unité sur la règle."
+  },
+  {
+    "id": 13, "texte": "Combien de mois dans une année ?", "options": ["7", "10", "12"], "reponse_correcte": "12", "explication": "De janvier à décembre."
+  },
+  {
+    "id": 14, "texte": "Un billet de 20 euros vaut combien de billets de 10 ?", "options": ["1", "2", "4"], "reponse_correcte": "2", "explication": "10 + 10 = 20."
+  },
+  {
+    "id": 15, "texte": "Pour mesurer la taille d'un cahier, j'utilise les...", "options": ["Mètres", "Centimètres", "Kilomètres"], "reponse_correcte": "Centimètres", "explication": "C'est l'unité adaptée aux petits objets."
+  },
+  {
+    "id": 16, "texte": "Une demi-heure, c'est combien de minutes ?", "options": ["15", "30", "45"], "reponse_correcte": "30", "explication": "La moitié de 60."
+  },
+  {
+    "id": 17, "texte": "Quel jour vient 2 jours après le jeudi ?", "options": ["Vendredi", "Samedi", "Dimanche"], "reponse_correcte": "Samedi", "explication": "Jeudi -> Vendredi -> Samedi."
+  },
+  {
+    "id": 18, "texte": "1 kg, c'est combien de grammes ?", "options": ["100", "1000", "10"], "reponse_correcte": "1000", "explication": "Kilo signifie mille."
+  },
+  {
+    "id": 19, "texte": "Si un jouet coûte 12€ et que je donne 20€, on me rend...", "options": ["2€", "8€", "10€"], "reponse_correcte": "8€", "explication": "20 - 12 = 8."
+  },
+  {
+    "id": 20, "texte": "Quelle saison commence en juin ?", "options": ["Printemps", "Été", "Automne"], "reponse_correcte": "Été", "explication": "Le 21 juin."
+  },
+  {
+    "id": 21, "texte": "L'instrument pour peser de la farine est...", "options": ["Une règle", "Une balance", "Un verre doseur"], "reponse_correcte": "Une balance", "explication": "Elle mesure la masse."
+  },
+  {
+    "id": 22, "texte": "Combien font 50 centimes + 50 centimes ?", "options": ["1 euro", "2 euros", "100 euros"], "reponse_correcte": "1 euro", "explication": "100 centimes = 1 euro."
+  },
+  {
+    "id": 23, "texte": "Un quart d'heure, c'est...", "options": ["15 min", "30 min", "45 min"], "reponse_correcte": "15 min", "explication": "C'est 60 divisé par 4."
+  },
+  {
+    "id": 24, "texte": "Lequel est le plus long ?", "options": ["1 m", "10 cm", "1 km"], "reponse_correcte": "1 km", "explication": "Un kilomètre fait 1000 mètres."
+  },
+  {
+    "id": 25, "texte": "Minuit, c'est quelle heure sur une montre digitale ?", "options": ["12:00", "00:00", "24:00"], "reponse_correcte": "00:00", "explication": "Le début du jour."
+  },
+  {
+    "id": 26, "texte": "Une bouteille de jus fait souvent...", "options": ["1 L", "10 L", "100 L"], "reponse_correcte": "1 L", "explication": "Contenance standard."
+  },
+  {
+    "id": 27, "texte": "Combien de jours en février ?", "options": ["28 ou 29", "30", "31"], "reponse_correcte": "28 ou 29", "explication": "C'est le mois le plus court."
+  },
+  {
+    "id": 28, "texte": "Un billet de 50€ vaut combien de billets de 5€ ?", "options": ["5", "10", "20"], "reponse_correcte": "10", "explication": "10 x 5 = 50."
+  },
+  {
+    "id": 29, "texte": "Pour mesurer une route, on utilise les...", "options": ["Millimètres", "Centimètres", "Kilomètres"], "reponse_correcte": "Kilomètres", "explication": "Pour les très grandes distances."
+  },
+  {
+    "id": 30, "texte": "Trois quarts d'heure, c'est...", "options": ["30 min", "45 min", "60 min"], "reponse_correcte": "45 min", "explication": "15 + 15 + 15 = 45."
+  },
+  {
+    "id": 31, "texte": "Lequel est le plus lourd ?", "options": ["1 kg de fer", "1 kg de coton", "C'est pareil"], "reponse_correcte": "C'est pareil", "explication": "Un kilo reste un kilo."
+  },
+  {
+    "id": 32, "texte": "Aujourd'hui nous sommes mardi, quel jour étions-nous hier ?", "options": ["Lundi", "Mercredi", "Dimanche"], "reponse_correcte": "Lundi", "explication": "Le jour d'avant."
+  },
+  {
+    "id": 33, "texte": "Une règle de classe mesure souvent...", "options": ["20 cm", "30 cm", "50 cm"], "reponse_correcte": "30 cm", "explication": "C'est la taille la plus courante."
+  },
+  {
+    "id": 34, "texte": "Combien y a-t-il d'heures dans une journée ?", "options": ["12", "24", "60"], "reponse_correcte": "24", "explication": "Un tour complet du jour."
+  },
+  {
+    "id": 35, "texte": "Un centime d'euro est une pièce...", "options": ["Rouge", "Jaune", "Grise"], "reponse_correcte": "Rouge", "explication": "Les petites pièces sont cuivrées (rouges)."
+  },
+  {
+    "id": 36, "texte": "Un verre d'eau contient environ...", "options": ["20 cL", "20 L", "20 mL"], "reponse_correcte": "20 cL", "explication": "Les centilitres sont adaptés aux verres."
+  },
+  {
+    "id": 37, "texte": "Le mois de la rentrée scolaire est...", "options": ["Août", "Septembre", "Octobre"], "reponse_correcte": "Septembre", "explication": "Début de l'école."
+  },
+  {
+    "id": 38, "texte": "Combien font 10 euros + 10 euros + 5 euros ?", "options": ["20 euros", "25 euros", "30 euros"], "reponse_correcte": "25 euros", "explication": "Addition de monnaie."
+  },
+  {
+    "id": 39, "texte": "L'instrument pour mesurer la température est...", "options": ["Le baromètre", "Le thermomètre", "Le mètre"], "reponse_correcte": "Le thermomètre", "explication": "Il donne les degrés Celsius."
+  },
+  {
+    "id": 40, "texte": "Combien de secondes dans une minute ?", "options": ["30", "60", "100"], "reponse_correcte": "60", "explication": "La trotteuse fait un tour."
+  },
+  {
+    "id": 41, "texte": "1000 m est égal à...", "options": ["1 cm", "1 km", "10 km"], "reponse_correcte": "1 km", "explication": "Mille mètres font un kilomètre."
+  },
+  {
+    "id": 42, "texte": "Lequel dure le plus longtemps ?", "options": ["Une semaine", "Un mois", "Une année"], "reponse_correcte": "Une année", "explication": "Elle contient les mois et les semaines."
+  },
+  {
+    "id": 43, "texte": "Un dictionnaire pèse environ...", "options": ["1 g", "1 kg", "100 kg"], "reponse_correcte": "1 kg", "explication": "C'est un objet assez lourd pour la main."
+  },
+  {
+    "id": 44, "texte": "Si j'ai 2 billets de 5€ et 1 pièce de 2€, j'ai...", "options": ["8€", "12€", "15€"], "reponse_correcte": "12€", "explication": "5 + 5 + 2 = 12."
+  },
+  {
+    "id": 45, "texte": "Midi, c'est le milieu de la...", "options": ["Nuit", "Journée", "Semaine"], "reponse_correcte": "Journée", "explication": "Il est 12h00."
+  },
+  {
+    "id": 46, "texte": "Quelle unité pour la contenance d'une piscine ?", "options": ["Litre", "Mètre cube", "Les deux"], "reponse_correcte": "Les deux", "explication": "On utilise souvent les litres pour le volume d'eau."
+  },
+  {
+    "id": 47, "texte": "Le premier jour de la semaine est le...", "options": ["Dimanche", "Lundi", "Samedi"], "reponse_correcte": "Lundi", "explication": "Début du travail et de l'école."
+  },
+  {
+    "id": 48, "texte": "Combien de centimes dans 5 euros ?", "options": ["50", "500", "5000"], "reponse_correcte": "500", "explication": "100 par euro."
+  },
+  {
+    "id": 49, "texte": "L'aiguille la plus rapide sur l'horloge est celle des...", "options": ["Heures", "Minutes", "Secondes"], "reponse_correcte": "Secondes", "explication": "Elle tourne en 60 secondes."
+  },
+  {
+    "id": 50, "texte": "Un ruban de 2 m est coupé en 2. Chaque morceau fait...", "options": ["50 cm", "1 m", "1,5 m"], "reponse_correcte": "1 m", "explication": "Moitié de 2."
+  },
+  {
+    "id": 51, "texte": "Pour mesurer le temps d'une course, on utilise un...", "options": ["Réveil", "Chronomètre", "Calendrier"], "reponse_correcte": "Chronomètre", "explication": "Précis pour les secondes."
+  },
+  {
+    "id": 52, "texte": "Lequel est un billet ?", "options": ["2 euros", "5 euros", "1 euro"], "reponse_correcte": "5 euros", "explication": "Le plus petit billet."
+  },
+  {
+    "id": 53, "texte": "Combien de décimètres (dm) dans un mètre ?", "options": ["1", "10", "100"], "reponse_correcte": "10", "explication": "10 dm = 1 m."
+  },
+  {
+    "id": 54, "texte": "Quel mois a 31 jours ?", "options": ["Avril", "Juin", "Juillet"], "reponse_correcte": "Juillet", "explication": "Juillet et Août ont 31 jours."
+  },
+  {
+    "id": 55, "texte": "500 g est égal à...", "options": ["Un demi-kilo", "Un kilo", "Deux kilos"], "reponse_correcte": "Un demi-kilo", "explication": "La moitié de 1000 g."
+  },
+  {
+    "id": 56, "texte": "Si j'ai 4 pièces de 50 centimes, j'ai...", "options": ["1 euro", "2 euros", "4 euros"], "reponse_correcte": "2 euros", "explication": "50+50=1€, donc 1+1=2€."
+  },
+  {
+    "id": 57, "texte": "Une année bissextile a combien de jours ?", "options": ["364", "365", "366"], "reponse_correcte": "366", "explication": "On ajoute le 29 février."
+  },
+  {
+    "id": 58, "texte": "Quelle heure est-il à 'douze heures trente' ?", "options": ["12:03", "12:30", "01:30"], "reponse_correcte": "12:30", "explication": "Midi et demi."
+  },
+  {
+    "id": 59, "texte": "Une gomme pèse environ...", "options": ["10 g", "100 g", "1 kg"], "reponse_correcte": "10 g", "explication": "C'est très léger."
+  },
+  {
+    "id": 60, "texte": "100 L est plus grand que 10 L ?", "options": ["Oui", "Non", "Égal"], "reponse_correcte": "Oui", "explication": "Comparaison de volume."
+  },
+  {
+    "id": 61, "texte": "Le week-end dure...", "options": ["1 jour", "2 jours", "3 jours"], "reponse_correcte": "2 jours", "explication": "Samedi et dimanche."
+  },
+  {
+    "id": 62, "texte": "Un billet de 100€ est plus grand qu'un billet de 5€ ?", "options": ["Oui", "Non", "En taille seulement"], "reponse_correcte": "Oui", "explication": "Plus la valeur est grande, plus le billet est grand physiquement."
+  },
+  {
+    "id": 63, "texte": "Un demi-mètre, c'est combien de cm ?", "options": ["10 cm", "50 cm", "100 cm"], "reponse_correcte": "50 cm", "explication": "Moitié de 100."
+  },
+  {
+    "id": 64, "texte": "Quelle saison commence en décembre ?", "options": ["Automne", "Hiver", "Printemps"], "reponse_correcte": "Hiver", "explication": "Le 21 décembre."
+  },
+  {
+    "id": 65, "texte": "250 g + 250 g = ?", "options": ["500 g", "750 g", "1 kg"], "reponse_correcte": "500 g", "explication": "Une demi-livre."
+  },
+  {
+    "id": 66, "texte": "Si j'ai 10 pièces de 10 centimes, j'ai...", "options": ["10 centimes", "1 euro", "10 euros"], "reponse_correcte": "1 euro", "explication": "10 x 10 = 100 centimes."
+  },
+  {
+    "id": 67, "texte": "Une montre à aiguilles est une montre...", "options": ["Digitale", "Analogique", "Solaire"], "reponse_correcte": "Analogique", "explication": "C'est le nom technique."
+  },
+  {
+    "id": 68, "texte": "Quelle unité pour la distance Paris-Lyon ?", "options": ["Mètres", "Kilomètres", "Centimètres"], "reponse_correcte": "Kilomètres", "explication": "C'est une longue distance."
+  },
+  {
+    "id": 69, "texte": "15 h 00, c'est quelle heure de l'après-midi ?", "options": ["1h", "3h", "5h"], "reponse_correcte": "3h", "explication": "15 - 12 = 3."
+  },
+  {
+    "id": 70, "texte": "Un pack de 6 bouteilles de 1L contient...", "options": ["1L", "6L", "60L"], "reponse_correcte": "6L", "explication": "6 x 1 = 6."
+  },
+  {
+    "id": 71, "texte": "Combien de jours dans une semaine ?", "options": ["5", "7", "10"], "reponse_correcte": "7", "explication": "L, Ma, Me, J, V, S, D."
+  },
+  {
+    "id": 72, "texte": "La monnaie utilisée en France est...", "options": ["Le Dollar", "L'Euro", "La Livre"], "reponse_correcte": "L'Euro", "explication": "Symbole €."
+  },
+  {
+    "id": 73, "texte": "1 cm est plus petit que 1 mm ?", "options": ["Oui", "Non", "Pareil"], "reponse_correcte": "Non", "explication": "1 cm = 10 mm."
+  },
+  {
+    "id": 74, "texte": "Le mois de Noël est le...", "options": ["11ème", "12ème", "1er"], "reponse_correcte": "12ème", "explication": "Décembre est le dernier."
+  },
+  {
+    "id": 75, "texte": "Une tonne (t) est égale à...", "options": ["100 kg", "1000 kg", "10000 kg"], "reponse_correcte": "1000 kg", "explication": "C'est très lourd."
+  },
+  {
+    "id": 76, "texte": "Si j'ai 1 billet de 10€ et 3 pièces de 1€, j'ai...", "options": ["13€", "31€", "103€"], "reponse_correcte": "13€", "explication": "10 + 3 = 13."
+  },
+  {
+    "id": 77, "texte": "L'après-midi commence après...", "options": ["10h", "12h", "14h"], "reponse_correcte": "12h", "explication": "Après midi."
+  },
+  {
+    "id": 78, "texte": "Un ruban de 100 cm fait...", "options": ["1 m", "10 m", "100 m"], "reponse_correcte": "1 m", "explication": "Définition du mètre."
+  },
+  {
+    "id": 79, "texte": "Une minute dure plus longtemps qu'une seconde ?", "options": ["Oui", "Non", "Pareil"], "reponse_correcte": "Oui", "explication": "Elle en contient 60."
+  },
+  {
+    "id": 80, "texte": "Un bidon d'essence fait souvent...", "options": ["5 L", "50 L", "500 L"], "reponse_correcte": "5 L", "explication": "Contenance classique d'un petit bidon."
+  },
+  {
+    "id": 81, "texte": "Lequel est un instrument de mesure de longueur ?", "options": ["Le chronomètre", "Le mètre ruban", "La balance"], "reponse_correcte": "Le mètre ruban", "explication": "Pour mesurer des objets."
+  },
+  {
+    "id": 82, "texte": "Combien de centimes pour faire 2 euros ?", "options": ["100", "200", "500"], "reponse_correcte": "200", "explication": "2 x 100."
+  },
+  {
+    "id": 83, "texte": "Le matin finit à...", "options": ["8h", "12h", "18h"], "reponse_correcte": "12h", "explication": "Midi sonne la fin du matin."
+  },
+  {
+    "id": 84, "texte": "Une brique de jus de 20 cL est plus petite que 1 L ?", "options": ["Oui", "Non", "Égal"], "reponse_correcte": "Oui", "explication": "1 L = 100 cL."
+  },
+  {
+    "id": 85, "texte": "Quel mois vient avant Juillet ?", "options": ["Mai", "Juin", "Août"], "reponse_correcte": "Juin", "explication": "Mai, Juin, Juillet."
+  },
+  {
+    "id": 86, "texte": "Le poids d'un chat est environ...", "options": ["4 g", "4 kg", "40 kg"], "reponse_correcte": "4 kg", "explication": "Masse moyenne d'un chat."
+  },
+  {
+    "id": 87, "texte": "Combien de billets de 5€ pour faire 20€ ?", "options": ["2", "4", "5"], "reponse_correcte": "4", "explication": "4 x 5 = 20."
+  },
+  {
+    "id": 88, "texte": "Une règle de 15 cm est la moitié d'une de...", "options": ["20 cm", "30 cm", "60 cm"], "reponse_correcte": "30 cm", "explication": "15 + 15 = 30."
+  },
+  {
+    "id": 89, "texte": "Quelle heure est-il à 18h00 ?", "options": ["6h du matin", "6h du soir", "8h du soir"], "reponse_correcte": "6h du soir", "explication": "18 - 12 = 6."
+  },
+  {
+    "id": 90, "texte": "Un kilo de sucre coûte environ...", "options": ["1€", "10€", "100€"], "reponse_correcte": "1€", "explication": "Ordre de grandeur du prix."
+  },
+  {
+    "id": 91, "texte": "Combien de millimètres dans un centimètre ?", "options": ["1", "10", "100"], "reponse_correcte": "10", "explication": "Les petits traits entre les cm."
+  },
+  {
+    "id": 92, "texte": "Le mois d'Halloween est le...", "options": ["9ème", "10ème", "11ème"], "reponse_correcte": "10ème", "explication": "Octobre est le 10ème mois."
+  },
+  {
+    "id": 93, "texte": "Un vélo pèse environ...", "options": ["1 kg", "15 kg", "100 kg"], "reponse_correcte": "15 kg", "explication": "Poids moyen d'un vélo enfant/adulte."
+  },
+  {
+    "id": 94, "texte": "Si une émission dure 1h30, c'est...", "options": ["60 min", "90 min", "100 min"], "reponse_correcte": "90 min", "explication": "60 + 30 = 90."
+  },
+  {
+    "id": 95, "texte": "Un billet de 10€ peut être échangé contre...", "options": ["2 billets de 5€", "5 pièces de 2€", "Les deux"], "reponse_correcte": "Les deux", "explication": "Ce sont des valeurs égales."
+  },
+  {
+    "id": 96, "texte": "Combien de trimestres dans une année ?", "options": ["2", "3", "4"], "reponse_correcte": "4", "explication": "12 divisé par 3 = 4."
+  },
+  {
+    "id": 97, "texte": "Un thermomètre médical indique environ...", "options": ["20°C", "37°C", "100°C"], "reponse_correcte": "37°C", "explication": "Température du corps humain."
+  },
+  {
+    "id": 98, "texte": "L'unité pour mesurer une trousse est le...", "options": ["m", "cm", "km"], "reponse_correcte": "cm", "explication": "Centimètre."
+  },
+  {
+    "id": 100, "texte": "Savoir mesurer sert à...", "options": ["Comparer", "Compter les moutons", "Rêver"], "reponse_correcte": "Comparer", "explication": "On compare des tailles, des poids, des durées."
+  }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "texte": "Quel chiffre vient juste après 4 ?",
+    "options": ["3", "5", "6"],
+    "reponse_correcte": "5",
+    "explication": "1, 2, 3, 4 et ensuite 5."
+  },
+  {
+    "id": 2,
+    "texte": "Combien font deux doigts plus trois doigts ?",
+    "options": ["4", "5", "6"],
+    "reponse_correcte": "5",
+    "explication": "On compte : 1, 2... 3, 4, 5."
+  },
+  {
+    "id": 3,
+    "texte": "Comment écrit-on le nombre 'dix' ?",
+    "options": ["01", "10", "11"],
+    "reponse_correcte": "10",
+    "explication": "Le nombre dix s'écrit avec un 1 et un 0."
+  },
+  {
+    "id": 4,
+    "texte": "Quel nombre est le plus petit ?",
+    "options": ["8", "3", "7"],
+    "reponse_correcte": "3",
+    "explication": "3 vient bien avant 7 et 8."
+  },
+  {
+    "id": 5,
+    "texte": "Combien y a-t-il de jours dans une semaine ?",
+    "options": ["5", "7", "10"],
+    "reponse_correcte": "7",
+    "explication": "Lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche."
+  },
+  {
+    "id": 6,
+    "texte": "Si j'ai 5 bonbons et que j'en mange 1, combien m'en reste-t-il ?",
+    "options": ["4", "5", "6"],
+    "reponse_correcte": "4",
+    "explication": "5 moins 1 égal 4."
+  },
+  {
+    "id": 7,
+    "texte": "Quel nombre vient juste avant 10 ?",
+    "options": ["8", "9", "11"],
+    "reponse_correcte": "9",
+    "explication": "9 est le nombre qui précède 10."
+  },
+  {
+    "id": 8,
+    "texte": "Combien de roues a un vélo ?",
+    "options": ["1", "2", "3"],
+    "reponse_correcte": "2",
+    "explication": "Un vélo a une roue devant et une roue derrière."
+  },
+  {
+    "id": 9,
+    "texte": "Lequel est le nombre 'douze' ?",
+    "options": ["2", "12", "21"],
+    "reponse_correcte": "12",
+    "explication": "Douze, c'est une dizaine et deux unités."
+  },
+  {
+    "id": 10,
+    "texte": "Range du plus petit au plus grand : 5, 2, 8.",
+    "options": ["2-5-8", "8-5-2", "5-2-8"],
+    "reponse_correcte": "2-5-8",
+    "explication": "2 est plus petit que 5, qui est plus petit que 8."
+  },
+  {
+    "id": 11,
+    "texte": "Combien d'oreilles as-tu ?",
+    "options": ["1", "2", "3"],
+    "reponse_correcte": "2",
+    "explication": "On a une oreille à gauche et une à droite."
+  },
+  {
+    "id": 12,
+    "texte": "Quel chiffre manque : 1, 2, 3, ?, 5",
+    "options": ["4", "6", "0"],
+    "reponse_correcte": "4",
+    "explication": "Le chiffre entre 3 et 5 est le 4."
+  },
+  {
+    "id": 13,
+    "texte": "Comment écrit-on 'zéro' ?",
+    "options": ["0", "1", "O"],
+    "reponse_correcte": "0",
+    "explication": "Zéro s'écrit comme un rond."
+  },
+  {
+    "id": 14,
+    "texte": "Lequel est le plus grand nombre ?",
+    "options": ["12", "15", "10"],
+    "reponse_correcte": "15",
+    "explication": "15 est après 10 et 12."
+  },
+  {
+    "id": 15,
+    "texte": "Combien font 10 et encore 1 ?",
+    "options": ["9", "11", "12"],
+    "reponse_correcte": "11",
+    "explication": "10 + 1 = 11 (onze)."
+  },
+  {
+    "id": 16,
+    "texte": "Quel nombre vient juste après 19 ?",
+    "options": ["18", "20", "21"],
+    "reponse_correcte": "20",
+    "explication": "Après 19, on change de dizaine pour 20."
+  },
+  {
+    "id": 17,
+    "texte": "Combien de doigts as-tu sur une main ?",
+    "options": ["4", "5", "10"],
+    "reponse_correcte": "5",
+    "explication": "On a 5 doigts par main."
+  },
+  {
+    "id": 18,
+    "texte": "Si j'ai 3 pommes et que maman m'en donne 2, j'en ai...",
+    "options": ["5", "6", "4"],
+    "reponse_correcte": "5",
+    "explication": "3 + 2 = 5."
+  },
+  {
+    "id": 19,
+    "texte": "Le nombre 'quatorze' s'écrit...",
+    "options": ["4", "14", "41"],
+    "reponse_correcte": "14",
+    "explication": "14, c'est 10 + 4."
+  },
+  {
+    "id": 20,
+    "texte": "Zéro plus zéro égal ?",
+    "options": ["0", "1", "2"],
+    "reponse_correcte": "0",
+    "explication": "Rien plus rien fait toujours rien."
+  },
+  {
+    "id": 21,
+    "texte": "Compte à l'envers : 3, 2, 1, ?",
+    "options": ["0", "4", "5"],
+    "reponse_correcte": "0",
+    "explication": "Le décompte finit par zéro."
+  },
+  {
+    "id": 22,
+    "texte": "Combien de pattes a un chien ?",
+    "options": ["2", "4", "6"],
+    "reponse_correcte": "4",
+    "explication": "Les chiens sont des quadrupèdes (4 pattes)."
+  },
+  {
+    "id": 23,
+    "texte": "Lequel est le chiffre 'huit' ?",
+    "options": ["6", "7", "8"],
+    "reponse_correcte": "8",
+    "explication": "Le 8 ressemble à deux ronds l'un sur l'autre."
+  },
+  {
+    "id": 24,
+    "texte": "Si on ajoute 1 à un nombre, on obtient...",
+    "options": ["Le nombre d'avant", "Le nombre d'après", "Le même nombre"],
+    "reponse_correcte": "Le nombre d'après",
+    "explication": "Ajouter 1, c'est avancer d'une case."
+  },
+  {
+    "id": 25,
+    "texte": "Quel nombre vient avant 2 ?",
+    "options": ["0", "1", "3"],
+    "reponse_correcte": "1",
+    "explication": "1 est juste avant 2."
+  },
+  {
+    "id": 26,
+    "texte": "Dix-sept s'écrit...",
+    "options": ["7", "17", "71"],
+    "reponse_correcte": "17",
+    "explication": "Dix-sept c'est 10 et 7."
+  },
+  {
+    "id": 27,
+    "texte": "Combien de nez as-tu ?",
+    "options": ["1", "2", "0"],
+    "reponse_correcte": "1",
+    "explication": "On n'a qu'un seul nez."
+  },
+  {
+    "id": 28,
+    "texte": "Lequel est le plus petit : 9 ou 11 ?",
+    "options": ["9", "11", "Ils sont égaux"],
+    "reponse_correcte": "9",
+    "explication": "9 est un chiffre, 11 a déjà une dizaine."
+  },
+  {
+    "id": 29,
+    "texte": "Combien font 5 et 5 ?",
+    "options": ["5", "10", "15"],
+    "reponse_correcte": "10",
+    "explication": "C'est le nombre de doigts des deux mains."
+  },
+  {
+    "id": 30,
+    "texte": "Quel nombre manque : 8, 9, ?, 11",
+    "options": ["10", "12", "7"],
+    "reponse_correcte": "10",
+    "explication": "10 est entre 9 et 11."
+  },
+  {
+    "id": 31,
+    "texte": "Si j'ai 2 yeux et que je ferme 1 œil, combien sont ouverts ?",
+    "options": ["0", "1", "2"],
+    "reponse_correcte": "1",
+    "explication": "2 moins 1 égal 1."
+  },
+  {
+    "id": 32,
+    "texte": "Quinze s'écrit avec quels chiffres ?",
+    "options": ["1 et 5", "5 et 1", "1 et 0"],
+    "reponse_correcte": "1 et 5",
+    "explication": "15 s'écrit 1 puis 5."
+  },
+  {
+    "id": 33,
+    "texte": "Comment dit-on le nombre 20 ?",
+    "options": ["Dix", "Vingt", "Trente"],
+    "reponse_correcte": "Vingt",
+    "explication": "C'est le mot pour le nombre 20."
+  },
+  {
+    "id": 34,
+    "texte": "Lequel est 'six' ?",
+    "options": ["6", "9", "5"],
+    "reponse_correcte": "6",
+    "explication": "Le 6 a le ventre en bas."
+  },
+  {
+    "id": 35,
+    "texte": "Si tu as 4 gâteaux et que tu n'en manges aucun, il en reste...",
+    "options": ["0", "4", "3"],
+    "reponse_correcte": "4",
+    "explication": "On n'a rien enlevé."
+  },
+  {
+    "id": 36,
+    "texte": "Combien de pattes a un oiseau ?",
+    "options": ["2", "4", "0"],
+    "reponse_correcte": "2",
+    "explication": "Les oiseaux marchent sur 2 pattes."
+  },
+  {
+    "id": 37,
+    "texte": "Le nombre 'treize' s'écrit...",
+    "options": ["3", "13", "31"],
+    "reponse_correcte": "13",
+    "explication": "Treize c'est 10 + 3."
+  },
+  {
+    "id": 38,
+    "texte": "Quel est le plus grand : 18 ou 8 ?",
+    "options": ["18", "8", "Pareil"],
+    "reponse_correcte": "18",
+    "explication": "18 contient une dizaine, 8 non."
+  },
+  {
+    "id": 39,
+    "texte": "Compte : 1, 2, 3, 4, 5... quel est le suivant ?",
+    "options": ["4", "6", "7"],
+    "reponse_correcte": "6",
+    "explication": "Après 5 vient le 6."
+  },
+  {
+    "id": 40,
+    "texte": "Combien font 2 + 0 ?",
+    "options": ["0", "2", "20"],
+    "reponse_correcte": "2",
+    "explication": "Zéro ne change rien."
+  },
+  {
+    "id": 41,
+    "texte": "Dix-neuf s'écrit...",
+    "options": ["19", "91", "109"],
+    "reponse_correcte": "19",
+    "explication": "C'est 10 et 9."
+  },
+  {
+    "id": 42,
+    "texte": "Si j'ai 1 pomme et que j'en reçois 1, j'en ai...",
+    "options": ["1", "2", "3"],
+    "reponse_correcte": "2",
+    "explication": "1 + 1 = 2."
+  },
+  {
+    "id": 43,
+    "texte": "Quel nombre vient avant 15 ?",
+    "options": ["14", "16", "13"],
+    "reponse_correcte": "14",
+    "explication": "On recule de 1."
+  },
+  {
+    "id": 44,
+    "texte": "Comment écrit-on 'onze' ?",
+    "options": ["10", "11", "12"],
+    "reponse_correcte": "11",
+    "explication": "Onze c'est deux fois le chiffre 1."
+  },
+  {
+    "id": 45,
+    "texte": "Combien de pouces as-tu en tout ?",
+    "options": ["1", "2", "10"],
+    "reponse_correcte": "2",
+    "explication": "Un sur chaque main."
+  },
+  {
+    "id": 46,
+    "texte": "Lequel est le plus petit : 5 ou 0 ?",
+    "options": ["5", "0", "1"],
+    "reponse_correcte": "0",
+    "explication": "Zéro est le plus petit, c'est rien du tout."
+  },
+  {
+    "id": 47,
+    "texte": "Quel chiffre est entre 6 et 8 ?",
+    "options": ["5", "7", "9"],
+    "reponse_correcte": "7",
+    "explication": "6, 7, 8."
+  },
+  {
+    "id": 48,
+    "texte": "Combien de lettres dans le mot 'OUI' ?",
+    "options": ["2", "3", "4"],
+    "reponse_correcte": "3",
+    "explication": "O, U, I font 3 lettres."
+  },
+  {
+    "id": 49,
+    "texte": "Seize s'écrit...",
+    "options": ["6", "16", "61"],
+    "reponse_correcte": "16",
+    "explication": "Dix-six se dit seize."
+  },
+  {
+    "id": 50,
+    "texte": "Si j'ai 10 billes et que j'en donne 10, il m'en reste...",
+    "options": ["0", "1", "10"],
+    "reponse_correcte": "0",
+    "explication": "J'ai tout donné."
+  },
+  {
+    "id": 51,
+    "texte": "Quel nombre est juste après 10 ?",
+    "options": ["9", "11", "12"],
+    "reponse_correcte": "11",
+    "explication": "Après la dizaine pile, on commence la famille des 'onze'."
+  },
+  {
+    "id": 52,
+    "texte": "Combien font 3 + 3 ?",
+    "options": ["5", "6", "7"],
+    "reponse_correcte": "6",
+    "explication": "C'est le double de 3."
+  },
+  {
+    "id": 53,
+    "texte": "Lequel est 'neuf' ?",
+    "options": ["6", "9", "8"],
+    "reponse_correcte": "9",
+    "explication": "Le 9 a la tête en haut."
+  },
+  {
+    "id": 54,
+    "texte": "Si j'ai 2 pommes et que j'en mange 2, il m'en reste...",
+    "options": ["0", "1", "2"],
+    "reponse_correcte": "0",
+    "explication": "2 moins 2 égal 0."
+  },
+  {
+    "id": 55,
+    "texte": "Comment écrit-on 'dix-huit' ?",
+    "options": ["10", "18", "81"],
+    "reponse_correcte": "18",
+    "explication": "C'est une dizaine et huit unités."
+  },
+  {
+    "id": 56,
+    "texte": "Quel est le plus grand : 20 ou 10 ?",
+    "options": ["20", "10", "Pareil"],
+    "reponse_correcte": "20",
+    "explication": "20 c'est deux dizaines, 10 c'est une seule."
+  },
+  {
+    "id": 57,
+    "texte": "Combien de pattes a une poule ?",
+    "options": ["2", "4", "0"],
+    "reponse_correcte": "2",
+    "explication": "Les oiseaux ont 2 pattes."
+  },
+  {
+    "id": 58,
+    "texte": "Compte : 10, 11, 12, ?, 14",
+    "options": ["13", "15", "11"],
+    "reponse_correcte": "13",
+    "explication": "Treize vient après douze."
+  },
+  {
+    "id": 59,
+    "texte": "Combien font 4 + 1 ?",
+    "options": ["3", "5", "6"],
+    "reponse_correcte": "5",
+    "explication": "Ajouter 1 c'est prendre le suivant."
+  },
+  {
+    "id": 60,
+    "texte": "Lequel est 'zéro' ?",
+    "options": ["0", "1", "10"],
+    "reponse_correcte": "0",
+    "explication": "Zéro représente le vide."
+  },
+  {
+    "id": 61,
+    "texte": "Dix plus cinq égal ?",
+    "options": ["10", "15", "20"],
+    "reponse_correcte": "15",
+    "explication": "10 + 5 = 15."
+  },
+  {
+    "id": 62,
+    "texte": "Quel nombre vient avant 6 ?",
+    "options": ["4", "5", "7"],
+    "reponse_correcte": "5",
+    "explication": "5 est juste avant 6."
+  },
+  {
+    "id": 63,
+    "texte": "Comment écrit-on 'douze' ?",
+    "options": ["12", "21", "2"],
+    "reponse_correcte": "12",
+    "explication": "12 c'est une dizaine et deux unités."
+  },
+  {
+    "id": 64,
+    "texte": "Combien de soleils y a-t-il dans le ciel le jour ?",
+    "options": ["1", "2", "0"],
+    "reponse_correcte": "1",
+    "explication": "Il n'y a qu'un seul soleil."
+  },
+  {
+    "id": 65,
+    "texte": "Lequel est le plus petit : 3, 1 ou 5 ?",
+    "options": ["3", "1", "5"],
+    "reponse_correcte": "1",
+    "explication": "1 est le plus proche de zéro ici."
+  },
+  {
+    "id": 66,
+    "texte": "Sept plus zéro égal ?",
+    "options": ["0", "7", "70"],
+    "reponse_correcte": "7",
+    "explication": "Ajouter zéro ne change pas le nombre."
+  },
+  {
+    "id": 67,
+    "texte": "Quel nombre manque : 17, 18, ?, 20",
+    "options": ["19", "16", "21"],
+    "reponse_correcte": "19",
+    "explication": "Dix-neuf est entre 18 et 20."
+  },
+  {
+    "id": 68,
+    "texte": "Comment écrit-on 'cinq' ?",
+    "options": ["4", "5", "6"],
+    "reponse_correcte": "5",
+    "explication": "Le chiffre 5."
+  },
+  {
+    "id": 69,
+    "texte": "Combien font 2 + 2 + 2 ?",
+    "options": ["4", "6", "8"],
+    "reponse_correcte": "6",
+    "explication": "2, 4, 6."
+  },
+  {
+    "id": 70,
+    "texte": "Si tu as 3 billes et que tu en gagnes 1, tu en as...",
+    "options": ["2", "4", "5"],
+    "reponse_correcte": "4",
+    "explication": "3 + 1 = 4."
+  },
+  {
+    "id": 71,
+    "texte": "Lequel est 'quinze' ?",
+    "options": ["5", "15", "51"],
+    "reponse_correcte": "15",
+    "explication": "15 s'écrit avec un 1 et un 5."
+  },
+  {
+    "id": 72,
+    "texte": "Combien de doigts as-tu sur tes deux mains ?",
+    "options": ["5", "10", "20"],
+    "reponse_correcte": "10",
+    "explication": "5 + 5 = 10."
+  },
+  {
+    "id": 73,
+    "texte": "Quel nombre est le plus grand : 7 ou 9 ?",
+    "options": ["7", "9", "Pareil"],
+    "reponse_correcte": "9",
+    "explication": "9 vient après 7."
+  },
+  {
+    "id": 74,
+    "texte": "Compte à l'envers : 5, 4, 3, 2, ?",
+    "options": ["1", "0", "6"],
+    "reponse_correcte": "1",
+    "explication": "Après 2 en descendant, il y a 1."
+  },
+  {
+    "id": 75,
+    "texte": "Comment écrit-on 'un' ?",
+    "options": ["1", "11", "7"],
+    "reponse_correcte": "1",
+    "explication": "Le premier chiffre après zéro."
+  },
+  {
+    "id": 76,
+    "texte": "Combien font 10 + 10 ?",
+    "options": ["10", "20", "30"],
+    "reponse_correcte": "20",
+    "explication": "Deux dizaines font vingt."
+  },
+  {
+    "id": 77,
+    "texte": "Lequel est 'quatorze' ?",
+    "options": ["4", "14", "41"],
+    "reponse_correcte": "14",
+    "explication": "14."
+  },
+  {
+    "id": 78,
+    "texte": "Si j'ai 6 crayons et que j'en prête 1, il m'en reste...",
+    "options": ["5", "6", "7"],
+    "reponse_correcte": "5",
+    "explication": "6 moins 1 égal 5."
+  },
+  {
+    "id": 79,
+    "texte": "Quel chiffre vient juste après 7 ?",
+    "options": ["6", "8", "9"],
+    "reponse_correcte": "8",
+    "explication": "7 puis 8."
+  },
+  {
+    "id": 80,
+    "texte": "Comment écrit-on 'treize' ?",
+    "options": ["3", "13", "30"],
+    "reponse_correcte": "13",
+    "explication": "13."
+  },
+  {
+    "id": 81,
+    "texte": "Combien d'yeux as-tu ?",
+    "options": ["1", "2", "3"],
+    "reponse_correcte": "2",
+    "explication": "On a deux yeux."
+  },
+  {
+    "id": 82,
+    "texte": "Lequel est le plus petit : 12 ou 8 ?",
+    "options": ["12", "8", "Pareil"],
+    "reponse_correcte": "8",
+    "explication": "8 n'a pas encore de dizaine."
+  },
+  {
+    "id": 83,
+    "texte": "Combien font 5 + 2 ?",
+    "options": ["6", "7", "8"],
+    "reponse_correcte": "7",
+    "explication": "5... 6, 7."
+  },
+  {
+    "id": 84,
+    "texte": "Quel nombre manque : 0, 1, 2, ?, 4",
+    "options": ["3", "5", "1"],
+    "reponse_correcte": "3",
+    "explication": "3 est entre 2 et 4."
+  },
+  {
+    "id": 85,
+    "texte": "Comment écrit-on 'vingt' ?",
+    "options": ["2", "10", "20"],
+    "reponse_correcte": "20",
+    "explication": "Un 2 et un 0."
+  },
+  {
+    "id": 86,
+    "texte": "Si j'ai 4 pommes et que j'en reçois 2, j'en ai...",
+    "options": ["4", "5", "6"],
+    "reponse_correcte": "6",
+    "explication": "4 + 2 = 6."
+  },
+  {
+    "id": 87,
+    "texte": "Lequel est 'onze' ?",
+    "options": ["1", "11", "21"],
+    "reponse_correcte": "11",
+    "explication": "11."
+  },
+  {
+    "id": 88,
+    "texte": "Combien de pattes a une araignée ?",
+    "options": ["4", "6", "8"],
+    "reponse_correcte": "8",
+    "explication": "Les araignées ont 8 pattes."
+  },
+  {
+    "id": 89,
+    "texte": "Quel nombre vient avant 20 ?",
+    "options": ["18", "19", "21"],
+    "reponse_correcte": "19",
+    "explication": "19 est juste avant 20."
+  },
+  {
+    "id": 90,
+    "texte": "Comment écrit-on 'sept' ?",
+    "options": ["6", "7", "8"],
+    "reponse_correcte": "7",
+    "explication": "Le chiffre 7."
+  },
+  {
+    "id": 91,
+    "texte": "Combien font 1 + 1 + 1 ?",
+    "options": ["2", "3", "4"],
+    "reponse_correcte": "3",
+    "explication": "Cela fait trois."
+  },
+  {
+    "id": 92,
+    "texte": "Lequel est le plus grand : 1, 5 ou 2 ?",
+    "options": ["1", "5", "2"],
+    "reponse_correcte": "5",
+    "explication": "5 est le plus grand ici."
+  },
+  {
+    "id": 93,
+    "texte": "Comment écrit-on 'seize' ?",
+    "options": ["6", "16", "61"],
+    "reponse_correcte": "16",
+    "explication": "16."
+  },
+  {
+    "id": 94,
+    "texte": "Si j'ai 8 billes et que j'en perds 1, il m'en reste...",
+    "options": ["7", "8", "9"],
+    "reponse_correcte": "7",
+    "explication": "8 moins 1 égal 7."
+  },
+  {
+    "id": 95,
+    "texte": "Quel chiffre est après 2 ?",
+    "options": ["1", "3", "4"],
+    "reponse_correcte": "3",
+    "explication": "2 puis 3."
+  },
+  {
+    "id": 96,
+    "texte": "Combien font 3 + 2 ?",
+    "options": ["4", "5", "6"],
+    "reponse_correcte": "5",
+    "explication": "3... 4, 5."
+  },
+  {
+    "id": 97,
+    "texte": "Lequel est 'dix' ?",
+    "options": ["1", "10", "100"],
+    "reponse_correcte": "10",
+    "explication": "Le 10."
+  },
+  {
+    "id": 98,
+    "texte": "Combien de bras as-tu ?",
+    "options": ["1", "2", "3"],
+    "reponse_correcte": "2",
+    "explication": "On a deux bras."
+  },
+  {
+    "id": 99,
+    "texte": "Quel nombre manque : 14, 15, 16, ?",
+    "options": ["17", "13", "18"],
+    "reponse_correcte": "17",
+    "explication": "Après 16 vient 17."
+  },
+  {
+    "id": 100,
+    "texte": "Zéro plus un égal ?",
+    "options": ["0", "1", "2"],
+    "reponse_correcte": "1",
+    "explication": "0 + 1 = 1."
+  }
+]

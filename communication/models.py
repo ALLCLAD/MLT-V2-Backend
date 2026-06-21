@@ -1,0 +1,81 @@
+from django.db import models
+from django.conf import settings
+from enseignant.models import Lecon, Exercice
+
+# --- 1. MODÈLE : Message (Chat privé) ---
+class Message(models.Model):
+    expediteur = models.ForeignKey(
+        settings.AUTH_USER_MODEL, 
+        on_delete=models.CASCADE, 
+        related_name='messages_envoyes'
+    )
+    receveur = models.ForeignKey(
+        settings.AUTH_USER_MODEL, 
+        on_delete=models.CASCADE, 
+        related_name='messages_recus'
+    )
+    contenu = models.TextField(verbose_name="Message")
+    date_envoi = models.DateTimeField(auto_now_add=True)
+    est_lu = models.BooleanField(default=False)
+
+    class Meta:
+        ordering = ['date_envoi']
+        verbose_name = "Message"
+
+    def __str__(self):
+        return f"De {self.expediteur} à {self.receveur} ({self.date_envoi})"
+
+
+# --- 2. MODÈLE : Notification (Alertes) ---
+class Notification(models.Model):
+    TYPE_CHOICES = [
+        ('LECON_PUBLIEE', 'Nouvelle Leçon'),
+        ('LECTURE_COURS', 'Cours Lu'),
+        ('EXERCICE_FINI', 'Exercice Terminé'),
+        ('QUIZ_FINI', 'Quiz Terminé'),
+        ('MESSAGE_RECU', 'Nouveau Message'),
+    ]
+
+    receveur = models.ForeignKey(
+        settings.AUTH_USER_MODEL, 
+        on_delete=models.CASCADE, 
+        related_name='notifications'
+    )
+    type_notif = models.CharField(max_length=20, choices=TYPE_CHOICES)
+    titre = models.CharField(max_length=255)
+    message = models.TextField()
+    date_creation = models.DateTimeField(auto_now_add=True)
+    est_lu = models.BooleanField(default=False)
+    
+    # Lien optionnel vers une leçon (utile pour cliquer sur l'alerte)
+    lecon_liee = models.ForeignKey(Lecon, on_delete=models.SET_NULL, null=True, blank=True)
+
+    class Meta:
+        ordering = ['-date_creation']
+
+    def __str__(self):
+        return f"{self.titre} pour {self.receveur}"
+
+
+# --- 3. MODÈLE : Suivi de Lecture ---
+class SuiviLecture(models.Model):
+    enfant = models.ForeignKey('Uauth.Enfant', on_delete=models.CASCADE)
+    lecon = models.ForeignKey(Lecon, on_delete=models.CASCADE)
+    date_lecture = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        unique_together = ('enfant', 'lecon')
+        verbose_name = "Suivi de lecture"
+
+
+# --- 4. MODÈLE : Résultat d'Exercice ---
+class ResultatExercice(models.Model):
+    enfant = models.ForeignKey('Uauth.Enfant', on_delete=models.CASCADE, related_name='resultats_exercices')
+    exercice = models.ForeignKey(Exercice, on_delete=models.CASCADE, related_name='resultats')
+    reponse_eleve = models.CharField(max_length=255)
+    est_correct = models.BooleanField()
+    date_soumission = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        verbose_name = "Résultat d'exercice"
+        ordering = ['-date_soumission']

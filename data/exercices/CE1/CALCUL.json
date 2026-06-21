@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1, "texte": "Combien font 50 + 50 ?", "options": ["80", "100", "150"], "reponse_correcte": "100", "explication": "C'est une centaine pile."
+  },
+  {
+    "id": 2, "texte": "2 x 5 = ?", "options": ["7", "10", "12"], "reponse_correcte": "10", "explication": "Le double de 5 est 10."
+  },
+  {
+    "id": 3, "texte": "Calcule 125 + 10.", "options": ["126", "135", "225"], "reponse_correcte": "135", "explication": "On ajoute une dizaine au chiffre 2."
+  },
+  {
+    "id": 4, "texte": "Quelle est la moitié de 20 ?", "options": ["5", "10", "15"], "reponse_correcte": "10", "explication": "10 + 10 = 20."
+  },
+  {
+    "id": 5, "texte": "10 - 7 = ?", "options": ["3", "4", "2"], "reponse_correcte": "3", "explication": "7 pour aller à 10, il manque 3."
+  },
+  {
+    "id": 6, "texte": "3 x 10 = ?", "options": ["13", "30", "300"], "reponse_correcte": "30", "explication": "Multiplier par 10 revient à ajouter un zéro."
+  },
+  {
+    "id": 7, "texte": "Combien font 200 + 300 ?", "options": ["400", "500", "600"], "reponse_correcte": "500", "explication": "2 centaines + 3 centaines = 5 centaines."
+  },
+  {
+    "id": 8, "texte": "Le double de 15 est...", "options": ["25", "30", "45"], "reponse_correcte": "30", "explication": "15 + 15 = 30."
+  },
+  {
+    "id": 9, "texte": "9 + 9 + 9 = ?", "options": ["18", "27", "30"], "reponse_correcte": "27", "explication": "C'est 3 x 9."
+  },
+  {
+    "id": 10, "texte": "Calcule 50 - 25.", "options": ["15", "25", "30"], "reponse_correcte": "25", "explication": "25 est la moitié de 50."
+  },
+  {
+    "id": 11, "texte": "4 x 2 = ?", "options": ["6", "8", "10"], "reponse_correcte": "8", "explication": "2 + 2 + 2 + 2 = 8."
+  },
+  {
+    "id": 12, "texte": "100 + 100 + 50 = ?", "options": ["200", "250", "300"], "reponse_correcte": "250", "explication": "Deux centaines et une demi-centaine."
+  },
+  {
+    "id": 13, "texte": "Dans 45 + 12, quel est le résultat ?", "options": ["55", "57", "67"], "reponse_correcte": "57", "explication": "40+10=50 et 5+2=7."
+  },
+  {
+    "id": 14, "texte": "Quelle est la moitié de 100 ?", "options": ["40", "50", "60"], "reponse_correcte": "50", "explication": "50 + 50 = 100."
+  },
+  {
+    "id": 15, "texte": "5 x 3 = ?", "options": ["15", "10", "20"], "reponse_correcte": "15", "explication": "On compte 5, 10, 15."
+  },
+  {
+    "id": 16, "texte": "80 - 10 = ?", "options": ["70", "90", "60"], "reponse_correcte": "70", "explication": "On enlève une dizaine."
+  },
+  {
+    "id": 17, "texte": "7 + 8 = ?", "options": ["14", "15", "16"], "reponse_correcte": "15", "explication": "7+7=14, donc 14+1=15."
+  },
+  {
+    "id": 18, "texte": "Combien de fois 2 dans 10 ?", "options": ["4", "5", "6"], "reponse_correcte": "5", "explication": "5 x 2 = 10."
+  },
+  {
+    "id": 19, "texte": "90 + 10 = ?", "options": ["91", "100", "110"], "reponse_correcte": "100", "explication": "On complète la centaine."
+  },
+  {
+    "id": 20, "texte": "25 + 25 = ?", "options": ["40", "50", "60"], "reponse_correcte": "50", "explication": "C'est le double de 25."
+  },
+  {
+    "id": 21, "texte": "10 x 10 = ?", "options": ["20", "100", "1000"], "reponse_correcte": "100", "explication": "Une centaine."
+  },
+  {
+    "id": 22, "texte": "Le triple de 10 est...", "options": ["20", "30", "40"], "reponse_correcte": "30", "explication": "10 + 10 + 10 = 30."
+  },
+  {
+    "id": 23, "texte": "150 - 50 = ?", "options": ["100", "50", "200"], "reponse_correcte": "100", "explication": "On enlève la demi-centaine."
+  },
+  {
+    "id": 24, "texte": "4 x 5 = ?", "options": ["15", "20", "25"], "reponse_correcte": "20", "explication": "5, 10, 15, 20."
+  },
+  {
+    "id": 25, "texte": "6 + 6 + 6 + 6 = ?", "options": ["12", "18", "24"], "reponse_correcte": "24", "explication": "C'est 4 x 6."
+  },
+  {
+    "id": 26, "texte": "8 + 0 = ?", "options": ["0", "8", "80"], "reponse_correcte": "8", "explication": "Ajouter zéro ne change rien."
+  },
+  {
+    "id": 27, "texte": "9 - 9 = ?", "options": ["0", "1", "9"], "reponse_correcte": "0", "explication": "Si on enlève tout, il ne reste rien."
+  },
+  {
+    "id": 28, "texte": "300 + 40 = ?", "options": ["304", "340", "430"], "reponse_correcte": "340", "explication": "Trois centaines et quatre dizaines."
+  },
+  {
+    "id": 29, "texte": "Quelle est la moitié de 50 ?", "options": ["20", "25", "30"], "reponse_correcte": "25", "explication": "25 + 25 = 50."
+  },
+  {
+    "id": 30, "texte": "2 x 9 = ?", "options": ["11", "18", "20"], "reponse_correcte": "18", "explication": "Le double de 9."
+  },
+  {
+    "id": 31, "texte": "Calcule 60 + 40.", "options": ["90", "100", "110"], "reponse_correcte": "100", "explication": "6+4=10, donc 60+40=100."
+  },
+  {
+    "id": 32, "texte": "5 x 5 = ?", "options": ["10", "20", "25"], "reponse_correcte": "25", "explication": "Table de 5."
+  },
+  {
+    "id": 33, "texte": "12 - 4 = ?", "options": ["6", "8", "10"], "reponse_correcte": "8", "explication": "8 + 4 = 12."
+  },
+  {
+    "id": 34, "texte": "20 x 2 = ?", "options": ["22", "40", "200"], "reponse_correcte": "40", "explication": "Le double de 20."
+  },
+  {
+    "id": 35, "texte": "Le double de 100 est...", "options": ["150", "200", "300"], "reponse_correcte": "200", "explication": "100 + 100 = 200."
+  },
+  {
+    "id": 36, "texte": "7 x 2 = ?", "options": ["12", "14", "16"], "reponse_correcte": "14", "explication": "Double de 7."
+  },
+  {
+    "id": 37, "texte": "400 - 1 = ?", "options": ["300", "399", "401"], "reponse_correcte": "399", "explication": "Le nombre juste avant 400."
+  },
+  {
+    "id": 38, "texte": "14 + 14 = ?", "options": ["24", "28", "30"], "reponse_correcte": "28", "explication": "Double de 14."
+  },
+  {
+    "id": 39, "texte": "3 x 4 = ?", "options": ["7", "12", "15"], "reponse_correcte": "12", "explication": "4 + 4 + 4 = 12."
+  },
+  {
+    "id": 40, "texte": "90 - 20 = ?", "options": ["60", "70", "80"], "reponse_correcte": "70", "explication": "9 dizaines - 2 dizaines."
+  },
+  {
+    "id": 41, "texte": "11 + 11 = ?", "options": ["20", "22", "33"], "reponse_correcte": "22", "explication": "Double de 11."
+  },
+  {
+    "id": 42, "texte": "5 x 10 = ?", "options": ["15", "50", "500"], "reponse_correcte": "50", "explication": "On ajoute un zéro à 5."
+  },
+  {
+    "id": 43, "texte": "250 + 250 = ?", "options": ["400", "500", "600"], "reponse_correcte": "500", "explication": "Deux demi-milliers font cinq cents."
+  },
+  {
+    "id": 44, "texte": "Le triple de 3 est...", "options": ["6", "9", "12"], "reponse_correcte": "9", "explication": "3 x 3 = 9."
+  },
+  {
+    "id": 45, "texte": "18 - 9 = ?", "options": ["7", "8", "9"], "reponse_correcte": "9", "explication": "9 est la moitié de 18."
+  },
+  {
+    "id": 46, "texte": "100 + 50 + 20 = ?", "options": ["150", "170", "120"], "reponse_correcte": "170", "explication": "On ajoute les dizaines."
+  },
+  {
+    "id": 47, "texte": "4 x 4 = ?", "options": ["8", "12", "16"], "reponse_correcte": "16", "explication": "4, 8, 12, 16."
+  },
+  {
+    "id": 48, "texte": "60 - 30 = ?", "options": ["20", "30", "40"], "reponse_correcte": "30", "explication": "30 est la moitié de 60."
+  },
+  {
+    "id": 49, "texte": "2 x 8 = ?", "options": ["14", "16", "18"], "reponse_correcte": "16", "explication": "Double de 8."
+  },
+  {
+    "id": 50, "texte": "100 - 50 = ?", "options": ["40", "50", "60"], "reponse_correcte": "50", "explication": "Moitié de 100."
+  },
+  {
+    "id": 51, "texte": "Calcule 33 + 22.", "options": ["44", "55", "66"], "reponse_correcte": "55", "explication": "3+2=5 partout."
+  },
+  {
+    "id": 52, "texte": "5 x 2 = ?", "options": ["7", "10", "12"], "reponse_correcte": "10", "explication": "Double de 5."
+  },
+  {
+    "id": 53, "texte": "8 + 8 + 8 = ?", "options": ["16", "24", "32"], "reponse_correcte": "24", "explication": "3 x 8 = 24."
+  },
+  {
+    "id": 54, "texte": "200 - 100 = ?", "options": ["50", "100", "150"], "reponse_correcte": "100", "explication": "Une centaine reste."
+  },
+  {
+    "id": 55, "texte": "6 x 2 = ?", "options": ["10", "12", "14"], "reponse_correcte": "12", "explication": "Double de 6."
+  },
+  {
+    "id": 56, "texte": "9 + 5 = ?", "options": ["13", "14", "15"], "reponse_correcte": "14", "explication": "9+1=10, 10+4=14."
+  },
+  {
+    "id": 57, "texte": "10 x 5 = ?", "options": ["15", "50", "55"], "reponse_correcte": "50", "explication": "5 dizaines."
+  },
+  {
+    "id": 58, "texte": "70 - 35 = ?", "options": ["35", "40", "45"], "reponse_correcte": "35", "explication": "35+35=70."
+  },
+  {
+    "id": 59, "texte": "Le double de 12 est...", "options": ["22", "24", "26"], "reponse_correcte": "24", "explication": "12 + 12 = 24."
+  },
+  {
+    "id": 60, "texte": "3 x 5 = ?", "options": ["12", "15", "18"], "reponse_correcte": "15", "explication": "5, 10, 15."
+  },
+  {
+    "id": 61, "texte": "110 + 90 = ?", "options": ["190", "200", "210"], "reponse_correcte": "200", "explication": "11+9=20 dizaines."
+  },
+  {
+    "id": 62, "texte": "4 x 10 = ?", "options": ["14", "40", "400"], "reponse_correcte": "40", "explication": "4 dizaines."
+  },
+  {
+    "id": 63, "texte": "16 - 8 = ?", "options": ["6", "8", "10"], "reponse_correcte": "8", "explication": "Moitié de 16."
+  },
+  {
+    "id": 64, "texte": "2 x 6 = ?", "options": ["10", "12", "14"], "reponse_correcte": "12", "explication": "Double de 6."
+  },
+  {
+    "id": 65, "texte": "500 + 500 = ?", "options": ["900", "1000", "1100"], "reponse_correcte": "1000", "explication": "Deux demi-milliers font mille."
+  },
+  {
+    "id": 66, "texte": "9 x 1 = ?", "options": ["1", "9", "10"], "reponse_correcte": "9", "explication": "Multiplier par 1 ne change rien."
+  },
+  {
+    "id": 67, "texte": "20 - 5 = ?", "options": ["10", "15", "18"], "reponse_correcte": "15", "explication": "15+5=20."
+  },
+  {
+    "id": 68, "texte": "Le triple de 2 est...", "options": ["4", "6", "8"], "reponse_correcte": "6", "explication": "2+2+2=6."
+  },
+  {
+    "id": 69, "texte": "12 + 13 = ?", "options": ["24", "25", "26"], "reponse_correcte": "25", "explication": "10+10=20, 2+3=5."
+  },
+  {
+    "id": 70, "texte": "5 x 4 = ?", "options": ["15", "20", "25"], "reponse_correcte": "20", "explication": "4 fois 5."
+  },
+  {
+    "id": 71, "texte": "100 - 10 = ?", "options": ["80", "90", "99"], "reponse_correcte": "90", "explication": "10 dizaines - 1 dizaine."
+  },
+  {
+    "id": 72, "texte": "7 + 7 + 7 = ?", "options": ["14", "21", "28"], "reponse_correcte": "21", "explication": "3 x 7 = 21."
+  },
+  {
+    "id": 73, "texte": "2 x 10 = ?", "options": ["12", "20", "200"], "reponse_correcte": "20", "explication": "Deux dizaines."
+  },
+  {
+    "id": 74, "texte": "45 - 5 = ?", "options": ["35", "40", "50"], "reponse_correcte": "40", "explication": "On enlève les unités."
+  },
+  {
+    "id": 75, "texte": "Le double de 25 est...", "options": ["40", "50", "60"], "reponse_correcte": "50", "explication": "25 + 25 = 50."
+  },
+  {
+    "id": 76, "texte": "3 x 2 = ?", "options": ["5", "6", "7"], "reponse_correcte": "6", "explication": "Double de 3."
+  },
+  {
+    "id": 77, "texte": "150 + 10 = ?", "options": ["151", "160", "250"], "reponse_correcte": "160", "explication": "On ajoute une dizaine."
+  },
+  {
+    "id": 78, "texte": "8 x 2 = ?", "options": ["14", "16", "18"], "reponse_correcte": "16", "explication": "Double de 8."
+  },
+  {
+    "id": 79, "texte": "60 - 1 = ?", "options": ["50", "59", "61"], "reponse_correcte": "59", "explication": "Nombre juste avant 60."
+  },
+  {
+    "id": 80, "texte": "10 + 10 + 10 + 10 = ?", "options": ["30", "40", "50"], "reponse_correcte": "40", "explication": "Quatre dizaines."
+  },
+  {
+    "id": 81, "texte": "Le triple de 1 est...", "options": ["1", "2", "3"], "reponse_correcte": "3", "explication": "1+1+1=3."
+  },
+  {
+    "id": 82, "texte": "25 - 10 = ?", "options": ["10", "15", "20"], "reponse_correcte": "15", "explication": "On enlève une dizaine."
+  },
+  {
+    "id": 83, "texte": "5 x 1 = ?", "options": ["1", "5", "6"], "reponse_correcte": "5", "explication": "Table de 1."
+  },
+  {
+    "id": 84, "texte": "80 + 20 = ?", "options": ["90", "100", "110"], "reponse_correcte": "100", "explication": "On complète la centaine."
+  },
+  {
+    "id": 85, "texte": "14 - 7 = ?", "options": ["6", "7", "8"], "reponse_correcte": "7", "explication": "7 est la moitié de 14."
+  },
+  {
+    "id": 86, "texte": "2 x 7 = ?", "options": ["12", "14", "16"], "reponse_correcte": "14", "explication": "Double de 7."
+  },
+  {
+    "id": 87, "texte": "300 + 300 = ?", "options": ["500", "600", "700"], "reponse_correcte": "600", "explication": "Double de 300."
+  },
+  {
+    "id": 88, "texte": "10 x 3 = ?", "options": ["13", "30", "33"], "reponse_correcte": "30", "explication": "Trois dizaines."
+  },
+  {
+    "id": 89, "texte": "40 - 20 = ?", "options": ["10", "20", "30"], "reponse_correcte": "20", "explication": "Moitié de 40."
+  },
+  {
+    "id": 90, "texte": "Le double de 50 est...", "options": ["80", "100", "150"], "reponse_correcte": "100", "explication": "50+50=100."
+  },
+  {
+    "id": 91, "texte": "22 + 11 = ?", "options": ["30", "33", "44"], "reponse_correcte": "33", "explication": "On additionne les chiffres identiques."
+  },
+  {
+    "id": 92, "texte": "5 x 0 = ?", "options": ["0", "5", "50"], "reponse_correcte": "0", "explication": "Multiplier par zéro donne toujours zéro."
+  },
+  {
+    "id": 93, "texte": "18 - 2 = ?", "options": ["15", "16", "17"], "reponse_correcte": "16", "explication": "On recule de 2."
+  },
+  {
+    "id": 94, "texte": "100 + 400 = ?", "options": ["500", "600", "700"], "reponse_correcte": "500", "explication": "1+4=5 centaines."
+  },
+  {
+    "id": 95, "texte": "Le triple de 5 est...", "options": ["10", "15", "20"], "reponse_correcte": "15", "explication": "5+5+5=15."
+  },
+  {
+    "id": 96, "texte": "12 x 0 = ?", "options": ["0", "12", "1"], "reponse_correcte": "0", "explication": "Zéro l'emporte."
+  },
+  {
+    "id": 97, "texte": "70 + 30 = ?", "options": ["90", "100", "110"], "reponse_correcte": "100", "explication": "Complément à 100."
+  },
+  {
+    "id": 98, "texte": "50 - 10 = ?", "options": ["30", "40", "50"], "reponse_correcte": "40", "explication": "On enlève une dizaine."
+  },
+  {
+    "id": 99, "texte": "2 x 4 = ?", "options": ["6", "8", "10"], "reponse_correcte": "8", "explication": "Double de 4."
+  },
+  {
+    "id": 100, "texte": "99 + 1 = ?", "options": ["90", "100", "110"], "reponse_correcte": "100", "explication": "On passe à la centaine supérieure."
+  }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "texte": "1 + 1 = ?",
+    "options": ["1", "2", "3"],
+    "reponse_correcte": "2",
+    "explication": "Un et encore un font deux."
+  },
+  {
+    "id": 2,
+    "texte": "2 + 1 = ?",
+    "options": ["2", "3", "4"],
+    "reponse_correcte": "3",
+    "explication": "Le nombre juste après 2 est 3."
+  },
+  {
+    "id": 3,
+    "texte": "5 + 0 = ?",
+    "options": ["0", "5", "50"],
+    "reponse_correcte": "5",
+    "explication": "Ajouter zéro ne change pas le résultat."
+  },
+  {
+    "id": 4,
+    "texte": "2 + 2 = ?",
+    "options": ["3", "4", "5"],
+    "reponse_correcte": "4",
+    "explication": "C'est le double de 2."
+  },
+  {
+    "id": 5,
+    "texte": "3 + 2 = ?",
+    "options": ["4", "5", "6"],
+    "reponse_correcte": "5",
+    "explication": "3... 4, 5 ! On ajoute 2."
+  },
+  {
+    "id": 6,
+    "texte": "4 - 1 = ?",
+    "options": ["3", "4", "5"],
+    "reponse_correcte": "3",
+    "explication": "Si on enlève 1 à 4, on obtient 3."
+  },
+  {
+    "id": 7,
+    "texte": "10 - 0 = ?",
+    "options": ["0", "1", "10"],
+    "reponse_correcte": "10",
+    "explication": "On n'enlève rien, donc il reste 10."
+  },
+  {
+    "id": 8,
+    "texte": "6 + 1 = ?",
+    "options": ["5", "6", "7"],
+    "reponse_correcte": "7",
+    "explication": "C'est le nombre suivant 6."
+  },
+  {
+    "id": 9,
+    "texte": "3 + 3 = ?",
+    "options": ["5", "6", "7"],
+    "reponse_correcte": "6",
+    "explication": "Le double de 3 est 6."
+  },
+  {
+    "id": 10,
+    "texte": "2 - 2 = ?",
+    "options": ["0", "1", "2"],
+    "reponse_correcte": "0",
+    "explication": "Si on enlève tout, il ne reste rien."
+  },
+  {
+    "id": 11,
+    "texte": "5 + 5 = ?",
+    "options": ["9", "10", "11"],
+    "reponse_correcte": "10",
+    "explication": "C'est le nombre de doigts sur tes deux mains."
+  },
+  {
+    "id": 12,
+    "texte": "1 + 4 = ?",
+    "options": ["4", "5", "6"],
+    "reponse_correcte": "5",
+    "explication": "C'est la même chose que 4 + 1."
+  },
+  {
+    "id": 13,
+    "texte": "8 - 1 = ?",
+    "options": ["7", "8", "9"],
+    "reponse_correcte": "7",
+    "explication": "On recule de 1 à partir de 8."
+  },
+  {
+    "id": 14,
+    "texte": "0 + 7 = ?",
+    "options": ["0", "7", "70"],
+    "reponse_correcte": "7",
+    "explication": "Zéro n'ajoute rien."
+  },
+  {
+    "id": 15,
+    "texte": "4 + 4 = ?",
+    "options": ["7", "8", "9"],
+    "reponse_correcte": "8",
+    "explication": "Le double de 4 est 8."
+  },
+  {
+    "id": 16,
+    "texte": "3 - 1 = ?",
+    "options": ["2", "3", "4"],
+    "reponse_correcte": "2",
+    "explication": "Le nombre juste avant 3 est 2."
+  },
+  {
+    "id": 17,
+    "texte": "2 + 4 = ?",
+    "options": ["5", "6", "7"],
+    "reponse_correcte": "6",
+    "explication": "On ajoute 2 à 4."
+  },
+  {
+    "id": 18,
+    "texte": "10 - 1 = ?",
+    "options": ["8", "9", "11"],
+    "reponse_correcte": "9",
+    "explication": "Juste avant 10, il y a 9."
+  },
+  {
+    "id": 19,
+    "texte": "5 + 2 = ?",
+    "options": ["6", "7", "8"],
+    "reponse_correcte": "7",
+    "explication": "5... 6, 7."
+  },
+  {
+    "id": 20,
+    "texte": "1 + 9 = ?",
+    "options": ["9", "10", "11"],
+    "reponse_correcte": "10",
+    "explication": "C'est le complément pour faire 10."
+  },
+  {
+    "id": 21,
+    "texte": "4 - 0 = ?",
+    "options": ["0", "4", "3"],
+    "reponse_correcte": "4",
+    "explication": "On ne retire rien."
+  },
+  {
+    "id": 22,
+    "texte": "2 + 3 = ?",
+    "options": ["4", "5", "6"],
+    "reponse_correcte": "5",
+    "explication": "Comme les 5 doigts de la main."
+  },
+  {
+    "id": 23,
+    "texte": "7 + 1 = ?",
+    "options": ["6", "7", "8"],
+    "reponse_correcte": "8",
+    "explication": "Après 7 vient 8."
+  },
+  {
+    "id": 24,
+    "texte": "5 - 5 = ?",
+    "options": ["0", "1", "5"],
+    "reponse_correcte": "0",
+    "explication": "On enlève tout ce qu'on a."
+  },
+  {
+    "id": 25,
+    "texte": "1 + 0 = ?",
+    "options": ["0", "1", "2"],
+    "reponse_correcte": "1",
+    "explication": "Reste 1."
+  },
+  {
+    "id": 26,
+    "texte": "6 - 1 = ?",
+    "options": ["5", "6", "7"],
+    "reponse_correcte": "5",
+    "explication": "Avant 6, il y a 5."
+  },
+  {
+    "id": 27,
+    "texte": "3 + 1 = ?",
+    "options": ["2", "3", "4"],
+    "reponse_correcte": "4",
+    "explication": "Après 3 vient 4."
+  },
+  {
+    "id": 28,
+    "texte": "9 - 0 = ?",
+    "options": ["0", "9", "8"],
+    "reponse_correcte": "9",
+    "explication": "Le nombre ne change pas."
+  },
+  {
+    "id": 29,
+    "texte": "2 + 5 = ?",
+    "options": ["6", "7", "8"],
+    "reponse_correcte": "7",
+    "explication": "C'est 5 + 2."
+  },
+  {
+    "id": 30,
+    "texte": "10 - 5 = ?",
+    "options": ["5", "4", "6"],
+    "reponse_correcte": "5",
+    "explication": "5 est la moitié de 10."
+  },
+  {
+    "id": 31,
+    "texte": "4 + 1 = ?",
+    "options": ["3", "4", "5"],
+    "reponse_correcte": "5",
+    "explication": "Le suivant de 4."
+  },
+  {
+    "id": 32,
+    "texte": "8 + 0 = ?",
+    "options": ["0", "8", "80"],
+    "reponse_correcte": "8",
+    "explication": "Rien n'est ajouté."
+  },
+  {
+    "id": 33,
+    "texte": "7 - 1 = ?",
+    "options": ["6", "7", "8"],
+    "reponse_correcte": "6",
+    "explication": "Le précédent de 7."
+  },
+  {
+    "id": 34,
+    "texte": "1 + 6 = ?",
+    "options": ["6", "7", "8"],
+    "reponse_correcte": "7",
+    "explication": "C'est 6 + 1."
+  },
+  {
+    "id": 35,
+    "texte": "2 + 2 + 1 = ?",
+    "options": ["4", "5", "6"],
+    "reponse_correcte": "5",
+    "explication": "2+2 font 4, et encore 1 font 5."
+  },
+  {
+    "id": 36,
+    "texte": "5 - 2 = ?",
+    "options": ["2", "3", "4"],
+    "reponse_correcte": "3",
+    "explication": "Si on retire 2 à 5, il reste 3."
+  },
+  {
+    "id": 37,
+    "texte": "3 + 4 = ?",
+    "options": ["6", "7", "8"],
+    "reponse_correcte": "7",
+    "explication": "On peut compter : 4... 5, 6, 7."
+  },
+  {
+    "id": 38,
+    "texte": "9 + 1 = ?",
+    "options": ["8", "10", "11"],
+    "reponse_correcte": "10",
+    "explication": "On arrive à la première dizaine."
+  },
+  {
+    "id": 39,
+    "texte": "6 - 0 = ?",
+    "options": ["0", "6", "5"],
+    "reponse_correcte": "6",
+    "explication": "Le nombre reste identique."
+  },
+  {
+    "id": 40,
+    "texte": "1 + 1 + 1 = ?",
+    "options": ["2", "3", "4"],
+    "reponse_correcte": "3",
+    "explication": "Un, deux, trois."
+  },
+  {
+    "id": 41,
+    "texte": "4 + 2 = ?",
+    "options": ["5", "6", "7"],
+    "reponse_correcte": "6",
+    "explication": "4... 5, 6."
+  },
+  {
+    "id": 42,
+    "texte": "5 - 0 = ?",
+    "options": ["0", "5", "4"],
+    "reponse_correcte": "5",
+    "explication": "Soustraire zéro ne change rien."
+  },
+  {
+    "id": 43,
+    "texte": "2 + 6 = ?",
+    "options": ["7", "8", "9"],
+    "reponse_correcte": "8",
+    "explication": "C'est comme 6 + 2."
+  },
+  {
+    "id": 44,
+    "texte": "10 - 2 = ?",
+    "options": ["7", "8", "9"],
+    "reponse_correcte": "8",
+    "explication": "On recule de deux crans."
+  },
+  {
+    "id": 45,
+    "texte": "3 + 0 + 3 = ?",
+    "options": ["3", "6", "9"],
+    "reponse_correcte": "6",
+    "explication": "3 + 3 = 6."
+  },
+  {
+    "id": 46,
+    "texte": "7 - 7 = ?",
+    "options": ["0", "1", "7"],
+    "reponse_correcte": "0",
+    "explication": "On enlève tout."
+  },
+  {
+    "id": 47,
+    "texte": "1 + 2 = ?",
+    "options": ["2", "3", "4"],
+    "reponse_correcte": "3",
+    "explication": "Un et deux font trois."
+  },
+  {
+    "id": 48,
+    "texte": "8 - 0 = ?",
+    "options": ["0", "8", "7"],
+    "reponse_correcte": "8",
+    "explication": "Rien n'est retiré."
+  },
+  {
+    "id": 49,
+    "texte": "4 + 3 = ?",
+    "options": ["6", "7", "8"],
+    "reponse_correcte": "7",
+    "explication": "4... 5, 6, 7."
+  },
+  {
+    "id": 50,
+    "texte": "5 - 1 = ?",
+    "options": ["3", "4", "5"],
+    "reponse_correcte": "4",
+    "explication": "Le nombre juste avant 5."
+  },
+  {
+    "id": 51,
+    "texte": "2 + 1 + 2 = ?",
+    "options": ["4", "5", "6"],
+    "reponse_correcte": "5",
+    "explication": "2+1=3, puis 3+2=5."
+  },
+  {
+    "id": 52,
+    "texte": "6 + 0 = ?",
+    "options": ["0", "6", "60"],
+    "reponse_correcte": "6",
+    "explication": "Zéro est neutre."
+  },
+  {
+    "id": 53,
+    "texte": "9 - 1 = ?",
+    "options": ["7", "8", "10"],
+    "reponse_correcte": "8",
+    "explication": "On enlève 1."
+  },
+  {
+    "id": 54,
+    "texte": "1 + 5 = ?",
+    "options": ["5", "6", "7"],
+    "reponse_correcte": "6",
+    "explication": "C'est 5 + 1."
+  },
+  {
+    "id": 55,
+    "texte": "3 - 3 = ?",
+    "options": ["0", "1", "3"],
+    "reponse_correcte": "0",
+    "explication": "Soustraction d'un nombre par lui-même."
+  },
+  {
+    "id": 56,
+    "texte": "2 + 7 = ?",
+    "options": ["8", "9", "10"],
+    "reponse_correcte": "9",
+    "explication": "C'est 7 + 2."
+  },
+  {
+    "id": 57,
+    "texte": "10 - 3 = ?",
+    "options": ["6", "7", "8"],
+    "reponse_correcte": "7",
+    "explication": "Complément à 10."
+  },
+  {
+    "id": 58,
+    "texte": "4 + 0 = ?",
+    "options": ["0", "4", "40"],
+    "reponse_correcte": "4",
+    "explication": "Reste 4."
+  },
+  {
+    "id": 59,
+    "texte": "8 - 1 = ?",
+    "options": ["6", "7", "9"],
+    "reponse_correcte": "7",
+    "explication": "Précédent de 8."
+  },
+  {
+    "id": 60,
+    "texte": "1 + 8 = ?",
+    "options": ["8", "9", "10"],
+    "reponse_correcte": "9",
+    "explication": "C'est 8 + 1."
+  },
+  {
+    "id": 61,
+    "texte": "5 + 1 = ?",
+    "options": ["4", "6", "51"],
+    "reponse_correcte": "6",
+    "explication": "Le suivant de 5."
+  },
+  {
+    "id": 62,
+    "texte": "3 - 0 = ?",
+    "options": ["0", "3", "2"],
+    "reponse_correcte": "3",
+    "explication": "Aucun changement."
+  },
+  {
+    "id": 63,
+    "texte": "2 + 2 + 2 = ?",
+    "options": ["4", "5", "6"],
+    "reponse_correcte": "6",
+    "explication": "Trois fois deux."
+  },
+  {
+    "id": 64,
+    "texte": "7 - 1 = ?",
+    "options": ["5", "6", "8"],
+    "reponse_correcte": "6",
+    "explication": "Enlever 1."
+  },
+  {
+    "id": 65,
+    "texte": "4 + 4 = ?",
+    "options": ["6", "8", "10"],
+    "reponse_correcte": "8",
+    "explication": "Le double de 4."
+  },
+  {
+    "id": 66,
+    "texte": "10 - 4 = ?",
+    "options": ["5", "6", "7"],
+    "reponse_correcte": "6",
+    "explication": "Complément : 4 + 6 = 10."
+  },
+  {
+    "id": 67,
+    "texte": "1 + 3 = ?",
+    "options": ["3", "4", "5"],
+    "reponse_correcte": "4",
+    "explication": "Suivant de 3."
+  },
+  {
+    "id": 68,
+    "texte": "9 - 9 = ?",
+    "options": ["0", "1", "9"],
+    "reponse_correcte": "0",
+    "explication": "Rien ne reste."
+  },
+  {
+    "id": 69,
+    "texte": "5 + 4 = ?",
+    "options": ["8", "9", "10"],
+    "reponse_correcte": "9",
+    "explication": "On peut faire 5 + 5 - 1."
+  },
+  {
+    "id": 70,
+    "texte": "2 - 1 = ?",
+    "options": ["0", "1", "2"],
+    "reponse_correcte": "1",
+    "explication": "La moitié de 2."
+  },
+  {
+    "id": 71,
+    "texte": "6 + 1 = ?",
+    "options": ["5", "7", "8"],
+    "reponse_correcte": "7",
+    "explication": "Nombre après 6."
+  },
+  {
+    "id": 72,
+    "texte": "10 - 10 = ?",
+    "options": ["0", "1", "10"],
+    "reponse_correcte": "0",
+    "explication": "On enlève tout."
+  },
+  {
+    "id": 73,
+    "texte": "3 + 5 = ?",
+    "options": ["7", "8", "9"],
+    "reponse_correcte": "8",
+    "explication": "C'est 5 + 3."
+  },
+  {
+    "id": 74,
+    "texte": "4 - 4 = ?",
+    "options": ["0", "4", "8"],
+    "reponse_correcte": "0",
+    "explication": "Résultat nul."
+  },
+  {
+    "id": 75,
+    "texte": "1 + 7 = ?",
+    "options": ["7", "8", "9"],
+    "reponse_correcte": "8",
+    "explication": "Suivant de 7."
+  },
+  {
+    "id": 76,
+    "texte": "8 - 2 = ?",
+    "options": ["5", "6", "7"],
+    "reponse_correcte": "6",
+    "explication": "8... 7, 6."
+  },
+  {
+    "id": 77,
+    "texte": "2 + 0 = ?",
+    "options": ["0", "2", "20"],
+    "reponse_correcte": "2",
+    "explication": "Reste 2."
+  },
+  {
+    "id": 78,
+    "texte": "5 - 3 = ?",
+    "options": ["1", "2", "3"],
+    "reponse_correcte": "2",
+    "explication": "2+3=5."
+  },
+  {
+    "id": 79,
+    "texte": "3 + 2 = ?",
+    "options": ["4", "5", "6"],
+    "reponse_correcte": "5",
+    "explication": "Trois plus deux."
+  },
+  {
+    "id": 80,
+    "texte": "10 - 5 = ?",
+    "options": ["4", "5", "6"],
+    "reponse_correcte": "5",
+    "explication": "Cinq est la moitié."
+  },
+  {
+    "id": 81,
+    "texte": "4 + 5 = ?",
+    "options": ["8", "9", "10"],
+    "reponse_correcte": "9",
+    "explication": "Presque 10."
+  },
+  {
+    "id": 82,
+    "texte": "6 - 1 = ?",
+    "options": ["4", "5", "6"],
+    "reponse_correcte": "5",
+    "explication": "Précédent de 6."
+  },
+  {
+    "id": 83,
+    "texte": "1 + 2 + 1 = ?",
+    "options": ["3", "4", "5"],
+    "reponse_correcte": "4",
+    "explication": "C'est 1+3."
+  },
+  {
+    "id": 84,
+    "texte": "7 + 0 = ?",
+    "options": ["0", "7", "70"],
+    "reponse_correcte": "7",
+    "explication": "Inchangé."
+  },
+  {
+    "id": 85,
+    "texte": "9 - 2 = ?",
+    "options": ["6", "7", "8"],
+    "reponse_correcte": "7",
+    "explication": "9... 8, 7."
+  },
+  {
+    "id": 86,
+    "texte": "2 + 8 = ?",
+    "options": ["9", "10", "11"],
+    "reponse_correcte": "10",
+    "explication": "Complément à 10."
+  },
+  {
+    "id": 87,
+    "texte": "5 - 4 = ?",
+    "options": ["1", "0", "9"],
+    "reponse_correcte": "1",
+    "explication": "Différence d'un seul."
+  },
+  {
+    "id": 88,
+    "texte": "3 + 6 = ?",
+    "options": ["8", "9", "10"],
+    "reponse_correcte": "9",
+    "explication": "C'est 6 + 3."
+  },
+  {
+    "id": 89,
+    "texte": "10 - 6 = ?",
+    "options": ["3", "4", "5"],
+    "reponse_correcte": "4",
+    "explication": "4 + 6 = 10."
+  },
+  {
+    "id": 90,
+    "texte": "4 + 0 + 4 = ?",
+    "options": ["4", "8", "12"],
+    "reponse_correcte": "8",
+    "explication": "Double de 4."
+  },
+  {
+    "id": 91,
+    "texte": "8 - 8 = ?",
+    "options": ["0", "1", "8"],
+    "reponse_correcte": "0",
+    "explication": "Nul."
+  },
+  {
+    "id": 92,
+    "texte": "1 + 1 = ?",
+    "options": ["0", "2", "11"],
+    "reponse_correcte": "2",
+    "explication": "Un plus un."
+  },
+  {
+    "id": 93,
+    "texte": "6 - 2 = ?",
+    "options": ["3", "4", "5"],
+    "reponse_correcte": "4",
+    "explication": "6... 5, 4."
+  },
+  {
+    "id": 94,
+    "texte": "3 + 3 = ?",
+    "options": ["5", "6", "9"],
+    "reponse_correcte": "6",
+    "explication": "Double de 3."
+  },
+  {
+    "id": 95,
+    "texte": "10 - 7 = ?",
+    "options": ["2", "3", "4"],
+    "reponse_correcte": "3",
+    "explication": "7 + 3 = 10."
+  },
+  {
+    "id": 96,
+    "texte": "5 + 3 = ?",
+    "options": ["7", "8", "9"],
+    "reponse_correcte": "8",
+    "explication": "Cinq plus trois."
+  },
+  {
+    "id": 97,
+    "texte": "2 - 0 = ?",
+    "options": ["0", "2", "1"],
+    "reponse_correcte": "2",
+    "explication": "Rien de moins."
+  },
+  {
+    "id": 98,
+    "texte": "7 + 2 = ?",
+    "options": ["8", "9", "10"],
+    "reponse_correcte": "9",
+    "explication": "Sept plus deux."
+  },
+  {
+    "id": 99,
+    "texte": "10 - 8 = ?",
+    "options": ["1", "2", "3"],
+    "reponse_correcte": "2",
+    "explication": "8 + 2 = 10."
+  },
+  {
+    "id": 100,
+    "texte": "4 + 1 + 0 = ?",
+    "options": ["4", "5", "6"],
+    "reponse_correcte": "5",
+    "explication": "Quatre plus un."
+  }
+]

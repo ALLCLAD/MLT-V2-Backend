@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "texte": "Combien font 10 + 10 ?",
+    "options": ["10", "20", "30"],
+    "reponse_correcte": "20",
+    "explication": "Deux dizaines égalent vingt."
+  },
+  {
+    "id": 2,
+    "texte": "Calcule 15 + 5.",
+    "options": ["10", "20", "25"],
+    "reponse_correcte": "20",
+    "explication": "5 + 5 fait 10, plus la dizaine du 15, cela fait 20."
+  },
+  {
+    "id": 3,
+    "texte": "Si j'ai 20 bonbons et que j'en mange 2, combien m'en reste-t-il ?",
+    "options": ["18", "19", "22"],
+    "reponse_correcte": "18",
+    "explication": "20 moins 2 égal 18."
+  },
+  {
+    "id": 4,
+    "texte": "Quel est le double de 4 ?",
+    "options": ["2", "6", "8"],
+    "reponse_correcte": "8",
+    "explication": "Le double c'est 4 + 4 = 8."
+  },
+  {
+    "id": 5,
+    "texte": "Quelle est la moitié de 10 ?",
+    "options": ["2", "5", "20"],
+    "reponse_correcte": "5",
+    "explication": "Parce que 5 + 5 = 10."
+  },
+  {
+    "id": 6,
+    "texte": "30 + 10 = ?",
+    "options": ["20", "40", "50"],
+    "reponse_correcte": "40",
+    "explication": "On ajoute une dizaine à 3 dizaines."
+  },
+  {
+    "id": 7,
+    "texte": "12 - 1 = ?",
+    "options": ["11", "10", "13"],
+    "reponse_correcte": "11",
+    "explication": "C'est le nombre juste avant 12."
+  },
+  {
+    "id": 8,
+    "texte": "Combien font 7 + 7 ?",
+    "options": ["12", "14", "16"],
+    "reponse_correcte": "14",
+    "explication": "C'est le double de 7."
+  },
+  {
+    "id": 9,
+    "texte": "Calcule 25 + 10.",
+    "options": ["30", "35", "45"],
+    "reponse_correcte": "35",
+    "explication": "On change juste le chiffre des dizaines."
+  },
+  {
+    "id": 10,
+    "texte": "J'ai 10 billes, maman m'en donne 10 et papa 10. J'en ai...",
+    "options": ["20", "30", "40"],
+    "reponse_correcte": "30",
+    "explication": "10 + 10 + 10 = 30."
+  },
+  {
+    "id": 11,
+    "texte": "8 + 2 + 5 = ?",
+    "options": ["10", "15", "12"],
+    "reponse_correcte": "15",
+    "explication": "8 + 2 fait 10, et 10 + 5 = 15."
+  },
+  {
+    "id": 12,
+    "texte": "Quel est le double de 10 ?",
+    "options": ["15", "20", "100"],
+    "reponse_correcte": "20",
+    "explication": "10 + 10 = 20."
+  },
+  {
+    "id": 13,
+    "texte": "Moitié de 6 ?",
+    "options": ["2", "3", "4"],
+    "reponse_correcte": "3",
+    "explication": "3 + 3 = 6."
+  },
+  {
+    "id": 14,
+    "texte": "50 - 1 = ?",
+    "options": ["40", "49", "51"],
+    "reponse_correcte": "49",
+    "explication": "C'est le nombre qui précède 50."
+  },
+  {
+    "id": 15,
+    "texte": "Combien font 20 + 20 ?",
+    "options": ["30", "40", "50"],
+    "reponse_correcte": "40",
+    "explication": "2 dizaines + 2 dizaines = 4 dizaines."
+  },
+  {
+    "id": 16,
+    "texte": "9 + 4 = ?",
+    "options": ["12", "13", "14"],
+    "reponse_correcte": "13",
+    "explication": "9... 10, 11, 12, 13."
+  },
+  {
+    "id": 17,
+    "texte": "Calcule 40 + 5.",
+    "options": ["45", "50", "54"],
+    "reponse_correcte": "45",
+    "explication": "C'est 4 dizaines et 5 unités."
+  },
+  {
+    "id": 18,
+    "texte": "18 - 8 = ?",
+    "options": ["10", "8", "1"],
+    "reponse_correcte": "10",
+    "explication": "On enlève toutes les unités."
+  },
+  {
+    "id": 19,
+    "texte": "Le double de 5 ?",
+    "options": ["7", "10", "15"],
+    "reponse_correcte": "10",
+    "explication": "5 + 5 = 10."
+  },
+  {
+    "id": 20,
+    "texte": "Moitié de 12 ?",
+    "options": ["5", "6", "7"],
+    "reponse_correcte": "6",
+    "explication": "6 + 6 = 12."
+  },
+  {
+    "id": 21,
+    "texte": "60 + 10 = ?",
+    "options": ["50", "70", "80"],
+    "reponse_correcte": "70",
+    "explication": "On avance d'une dizaine."
+  },
+  {
+    "id": 22,
+    "texte": "15 + 15 = ?",
+    "options": ["20", "25", "30"],
+    "reponse_correcte": "30",
+    "explication": "10+10=20 et 5+5=10. 20+10=30."
+  },
+  {
+    "id": 23,
+    "texte": "35 - 5 = ?",
+    "options": ["20", "30", "40"],
+    "reponse_correcte": "30",
+    "explication": "On enlève les 5 unités."
+  },
+  {
+    "id": 24,
+    "texte": "Double de 20 ?",
+    "options": ["30", "40", "50"],
+    "reponse_correcte": "40",
+    "explication": "20 + 20 = 40."
+  },
+  {
+    "id": 25,
+    "texte": "Moitié de 20 ?",
+    "options": ["5", "10", "15"],
+    "reponse_correcte": "10",
+    "explication": "10 + 10 = 20."
+  },
+  {
+    "id": 26,
+    "texte": "100 - 10 = ?",
+    "options": ["80", "90", "99"],
+    "reponse_correcte": "90",
+    "explication": "On enlève une dizaine à cent."
+  },
+  {
+    "id": 27,
+    "texte": "7 + 8 = ?",
+    "options": ["14", "15", "16"],
+    "reponse_correcte": "15",
+    "explication": "C'est 7 + 7 + 1."
+  },
+  {
+    "id": 28,
+    "texte": "Calcule 44 + 2.",
+    "options": ["42", "46", "48"],
+    "reponse_correcte": "46",
+    "explication": "On ajoute 2 unités à 4."
+  },
+  {
+    "id": 29,
+    "texte": "22 - 2 = ?",
+    "options": ["20", "21", "18"],
+    "reponse_correcte": "20",
+    "explication": "Il reste les deux dizaines."
+  },
+  {
+    "id": 30,
+    "texte": "Double de 3 ?",
+    "options": ["5", "6", "9"],
+    "reponse_correcte": "6",
+    "explication": "3 + 3 = 6."
+  },
+  {
+    "id": 31,
+    "texte": "Moitié de 14 ?",
+    "options": ["6", "7", "8"],
+    "reponse_correcte": "7",
+    "explication": "7 + 7 = 14."
+  },
+  {
+    "id": 32,
+    "texte": "5 + 5 + 5 + 5 = ?",
+    "options": ["15", "20", "25"],
+    "reponse_correcte": "20",
+    "explication": "5, 10, 15, 20."
+  },
+  {
+    "id": 33,
+    "texte": "80 + 5 = ?",
+    "options": ["85", "90", "75"],
+    "reponse_correcte": "85",
+    "explication": "8 dizaines et 5 unités."
+  },
+  {
+    "id": 34,
+    "texte": "19 - 9 = ?",
+    "options": ["1", "9", "10"],
+    "reponse_correcte": "10",
+    "explication": "Il ne reste que la dizaine."
+  },
+  {
+    "id": 35,
+    "texte": "Double de 15 ?",
+    "options": ["25", "30", "35"],
+    "reponse_correcte": "30",
+    "explication": "15 + 15 = 30."
+  },
+  {
+    "id": 36,
+    "texte": "Moitié de 18 ?",
+    "options": ["8", "9", "10"],
+    "reponse_correcte": "9",
+    "explication": "9 + 9 = 18."
+  },
+  {
+    "id": 37,
+    "texte": "10 + 10 + 10 + 1 = ?",
+    "options": ["30", "31", "41"],
+    "reponse_correcte": "31",
+    "explication": "3 dizaines et 1 unité."
+  },
+  {
+    "id": 38,
+    "texte": "20 - 10 = ?",
+    "options": ["0", "10", "20"],
+    "reponse_correcte": "10",
+    "explication": "On enlève une dizaine."
+  },
+  {
+    "id": 39,
+    "texte": "Calcule 6 + 6 + 1.",
+    "options": ["12", "13", "14"],
+    "reponse_correcte": "13",
+    "explication": "12 + 1 = 13."
+  },
+  {
+    "id": 40,
+    "texte": "Double de 50 ?",
+    "options": ["80", "90", "100"],
+    "reponse_correcte": "100",
+    "explication": "50 + 50 = 100."
+  },
+  {
+    "id": 41,
+    "texte": "Moitié de 40 ?",
+    "options": ["10", "20", "30"],
+    "reponse_correcte": "20",
+    "explication": "20 + 20 = 40."
+  },
+  {
+    "id": 42,
+    "texte": "90 + 10 = ?",
+    "options": ["80", "100", "110"],
+    "reponse_correcte": "100",
+    "explication": "Neuf dizaines plus une font dix dizaines (cent)."
+  },
+  {
+    "id": 43,
+    "texte": "13 - 3 = ?",
+    "options": ["10", "13", "0"],
+    "reponse_correcte": "10",
+    "explication": "On retire les unités."
+  },
+  {
+    "id": 44,
+    "texte": "Double de 2 ?",
+    "options": ["2", "4", "6"],
+    "reponse_correcte": "4",
+    "explication": "2 + 2 = 4."
+  },
+  {
+    "id": 45,
+    "texte": "Moitié de 2 ?",
+    "options": ["0", "1", "2"],
+    "reponse_correcte": "1",
+    "explication": "1 + 1 = 2."
+  },
+  {
+    "id": 46,
+    "texte": "30 + 30 = ?",
+    "options": ["50", "60", "70"],
+    "reponse_correcte": "60",
+    "explication": "3+3=6, donc 30+30=60."
+  },
+  {
+    "id": 47,
+    "texte": "25 - 5 = ?",
+    "options": ["15", "20", "25"],
+    "reponse_correcte": "20",
+    "explication": "On enlève 5 à 25."
+  },
+  {
+    "id": 48,
+    "texte": "11 + 11 = ?",
+    "options": ["20", "22", "24"],
+    "reponse_correcte": "22",
+    "explication": "Double de 11."
+  },
+  {
+    "id": 49,
+    "texte": "Double de 6 ?",
+    "options": ["10", "12", "14"],
+    "reponse_correcte": "12",
+    "explication": "6 + 6 = 12."
+  },
+  {
+    "id": 50,
+    "texte": "Moitié de 16 ?",
+    "options": ["7", "8", "9"],
+    "reponse_correcte": "8",
+    "explication": "8 + 8 = 16."
+  },
+  {
+    "id": 51,
+    "texte": "50 + 50 = ?",
+    "options": ["80", "100", "120"],
+    "reponse_correcte": "100",
+    "explication": "C'est une centaine."
+  },
+  {
+    "id": 52,
+    "texte": "17 - 1 = ?",
+    "options": ["16", "18", "15"],
+    "reponse_correcte": "16",
+    "explication": "Nombre juste avant 17."
+  },
+  {
+    "id": 53,
+    "texte": "8 + 8 = ?",
+    "options": ["14", "16", "18"],
+    "reponse_correcte": "16",
+    "explication": "Double de 8."
+  },
+  {
+    "id": 54,
+    "texte": "Double de 8 ?",
+    "options": ["14", "16", "18"],
+    "reponse_correcte": "16",
+    "explication": "Même chose : 8 + 8."
+  },
+  {
+    "id": 55,
+    "texte": "Moitié de 100 ?",
+    "options": ["40", "50", "60"],
+    "reponse_correcte": "50",
+    "explication": "50 + 50 = 100."
+  },
+  {
+    "id": 56,
+    "texte": "10 + 20 = ?",
+    "options": ["20", "30", "40"],
+    "reponse_correcte": "30",
+    "explication": "1 dizaine + 2 dizaines."
+  },
+  {
+    "id": 57,
+    "texte": "14 - 4 = ?",
+    "options": ["10", "4", "0"],
+    "reponse_correcte": "10",
+    "explication": "On enlève les unités."
+  },
+  {
+    "id": 58,
+    "texte": "Calcule 9 + 1 + 7.",
+    "options": ["10", "17", "18"],
+    "reponse_correcte": "17",
+    "explication": "10 + 7 = 17."
+  },
+  {
+    "id": 59,
+    "texte": "Double de 9 ?",
+    "options": ["16", "18", "20"],
+    "reponse_correcte": "18",
+    "explication": "9 + 9 = 18."
+  },
+  {
+    "id": 60,
+    "texte": "Moitié de 8 ?",
+    "options": ["3", "4", "5"],
+    "reponse_correcte": "4",
+    "explication": "4 + 4 = 8."
+  },
+  {
+    "id": 61,
+    "texte": "70 + 20 = ?",
+    "options": ["80", "90", "100"],
+    "reponse_correcte": "90",
+    "explication": "7+2=9, donc 70+20=90."
+  },
+  {
+    "id": 62,
+    "texte": "30 - 10 = ?",
+    "options": ["10", "20", "30"],
+    "reponse_correcte": "20",
+    "explication": "3 dizaines moins 1."
+  },
+  {
+    "id": 63,
+    "texte": "12 + 2 = ?",
+    "options": ["14", "15", "16"],
+    "reponse_correcte": "14",
+    "explication": "12... 13, 14."
+  },
+  {
+    "id": 64,
+    "texte": "Double de 1 ?",
+    "options": ["1", "2", "3"],
+    "reponse_correcte": "2",
+    "explication": "1 + 1 = 2."
+  },
+  {
+    "id": 65,
+    "texte": "Moitié de 50 ?",
+    "options": ["20", "25", "30"],
+    "reponse_correcte": "25",
+    "explication": "25 + 25 = 50."
+  },
+  {
+    "id": 66,
+    "texte": "5 + 6 = ?",
+    "options": ["10", "11", "12"],
+    "reponse_correcte": "11",
+    "explication": "C'est 5 + 5 + 1."
+  },
+  {
+    "id": 67,
+    "texte": "40 - 20 = ?",
+    "options": ["10", "20", "30"],
+    "reponse_correcte": "20",
+    "explication": "4 dizaines moins 2 dizaines."
+  },
+  {
+    "id": 68,
+    "texte": "10 + 10 + 5 = ?",
+    "options": ["20", "25", "30"],
+    "reponse_correcte": "25",
+    "explication": "20 + 5 = 25."
+  },
+  {
+    "id": 69,
+    "texte": "Double de 7 ?",
+    "options": ["12", "14", "16"],
+    "reponse_correcte": "14",
+    "explication": "7 + 7 = 14."
+  },
+  {
+    "id": 70,
+    "texte": "Moitié de 60 ?",
+    "options": ["20", "30", "40"],
+    "reponse_correcte": "30",
+    "explication": "30 + 30 = 60."
+  },
+  {
+    "id": 71,
+    "texte": "80 + 10 = ?",
+    "options": ["70", "90", "100"],
+    "reponse_correcte": "90",
+    "explication": "8 dizaines + 1."
+  },
+  {
+    "id": 72,
+    "texte": "16 - 6 = ?",
+    "options": ["6", "10", "0"],
+    "reponse_correcte": "10",
+    "explication": "On enlève les unités."
+  },
+  {
+    "id": 73,
+    "texte": "Calcule 2 + 2 + 2 + 2.",
+    "options": ["6", "8", "10"],
+    "reponse_correcte": "8",
+    "explication": "2, 4, 6, 8."
+  },
+  {
+    "id": 74,
+    "texte": "Double de 11 ?",
+    "options": ["20", "22", "24"],
+    "reponse_correcte": "22",
+    "explication": "11 + 11 = 22."
+  },
+  {
+    "id": 75,
+    "texte": "Moitié de 22 ?",
+    "options": ["10", "11", "12"],
+    "reponse_correcte": "11",
+    "explication": "11 + 11 = 22."
+  },
+  {
+    "id": 76,
+    "texte": "10 + 50 = ?",
+    "options": ["40", "60", "70"],
+    "reponse_correcte": "60",
+    "explication": "1 dizaine + 5 dizaines."
+  },
+  {
+    "id": 77,
+    "texte": "9 - 2 = ?",
+    "options": ["6", "7", "8"],
+    "reponse_correcte": "7",
+    "explication": "On recule de 2."
+  },
+  {
+    "id": 78,
+    "texte": "Calcule 3 + 3 + 3.",
+    "options": ["6", "9", "12"],
+    "reponse_correcte": "9",
+    "explication": "3, 6, 9."
+  },
+  {
+    "id": 79,
+    "texte": "Double de 12 ?",
+    "options": ["20", "24", "26"],
+    "reponse_correcte": "24",
+    "explication": "12 + 12 = 24."
+  },
+  {
+    "id": 80,
+    "texte": "Moitié de 24 ?",
+    "options": ["10", "12", "14"],
+    "reponse_correcte": "12",
+    "explication": "12 + 12 = 24."
+  },
+  {
+    "id": 81,
+    "texte": "100 - 50 = ?",
+    "options": ["40", "50", "60"],
+    "reponse_correcte": "50",
+    "explication": "C'est la moitié de cent."
+  },
+  {
+    "id": 82,
+    "texte": "20 + 30 = ?",
+    "options": ["40", "50", "60"],
+    "reponse_correcte": "50",
+    "explication": "2 dizaines + 3 dizaines."
+  },
+  {
+    "id": 83,
+    "texte": "7 - 7 = ?",
+    "options": ["0", "1", "7"],
+    "reponse_correcte": "0",
+    "explication": "Si on enlève tout, il reste zéro."
+  },
+  {
+    "id": 84,
+    "texte": "Double de 25 ?",
+    "options": ["40", "50", "60"],
+    "reponse_correcte": "50",
+    "explication": "25 + 25 = 50."
+  },
+  {
+    "id": 85,
+    "texte": "Moitié de 26 ?",
+    "options": ["12", "13", "14"],
+    "reponse_correcte": "13",
+    "explication": "13 + 13 = 26."
+  },
+  {
+    "id": 86,
+    "texte": "10 + 10 + 10 + 10 = ?",
+    "options": ["30", "40", "50"],
+    "reponse_correcte": "40",
+    "explication": "Quatre dizaines."
+  },
+  {
+    "id": 87,
+    "texte": "15 - 0 = ?",
+    "options": ["0", "15", "14"],
+    "reponse_correcte": "15",
+    "explication": "Enlever zéro ne change rien."
+  },
+  {
+    "id": 88,
+    "texte": "Double de 100 ?",
+    "options": ["150", "200", "300"],
+    "reponse_correcte": "200",
+    "explication": "100 + 100 = 200."
+  },
+  {
+    "id": 89,
+    "texte": "Moitié de 30 ?",
+    "options": ["10", "15", "20"],
+    "reponse_correcte": "15",
+    "explication": "15 + 15 = 30."
+  },
+  {
+    "id": 90,
+    "texte": "40 + 40 = ?",
+    "options": ["70", "80", "90"],
+    "reponse_correcte": "80",
+    "explication": "4+4=8, donc 40+40=80."
+  },
+  {
+    "id": 91,
+    "texte": "11 - 1 = ?",
+    "options": ["9", "10", "11"],
+    "reponse_correcte": "10",
+    "explication": "On enlève l'unité."
+  },
+  {
+    "id": 92,
+    "texte": "Calcule 5 + 5 + 2.",
+    "options": ["10", "12", "15"],
+    "reponse_correcte": "12",
+    "explication": "10 + 2 = 12."
+  },
+  {
+    "id": 93,
+    "texte": "Double de 13 ?",
+    "options": ["24", "26", "28"],
+    "reponse_correcte": "26",
+    "explication": "13 + 13 = 26."
+  },
+  {
+    "id": 94,
+    "texte": "Moitié de 28 ?",
+    "options": ["12", "14", "16"],
+    "reponse_correcte": "14",
+    "explication": "14 + 14 = 28."
+  },
+  {
+    "id": 95,
+    "texte": "20 + 70 = ?",
+    "options": ["80", "90", "100"],
+    "reponse_correcte": "90",
+    "explication": "2 dizaines + 7 dizaines."
+  },
+  {
+    "id": 96,
+    "texte": "18 - 2 = ?",
+    "options": ["14", "16", "17"],
+    "reponse_correcte": "16",
+    "explication": "18... 17, 16."
+  },
+  {
+    "id": 97,
+    "texte": "Double de 40 ?",
+    "options": ["60", "80", "100"],
+    "reponse_correcte": "80",
+    "explication": "40 + 40 = 80."
+  },
+  {
+    "id": 98,
+    "texte": "Moitié de 200 ?",
+    "options": ["50", "100", "150"],
+    "reponse_correcte": "100",
+    "explication": "100 + 100 = 200."
+  },
+  {
+    "id": 99,
+    "texte": "5 + 5 + 5 = ?",
+    "options": ["10", "15", "20"],
+    "reponse_correcte": "15",
+    "explication": "Trois fois cinq."
+  },
+  {
+    "id": 100,
+    "texte": "0 + 100 = ?",
+    "options": ["0", "10", "100"],
+    "reponse_correcte": "100",
+    "explication": "Ajouter zéro ne change rien."
+  }
+]

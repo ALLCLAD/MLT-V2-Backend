@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "texte": "Lequel est le plus 'long' ?",
+    "options": ["Un autobus", "Une voiture", "Un vélo"],
+    "reponse_correcte": "Un autobus",
+    "explication": "L'autobus transporte beaucoup plus de monde, il est très long."
+  },
+  {
+    "id": 2,
+    "texte": "Lequel est le plus 'léger' ?",
+    "options": ["Une plume", "Un dictionnaire", "Un sac de sable"],
+    "reponse_correcte": "Une plume",
+    "explication": "Une plume s'envole avec le vent, elle ne pèse presque rien."
+  },
+  {
+    "id": 3,
+    "texte": "Quel objet utilise-t-on pour mesurer un trait ?",
+    "options": ["Une règle", "Une gomme", "Un taille-crayon"],
+    "reponse_correcte": "Une règle",
+    "explication": "La règle est graduée pour mesurer les longueurs."
+  },
+  {
+    "id": 4,
+    "texte": "Quel jour vient juste après le Lundi ?",
+    "options": ["Mercredi", "Mardi", "Dimanche"],
+    "reponse_correcte": "Mardi",
+    "explication": "La semaine commence par Lundi, puis Mardi."
+  },
+  {
+    "id": 5,
+    "texte": "Si une bouteille est 'pleine', contient-elle de l'eau ?",
+    "options": ["Oui", "Non", "Un petit peu"],
+    "reponse_correcte": "Oui",
+    "explication": "Pleine signifie qu'on ne peut plus rien ajouter dedans."
+  },
+  {
+    "id": 6,
+    "texte": "Lequel est le plus 'lourd' ?",
+    "options": ["Un éléphant", "Un chat", "Un papillon"],
+    "reponse_correcte": "Un éléphant",
+    "explication": "L'éléphant pèse plusieurs milliers de kilos."
+  },
+  {
+    "id": 7,
+    "texte": "Quelle pièce vaut le plus ?",
+    "options": ["1 euro", "2 euros", "5 centimes"],
+    "reponse_correcte": "2 euros",
+    "explication": "2 est plus grand que 1."
+  },
+  {
+    "id": 8,
+    "texte": "Quel moment de la journée vient en premier ?",
+    "options": ["Le matin", "L'après-midi", "Le soir"],
+    "reponse_correcte": "Le matin",
+    "explication": "La journée commence quand le soleil se lève le matin."
+  },
+  {
+    "id": 9,
+    "texte": "Un crayon neuf est plus ... qu'un crayon usé.",
+    "options": ["Petit", "Long", "Léger"],
+    "reponse_correcte": "Long",
+    "explication": "À force de le tailler, le crayon devient court."
+  },
+  {
+    "id": 10,
+    "texte": "Lequel de ces animaux est 'petit' ?",
+    "options": ["La girafe", "La souris", "La baleine"],
+    "reponse_correcte": "La souris",
+    "explication": "La souris tient dans la main, elle est petite."
+  },
+  {
+    "id": 11,
+    "texte": "Pour peser des fruits, on utilise...",
+    "options": ["Une balance", "Une règle", "Une montre"],
+    "reponse_correcte": "Une balance",
+    "explication": "La balance mesure la masse (le poids)."
+  },
+  {
+    "id": 12,
+    "texte": "Combien y a-t-il de mois dans une année ?",
+    "options": ["7", "10", "12"],
+    "reponse_correcte": "12",
+    "explication": "De Janvier à Décembre, il y a 12 mois."
+  },
+  {
+    "id": 13,
+    "texte": "Une règle de classe mesure souvent...",
+    "options": ["20 centimètres", "20 mètres", "20 kilos"],
+    "reponse_correcte": "20 centimètres",
+    "explication": "On utilise les centimètres (cm) pour les petits objets."
+  },
+  {
+    "id": 14,
+    "texte": "Lequel est le plus 'court' ?",
+    "options": ["Un chemin", "Un voyage de 3 jours", "Un saut"],
+    "reponse_correcte": "Un saut",
+    "explication": "Un saut ne dure qu'une seconde, c'est très court."
+  },
+  {
+    "id": 15,
+    "texte": "Quel jour est le dernier de la semaine ?",
+    "options": ["Samedi", "Vendredi", "Dimanche"],
+    "reponse_correcte": "Dimanche",
+    "explication": "Le dimanche clôture la semaine."
+  },
+  {
+    "id": 16,
+    "texte": "Si j'ai deux pièces de 1 euro, j'ai...",
+    "options": ["1 euro", "2 euros", "3 euros"],
+    "reponse_correcte": "2 euros",
+    "explication": "1 + 1 = 2."
+  },
+  {
+    "id": 17,
+    "texte": "Une bouteille d'eau contient environ...",
+    "options": ["1 litre", "1 kilo", "1 mètre"],
+    "reponse_correcte": "1 litre",
+    "explication": "On mesure les liquides en litres (L)."
+  },
+  {
+    "id": 18,
+    "texte": "Le soir, il fait...",
+    "options": ["Jour", "Nuit", "Soleil"],
+    "reponse_correcte": "Nuit",
+    "explication": "Quand le soir finit, la nuit arrive et il fait noir."
+  },
+  {
+    "id": 19,
+    "texte": "Lequel est le plus 'épais' ?",
+    "options": ["Une feuille de papier", "Un gros dictionnaire", "Une affiche"],
+    "reponse_correcte": "Un gros dictionnaire",
+    "explication": "Il a beaucoup de pages, il est donc épais."
+  },
+  {
+    "id": 20,
+    "texte": "Quel objet donne l'heure ?",
+    "options": ["Le thermomètre", "L'horloge", "La règle"],
+    "reponse_correcte": "L'horloge",
+    "explication": "L'horloge ou la montre servent à mesurer le temps."
+  },
+  {
+    "id": 21,
+    "texte": "Lequel pèse le moins ?",
+    "options": ["Un vélo", "Une voiture", "Un avion"],
+    "reponse_correcte": "Un vélo",
+    "explication": "Le vélo est le plus facile à soulever parmi les trois."
+  },
+  {
+    "id": 22,
+    "texte": "Après le mois de Janvier, c'est le mois de...",
+    "options": ["Mars", "Février", "Avril"],
+    "reponse_correcte": "Février",
+    "explication": "L'ordre est : Janvier, puis Février."
+  },
+  {
+    "id": 23,
+    "texte": "Une girafe est très...",
+    "options": ["Grande", "Petite", "Courte"],
+    "reponse_correcte": "Grande",
+    "explication": "Elle a un très long cou."
+  },
+  {
+    "id": 24,
+    "texte": "Si un verre est 'vide', que reste-t-il ?",
+    "options": ["De l'eau", "Rien", "Du jus"],
+    "reponse_correcte": "Rien",
+    "explication": "Vide signifie qu'il n'y a plus rien dedans."
+  },
+  {
+    "id": 25,
+    "texte": "Quelle saison vient après l'Hiver ?",
+    "options": ["L'Été", "Le Printemps", "L'Automne"],
+    "reponse_correcte": "Le Printemps",
+    "explication": "Les fleurs poussent au Printemps après le froid de l'Hiver."
+  },
+  {
+    "id": 26,
+    "texte": "Lequel est le plus 'rapide' ?",
+    "options": ["Un escargot", "Une fusée", "Un marcheur"],
+    "reponse_correcte": "Une fusée",
+    "explication": "La fusée va beaucoup plus vite que tout le reste."
+  },
+  {
+    "id": 27,
+    "texte": "Un billet de 5 euros vaut combien de pièces de 1 euro ?",
+    "options": ["2", "5", "10"],
+    "reponse_correcte": "5",
+    "explication": "Le chiffre sur le billet indique sa valeur."
+  },
+  {
+    "id": 28,
+    "texte": "Pour mesurer ta taille, on utilise un...",
+    "options": ["Mètre ruban", "Pèse-personne", "Verre doseur"],
+    "reponse_correcte": "Mètre ruban",
+    "explication": "On mesure la taille en mètres et centimètres."
+  },
+  {
+    "id": 29,
+    "texte": "Le déjeuner se prend...",
+    "options": ["Le matin", "À midi", "Le soir"],
+    "reponse_correcte": "À midi",
+    "explication": "C'est le repas du milieu de la journée."
+  },
+  {
+    "id": 30,
+    "texte": "Une minute est plus ... qu'une heure.",
+    "options": ["Longue", "Courte", "Lourde"],
+    "reponse_correcte": "Courte",
+    "explication": "Il faut 60 minutes pour faire une heure."
+  },
+  {
+    "id": 31,
+    "texte": "Lequel est 'large' ?",
+    "options": ["Une autoroute", "Un petit sentier", "Une règle"],
+    "reponse_correcte": "Une autoroute",
+    "explication": "Beaucoup de voitures peuvent rouler côte à côte."
+  },
+  {
+    "id": 32,
+    "texte": "Si tu as 10 euros, peux-tu acheter un jouet à 8 euros ?",
+    "options": ["Oui", "Non", "Il manque de l'argent"],
+    "reponse_correcte": "Oui",
+    "explication": "10 est plus grand que 8, donc tu as assez d'argent."
+  },
+  {
+    "id": 33,
+    "texte": "Combien de jours y a-t-il dans un week-end ?",
+    "options": ["1", "2", "3"],
+    "reponse_correcte": "2",
+    "explication": "Le samedi et le dimanche."
+  },
+  {
+    "id": 34,
+    "texte": "Une plume est légère, un caillou est plus...",
+    "options": ["Léger", "Lourd", "Petit"],
+    "reponse_correcte": "Lourd",
+    "explication": "Le caillou pèse plus que la plume."
+  },
+  {
+    "id": 35,
+    "texte": "Quelle pièce est rouge ?",
+    "options": ["10 centimes", "2 centimes", "1 euro"],
+    "reponse_correcte": "2 centimes",
+    "explication": "Les petites pièces de 1, 2 et 5 centimes sont cuivrées (rouges)."
+  },
+  {
+    "id": 36,
+    "texte": "Quel jour vient avant le Samedi ?",
+    "options": ["Vendredi", "Dimanche", "Lundi"],
+    "reponse_correcte": "Vendredi",
+    "explication": "Vendredi est le jour qui précède le week-end."
+  },
+  {
+    "id": 37,
+    "texte": "Lequel est le plus 'haut' ?",
+    "options": ["Une colline", "Une montagne", "Un trottoir"],
+    "reponse_correcte": "Une montagne",
+    "explication": "Les montagnes touchent les nuages."
+  },
+  {
+    "id": 38,
+    "texte": "On mesure la température avec un...",
+    "options": ["Mètre", "Thermomètre", "Chronomètre"],
+    "reponse_correcte": "Thermomètre",
+    "explication": "Le thermomètre indique s'il fait chaud ou froid."
+  },
+  {
+    "id": 39,
+    "texte": "Une semaine entière, c'est...",
+    "options": ["5 jours", "7 jours", "30 jours"],
+    "reponse_correcte": "7 jours",
+    "explication": "Du lundi au dimanche."
+  },
+  {
+    "id": 40,
+    "texte": "Le contraire de 'lourd' est...",
+    "options": ["Petit", "Léger", "Grand"],
+    "reponse_correcte": "Léger",
+    "explication": "C'est l'inverse du poids."
+  },
+  {
+    "id": 41,
+    "texte": "Lequel contient le plus d'eau ?",
+    "options": ["Un verre", "Une piscine", "Une baignoire"],
+    "reponse_correcte": "Une piscine",
+    "explication": "C'est le plus grand réservoir des trois."
+  },
+  {
+    "id": 42,
+    "texte": "Un bébé pèse environ...",
+    "options": ["3 kilos", "30 kilos", "300 kilos"],
+    "reponse_correcte": "3 kilos",
+    "explication": "À la naissance, un bébé est léger."
+  },
+  {
+    "id": 43,
+    "texte": "Quel mois est le dernier de l'année ?",
+    "options": ["Novembre", "Décembre", "Janvier"],
+    "reponse_correcte": "Décembre",
+    "explication": "L'année se termine avec Noël en Décembre."
+  },
+  {
+    "id": 44,
+    "texte": "Si tu cours 5 minutes, c'est ... que si tu cours 1 heure.",
+    "options": ["Plus long", "Moins long", "Pareil"],
+    "reponse_correcte": "Moins long",
+    "explication": "5 minutes est une petite durée."
+  },
+  {
+    "id": 45,
+    "texte": "Lequel est le plus 'froid' ?",
+    "options": ["La soupe", "La glace", "Le soleil"],
+    "reponse_correcte": "La glace",
+    "explication": "La glace sort du congélateur."
+  },
+  {
+    "id": 46,
+    "texte": "Une pièce d'or de 50 centimes vaut-elle plus que 1 euro ?",
+    "options": ["Oui", "Non", "C'est la même chose"],
+    "reponse_correcte": "Non",
+    "explication": "Il faut deux pièces de 50 centimes pour faire 1 euro."
+  },
+  {
+    "id": 47,
+    "texte": "Combien d'heures y a-t-il dans une journée entière ?",
+    "options": ["12", "24", "60"],
+    "reponse_correcte": "24",
+    "explication": "La terre met 24 heures pour faire un tour sur elle-même."
+  },
+  {
+    "id": 48,
+    "texte": "Lequel est le plus 'étroit' ?",
+    "options": ["Une route", "Une autoroute", "Un couloir"],
+    "reponse_correcte": "Un couloir",
+    "explication": "Dans un couloir, on ne peut souvent marcher qu'à deux."
+  },
+  {
+    "id": 49,
+    "texte": "Pour mesurer le temps d'une course, on utilise un...",
+    "options": ["Chronomètre", "Balance", "Mètre"],
+    "reponse_correcte": "Chronomètre",
+    "explication": "Il mesure les secondes très précisément."
+  },
+  {
+    "id": 50,
+    "texte": "Lequel est le plus 'vieux' ?",
+    "options": ["Un bébé", "Ton grand-père", "Ton papa"],
+    "reponse_correcte": "Ton grand-père",
+    "explication": "Il est né bien avant les autres."
+  },
+  {
+    "id": 51,
+    "texte": "Une règle de 30 cm est plus ... qu'une règle de 20 cm.",
+    "options": ["Longue", "Courte", "Légère"],
+    "reponse_correcte": "Longue",
+    "explication": "30 est plus grand que 20."
+  },
+  {
+    "id": 52,
+    "texte": "Quel jour vient après le Vendredi ?",
+    "options": ["Jeudi", "Samedi", "Dimanche"],
+    "reponse_correcte": "Samedi",
+    "explication": "C'est le début du week-end."
+  },
+  {
+    "id": 53,
+    "texte": "Lequel est 'sucré' ?",
+    "options": ["Le sel", "Le sucre", "Le poivre"],
+    "reponse_correcte": "Le sucre",
+    "explication": "C'est sa caractéristique de goût."
+  },
+  {
+    "id": 54,
+    "texte": "Un éléphant est plus lourd qu'une souris ?",
+    "options": ["Oui", "Non", "Ils font le même poids"],
+    "reponse_correcte": "Oui",
+    "explication": "L'éléphant est énorme."
+  },
+  {
+    "id": 55,
+    "texte": "Combien de centimes y a-t-il dans 1 euro ?",
+    "options": ["10", "50", "100"],
+    "reponse_correcte": "100",
+    "explication": "Il faut 100 petites pièces de 1 centime pour faire 1 euro."
+  },
+  {
+    "id": 56,
+    "texte": "Lequel est 'liquide' ?",
+    "options": ["Un caillou", "L'eau", "Une table"],
+    "reponse_correcte": "L'eau",
+    "explication": "L'eau coule, elle est liquide."
+  },
+  {
+    "id": 57,
+    "texte": "Le petit-déjeuner se prend...",
+    "options": ["Le matin", "À midi", "Le soir"],
+    "reponse_correcte": "Le matin",
+    "explication": "C'est le premier repas de la journée."
+  },
+  {
+    "id": 58,
+    "texte": "Lequel est le plus 'rapide' ?",
+    "options": ["Une tortue", "Un lapin", "Un escargot"],
+    "reponse_correcte": "Un lapin",
+    "explication": "Le lapin court très vite."
+  },
+  {
+    "id": 59,
+    "texte": "Une année a combien de saisons ?",
+    "options": ["2", "4", "6"],
+    "reponse_correcte": "4",
+    "explication": "Printemps, Été, Automne, Hiver."
+  },
+  {
+    "id": 60,
+    "texte": "Lequel est 'mou' ?",
+    "options": ["Un oreiller", "Une pierre", "Un mur"],
+    "reponse_correcte": "Un oreiller",
+    "explication": "On peut l'écraser facilement."
+  },
+  {
+    "id": 61,
+    "texte": "Quel mois vient avant Décembre ?",
+    "options": ["Janvier", "Novembre", "Octobre"],
+    "reponse_correcte": "Novembre",
+    "explication": "Novembre précède Décembre."
+  },
+  {
+    "id": 62,
+    "texte": "Lequel est le plus 'grand' ?",
+    "options": ["Un bus", "Un vélo", "Une trottinette"],
+    "reponse_correcte": "Un bus",
+    "explication": "Le bus est immense."
+  },
+  {
+    "id": 63,
+    "texte": "Pour payer un bonbon à 50 centimes, quelle pièce utilises-tu ?",
+    "options": ["1 euro", "50 centimes", "10 centimes"],
+    "reponse_correcte": "50 centimes",
+    "explication": "C'est la pièce exacte."
+  },
+  {
+    "id": 64,
+    "texte": "Combien de doigts as-tu sur une main ?",
+    "options": ["4", "5", "6"],
+    "reponse_correcte": "5",
+    "explication": "On en a cinq."
+  },
+  {
+    "id": 65,
+    "texte": "Lequel est 'dur' ?",
+    "options": ["Une éponge", "Un caillou", "Du coton"],
+    "reponse_correcte": "Un caillou",
+    "explication": "On ne peut pas le déformer à la main."
+  },
+  {
+    "id": 66,
+    "texte": "Le goûter se prend...",
+    "options": ["Le matin", "L'après-midi", "La nuit"],
+    "reponse_correcte": "L'après-midi",
+    "explication": "Souvent après l'école."
+  },
+  {
+    "id": 67,
+    "texte": "Lequel est le plus 'petit' ?",
+    "options": ["Un chat", "Un lion", "Un tigre"],
+    "reponse_correcte": "Un chat",
+    "explication": "Le chat est un petit félin."
+  },
+  {
+    "id": 68,
+    "texte": "Une heure dure combien de minutes ?",
+    "options": ["30", "60", "100"],
+    "reponse_correcte": "60",
+    "explication": "C'est la règle du temps."
+  },
+  {
+    "id": 69,
+    "texte": "Lequel est 'froid' ?",
+    "options": ["Le feu", "La neige", "Le four"],
+    "reponse_correcte": "La neige",
+    "explication": "La neige est faite de glace."
+  },
+  {
+    "id": 70,
+    "texte": "Quel jour vient après le Mardi ?",
+    "options": ["Lundi", "Mercredi", "Jeudi"],
+    "reponse_correcte": "Mercredi",
+    "explication": "Lundi, Mardi, Mercredi."
+  },
+  {
+    "id": 71,
+    "texte": "Lequel est le plus 'lourd' ?",
+    "options": ["Une plume", "Une pomme", "Un camion"],
+    "reponse_correcte": "Un camion",
+    "explication": "Le camion pèse des tonnes."
+  },
+  {
+    "id": 72,
+    "texte": "Un billet de 10 euros vaut-il plus qu'un billet de 5 euros ?",
+    "options": ["Oui", "Non", "C'est pareil"],
+    "reponse_correcte": "Oui",
+    "explication": "10 est le double de 5."
+  },
+  {
+    "id": 73,
+    "texte": "Lequel est 'salé' ?",
+    "options": ["Le gâteau", "Les frites", "Le bonbon"],
+    "reponse_correcte": "Les frites",
+    "explication": "On met du sel sur les frites."
+  },
+  {
+    "id": 74,
+    "texte": "Combien de pattes a un chien ?",
+    "options": ["2", "4", "6"],
+    "reponse_correcte": "4",
+    "explication": "Les chiens ont quatre pattes."
+  },
+  {
+    "id": 75,
+    "texte": "Lequel est le plus 'long' ?",
+    "options": ["Un stylo", "Une règle", "Une route"],
+    "reponse_correcte": "Une route",
+    "explication": "Une route fait plusieurs kilomètres."
+  },
+  {
+    "id": 76,
+    "texte": "Le dîner se prend...",
+    "options": ["Le matin", "À midi", "Le soir"],
+    "reponse_correcte": "Le soir",
+    "explication": "C'est le dernier repas avant de dormir."
+  },
+  {
+    "id": 77,
+    "texte": "Lequel est 'chaud' ?",
+    "options": ["Le frigo", "Le soleil", "La pluie"],
+    "reponse_correcte": "Le soleil",
+    "explication": "Le soleil chauffe la Terre."
+  },
+  {
+    "id": 78,
+    "texte": "Un mois dure environ combien de semaines ?",
+    "options": ["1", "4", "10"],
+    "reponse_correcte": "4",
+    "explication": "Environ 28 à 31 jours."
+  },
+  {
+    "id": 79,
+    "texte": "Lequel est le plus 'lent' ?",
+    "options": ["Un avion", "Un escargot", "Un vélo"],
+    "reponse_correcte": "Un escargot",
+    "explication": "L'escargot avance très doucement."
+  },
+  {
+    "id": 80,
+    "texte": "Quel jour vient avant le Lundi ?",
+    "options": ["Dimanche", "Mardi", "Samedi"],
+    "reponse_correcte": "Dimanche",
+    "explication": "La semaine recommence après le Dimanche."
+  },
+  {
+    "id": 81,
+    "texte": "Lequel est le plus 'léger' ?",
+    "options": ["Un ballon", "Une brique", "Un livre"],
+    "reponse_correcte": "Un ballon",
+    "explication": "Le ballon est rempli d'air."
+  },
+  {
+    "id": 82,
+    "texte": "Combien font 1 euro + 1 euro ?",
+    "options": ["1 euro", "2 euros", "3 euros"],
+    "reponse_correcte": "2 euros",
+    "explication": "1 + 1 = 2."
+  },
+  {
+    "id": 83,
+    "texte": "Lequel est 'acide' ?",
+    "options": ["Le chocolat", "Le citron", "La banane"],
+    "reponse_correcte": "Le citron",
+    "explication": "Le citron pique la langue."
+  },
+  {
+    "id": 84,
+    "texte": "Quelle saison est la plus chaude ?",
+    "options": ["L'Hiver", "L'Été", "L'Automne"],
+    "reponse_correcte": "L'Été",
+    "explication": "C'est la saison des vacances et du soleil."
+  },
+  {
+    "id": 85,
+    "texte": "Lequel est le plus 'bas' ?",
+    "options": ["Le sol", "La table", "Le plafond"],
+    "reponse_correcte": "Le sol",
+    "explication": "On marche dessus."
+  },
+  {
+    "id": 86,
+    "texte": "Un an a combien de mois ?",
+    "options": ["10", "12", "14"],
+    "reponse_correcte": "12",
+    "explication": "Douze mois."
+  },
+  {
+    "id": 87,
+    "texte": "Lequel est 'transparent' ?",
+    "options": ["Le bois", "Le verre", "Le fer"],
+    "reponse_correcte": "Le verre",
+    "explication": "On peut voir à travers."
+  },
+  {
+    "id": 88,
+    "texte": "Quel jour est entre le Mercredi et le Vendredi ?",
+    "options": ["Mardi", "Jeudi", "Samedi"],
+    "reponse_correcte": "Jeudi",
+    "explication": "Mercredi, Jeudi, Vendredi."
+  },
+  {
+    "id": 89,
+    "texte": "Lequel est le plus 'lourd' ?",
+    "options": ["Une chaussure", "Un cartable plein", "Un stylo"],
+    "reponse_correcte": "Un cartable plein",
+    "explication": "Avec les livres, il pèse lourd."
+  },
+  {
+    "id": 90,
+    "texte": "Une minute dure combien de secondes ?",
+    "options": ["30", "60", "100"],
+    "reponse_correcte": "60",
+    "explication": "Soixante secondes."
+  },
+  {
+    "id": 91,
+    "texte": "Lequel est 'amer' ?",
+    "options": ["Le bonbon", "Le café sans sucre", "Le lait"],
+    "reponse_correcte": "Le café sans sucre",
+    "explication": "C'est un goût particulier."
+  },
+  {
+    "id": 92,
+    "texte": "Quelle saison est la plus froide ?",
+    "options": ["L'Hiver", "Le Printemps", "L'Été"],
+    "reponse_correcte": "L'Hiver",
+    "explication": "Il neige parfois en Hiver."
+  },
+  {
+    "id": 93,
+    "texte": "Lequel est le plus 'court' ?",
+    "options": ["Une règle", "Un crayon taillé", "Une route"],
+    "reponse_correcte": "Un crayon taillé",
+    "explication": "C'est le plus petit objet ici."
+  },
+  {
+    "id": 94,
+    "texte": "Combien font 5 centimes + 5 centimes ?",
+    "options": ["5 centimes", "10 centimes", "20 centimes"],
+    "reponse_correcte": "10 centimes",
+    "explication": "5 + 5 = 10."
+  },
+  {
+    "id": 95,
+    "texte": "Lequel est 'solide' ?",
+    "options": ["L'eau", "La glace", "L'air"],
+    "reponse_correcte": "La glace",
+    "explication": "La glace est de l'eau devenue dure."
+  },
+  {
+    "id": 96,
+    "texte": "Quel mois vient après Août ?",
+    "options": ["Juillet", "Septembre", "Octobre"],
+    "reponse_correcte": "Septembre",
+    "explication": "C'est le mois de la rentrée des classes."
+  },
+  {
+    "id": 97,
+    "texte": "Lequel est le plus 'épais' ?",
+    "options": ["Une feuille", "Une planche", "Un tronc d'arbre"],
+    "reponse_correcte": "Un tronc d'arbre",
+    "explication": "Il est très large et solide."
+  },
+  {
+    "id": 98,
+    "texte": "Une journée a combien de matins ?",
+    "options": ["1", "2", "0"],
+    "reponse_correcte": "1",
+    "explication": "Un seul matin par jour."
+  },
+  {
+    "id": 99,
+    "texte": "Lequel est 'parfumé' ?",
+    "options": ["Une fleur", "Un caillou", "Une règle"],
+    "reponse_correcte": "Une fleur",
+    "explication": "Les fleurs sentent bon."
+  },
+  {
+    "id": 100,
+    "texte": "Combien de saisons y a-t-il dans une année ?",
+    "options": ["2", "4", "12"],
+    "reponse_correcte": "4",
+    "explication": "Printemps, Été, Automne, Hiver."
+  }
+]
