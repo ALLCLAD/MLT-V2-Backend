@@ -51,33 +51,6 @@ urlpatterns = [
         name='modifier-supprimer-enfant'
     ),
 
-    # Statistiques globales du tableau de bord parent
-    # totalEnfants, moyenneGenerale, exercicesTermines
-    path(
-        'stats-overview/',
-        views.ParentStatsOverviewView.as_view(),
-        name='stats-overview'
-    ),
 
-    # ESPACE ENFANT — Accès aux leçons et exercices
-    # Liste des leçons publiées pour l'enfant connecté
-    path(
-        'enfant/lecons/',
-        views.EnfantLeconsView.as_view(),
-        name='enfant-lecons'
-    ),
 
-    # Détail d'une leçon publiée pour l'enfant
-    path(
-        'enfant/lecons/<int:lecon_id>/',
-        views.EnfantLeconDetailView.as_view(),
-        name='enfant-lecon-detail'
-    ),
-
-    # Exercices d'une leçon publiée pour l'enfant
-    path(
-        'enfant/lecons/<int:lecon_id>/exercices/',
-        views.EnfantExercicesView.as_view(),
-        name='enfant-exercices'
-    ),
 ]

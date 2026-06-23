@@ -282,3 +282,99 @@ class CalendrierDeleteView(APIView):
         except EvenementCalendrier.DoesNotExist: return Response({"error": "Événement introuvable."}, status=status.HTTP_404_NOT_FOUND)
         evenement.delete()
         return Response({"message": "Événement supprimé."}, status=status.HTTP_204_NO_CONTENT)
+
+
+# VUE : EnfantLeconsView
+
+class EnfantLeconsView(APIView):
+    """
+    Vue pour qu'un enfant puisse voir les leçons
+    publiées par son enseignant.
+    Filtre : statut = 'publie' + enseignant lié via SuiviEnseignantEnfant.
+    """
+    permission_classes = [permissions.IsAuthenticated]
+
+    def get(self, request):
+
+        if request.user.role != 'ENFANT':
+            return Response(
+                {"error": "Action non autorisée."},
+                status=status.HTTP_403_FORBIDDEN
+            )
+
+
+        # Leçons publiées des enseignants liés à cet enfant
+        lecons = Lecon.objects.filter(
+            enseignant__eleves__utilisateur=request.user,
+            statut='publie'
+        ).order_by('-date_creation')
+
+        serializer = LeconListSerializer(lecons, many=True)
+        return Response(serializer.data)
+
+# VUE : EnfantLeconDetailView
+
+class EnfantLeconDetailView(APIView):
+    """
+    Vue pour qu'un enfant puisse voir le détail d'une leçon publiée.
+    Vérifie que la leçon appartient bien à son enseignant.
+    """
+    permission_classes = [permissions.IsAuthenticated]
+
+    def get(self, request, lecon_id):
+
+        if request.user.role != 'ENFANT':
+            return Response(
+                {"error": "Action non autorisée."},
+                status=status.HTTP_403_FORBIDDEN
+            )
+
+        try:
+            lecon = Lecon.objects.get(
+                id=lecon_id,
+                enseignant__eleves__utilisateur=request.user,
+                statut='publie'
+            )
+        except Lecon.DoesNotExist:
+            return Response(
+                {"error": "Leçon introuvable."},
+                status=status.HTTP_404_NOT_FOUND
+            )
+
+        serializer = LeconDetailSerializer(lecon)
+        return Response(serializer.data)
+
+
+# VUE : EnfantExercicesView
+
+class EnfantExercicesView(APIView):
+    """
+    Vue pour qu'un enfant puisse accéder aux exercices
+    d'une leçon publiée par son enseignant.
+    """
+    permission_classes = [permissions.IsAuthenticated]
+
+    def get(self, request, lecon_id):
+
+        if request.user.role != 'ENFANT':
+            return Response(
+                {"error": "Action non autorisée."},
+                status=status.HTTP_403_FORBIDDEN
+            )
+
+        try:
+            lecon = Lecon.objects.get(
+                id=lecon_id,
+                enseignant__eleves__utilisateur=request.user,
+                statut='publie'
+            )
+        except Lecon.DoesNotExist:
+            return Response(
+                {"error": "Leçon introuvable."},
+                status=status.HTTP_404_NOT_FOUND
+            )
+
+        exercices = Exercice.objects.filter(lecon=lecon)
+        serializer = ExerciceSerializer(exercices, many=True)
+        return Response(serializer.data)
+
