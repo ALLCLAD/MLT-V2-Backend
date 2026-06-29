@@ -2,28 +2,54 @@ from django.db import models
 from django.conf import settings
 from enseignant.models import Lecon, Exercice
 
-# --- 1. MODÈLE : Message (Chat privé) ---
+
+# --- 1. MODÈLE : Message (Chat privé & de groupe) ---
 class Message(models.Model):
     expediteur = models.ForeignKey(
-        settings.AUTH_USER_MODEL, 
-        on_delete=models.CASCADE, 
+        settings.AUTH_USER_MODEL,
+        on_delete=models.CASCADE,
         related_name='messages_envoyes'
     )
     receveur = models.ForeignKey(
-        settings.AUTH_USER_MODEL, 
-        on_delete=models.CASCADE, 
-        related_name='messages_recus'
+        settings.AUTH_USER_MODEL,
+        on_delete=models.CASCADE,
+        related_name='messages_recus',
+        null=True,
+        blank=True
+    )
+    classe_enseignant = models.ForeignKey(
+        'Uauth.Enseignant',
+        on_delete=models.CASCADE,
+        null=True,
+        blank=True,
+        related_name='messages_classe'
+    )
+    groupe_parent = models.ForeignKey(
+        'Uauth.Parent',
+        on_delete=models.CASCADE,
+        null=True,
+        blank=True,
+        related_name='messages_groupe_parent'
     )
     contenu = models.TextField(verbose_name="Message")
     date_envoi = models.DateTimeField(auto_now_add=True)
     est_lu = models.BooleanField(default=False)
+
+    # AJOUT : Suivi de modification
+    est_modifie = models.BooleanField(default=False)
 
     class Meta:
         ordering = ['date_envoi']
         verbose_name = "Message"
 
     def __str__(self):
-        return f"De {self.expediteur} à {self.receveur} ({self.date_envoi})"
+        if self.receveur:
+            return f"Privé | De {self.expediteur} à {self.receveur} ({self.date_envoi})"
+        elif self.classe_enseignant:
+            return f"Classe | De {self.expediteur} dans le salon de {self.classe_enseignant.utilisateur} ({self.date_envoi})"
+        elif self.groupe_parent:
+            return f"Famille | De {self.expediteur} dans la famille de {self.groupe_parent.utilisateur} ({self.date_envoi})"
+        return f"Message {self.id}"
 
 
 # --- 2. MODÈLE : Notification (Alertes) ---
@@ -37,8 +63,8 @@ class Notification(models.Model):
     ]
 
     receveur = models.ForeignKey(
-        settings.AUTH_USER_MODEL, 
-        on_delete=models.CASCADE, 
+        settings.AUTH_USER_MODEL,
+        on_delete=models.CASCADE,
         related_name='notifications'
     )
     type_notif = models.CharField(max_length=20, choices=TYPE_CHOICES)
@@ -46,8 +72,6 @@ class Notification(models.Model):
     message = models.TextField()
     date_creation = models.DateTimeField(auto_now_add=True)
     est_lu = models.BooleanField(default=False)
-    
-    # Lien optionnel vers une leçon (utile pour cliquer sur l'alerte)
     lecon_liee = models.ForeignKey(Lecon, on_delete=models.SET_NULL, null=True, blank=True)
 
     class Meta:

@@ -2,70 +2,152 @@ import json
 from channels.generic.websocket import AsyncWebsocketConsumer
 from channels.db import database_sync_to_async
 from django.contrib.auth import get_user_model
+from Uauth.models import Enseignant, Parent
 from .models import Message
 
 User = get_user_model()
 
-# --- CONSUMER POUR LE CHAT ---
 class ChatConsumer(AsyncWebsocketConsumer):
     async def connect(self):
-        self.mon_id = self.scope['user'].id
-        self.contact_id = self.scope['url_route']['kwargs']['contact_id']
-        
-        # On crée un nom de salle unique pour ces deux personnes
-        # Ex: chat_3_5 (toujours dans le même ordre)
-        ids = sorted([int(self.mon_id), int(self.contact_id)])
-        self.room_group_name = f'chat_{ids[0]}_{ids[1]}'
+        self.user = self.scope["user"]
 
-        # On rejoint la salle
-        await self.channel_layer.group_add(self.room_group_name, self.channel_name)
+        # Vérification de l'authentification de l'utilisateur
+        if not self.user.is_authenticated:
+            await self.close()
+            return
+
+        url_route = self.scope['url_route']['kwargs']
+
+        # --- CAS 1 : SALON PRIVÉ ---
+        if 'contact_id' in url_route:
+            self.room_type = 'private'
+            self.contact_id = int(url_route['contact_id'])
+            ids = sorted([self.user.id, self.contact_id])
+            self.room_group_name = f"chat_private_{ids[0]}_{ids[1]}"
+
+        # --- CAS 2 : SALON CLASSE ---
+        elif 'enseignant_id' in url_route:
+            self.room_type = 'classe'
+            self.enseignant_user_id = int(url_route['enseignant_id'])
+            self.room_group_name = f"chat_classe_{self.enseignant_user_id}"
+
+        # --- CAS 3 : SALON FAMILLE ---
+        elif 'parent_id' in url_route:
+            self.room_type = 'famille'
+            self.parent_user_id = int(url_route['parent_id'])
+            self.room_group_name = f"chat_famille_{self.parent_user_id}"
+
+        else:
+            await self.close()
+            return
+
+        # Rejoindre le canal de discussion ciblé
+        await self.channel_layer.group_add(
+            self.room_group_name,
+            self.channel_name
+        )
         await self.accept()
 
     async def disconnect(self, close_code):
-        await self.channel_layer.group_discard(self.room_group_name, self.channel_name)
+        if hasattr(self, 'room_group_name'):
+            await self.channel_layer.group_discard(
+                self.room_group_name,
+                self.channel_name
+            )
 
-    # Réception d'un message depuis le navigateur
     async def receive(self, text_data):
         data = json.loads(text_data)
-        message_texte = data['message']
+        contenu = data.get('message', '').strip()
 
-        # Enregistrement en base de données (Asynchrone)
-        await self.save_message(self.mon_id, self.contact_id, message_texte)
+        if not contenu:
+            return
 
-        # Envoi du message à toute la salle (aux deux personnes)
-        await self.channel_layer.group_send(
-            self.room_group_name,
-            {
-                'type': 'chat_message',
-                'message': message_texte,
-                'expediteur_id': self.mon_id
-            }
-        )
+        # Sauvegarde asynchrone du message en Base de Données
+        msg_obj = await self.save_message(contenu)
 
-    # Envoi vers le WebSocket du client
+        if msg_obj:
+            # Envoi du message formaté à l'ensemble du groupe Channel
+            await self.channel_layer.group_send(
+                self.room_group_name,
+                {
+                    'type': 'chat_message',
+                    'id': msg_obj['id'],
+                    'expediteur': self.user.id,
+                    'expediteur_nom': f"{self.user.first_name} {self.user.last_name}".strip() or self.user.username,
+                    'contenu': contenu,
+                    'date_envoi': msg_obj['date_envoi'],
+                }
+            )
+
+    # --- 1. GESTION : NOUVEAU MESSAGE ---
     async def chat_message(self, event):
         await self.send(text_data=json.dumps({
-            'message': event['message'],
-            'expediteur_id': event['expediteur_id']
+            'action': 'message_new',
+            'id': event['id'],
+            'expediteur': event['expediteur'],
+            'expediteur_nom': event['expediteur_nom'],
+            'message': event['contenu'],
+            'date_envoi': event['date_envoi'],
+            'est_modifie': False
+        }))
+
+    # --- 2. GESTION : MODIFICATION DE MESSAGE (LIVE) ---
+    async def chat_message_update(self, event):
+        await self.send(text_data=json.dumps({
+            'action': 'message_update',
+            'id': event['message_id'],
+            'message': event['contenu'],
+            'est_modifie': True
+        }))
+
+    # --- 3. GESTION : SUPPRESSION DE MESSAGE (LIVE) ---
+    async def chat_message_delete(self, event):
+        await self.send(text_data=json.dumps({
+            'action': 'message_delete',
+            'id': event['message_id']
         }))
 
     @database_sync_to_async
-    def save_message(self, exp_id, rec_id, text):
-        return Message.objects.create(expediteur_id=exp_id, receveur_id=rec_id, contenu=text)
+    def save_message(self, contenu):
+        """Persiste le message avec les relations appropriées au salon"""
+        try:
+            msg = Message(expediteur=self.user, contenu=contenu)
+
+            if self.room_type == 'private':
+                msg.receveur_id = self.contact_id
+
+            elif self.room_type == 'classe':
+                enseignant_prof = Enseignant.objects.get(utilisateur_id=self.enseignant_user_id)
+                msg.classe_enseignant = enseignant_prof
+
+            elif self.room_type == 'famille':
+                parent_prof = Parent.objects.get(utilisateur_id=self.parent_user_id)
+                msg.groupe_parent = parent_prof
+
+            msg.save()
+
+            return {
+                'id': msg.id,
+                'date_envoi': msg.date_envoi.isoformat()
+            }
+        except Exception:
+            return None
 
 
-# --- CONSUMER POUR LES NOTIFICATIONS ---
 class NotificationConsumer(AsyncWebsocketConsumer):
     async def connect(self):
-        self.user_id = self.scope['user'].id
-        self.room_group_name = f'notify_{self.user_id}'
+        self.user = self.scope["user"]
+        if not self.user.is_authenticated:
+            await self.close()
+            return
 
+        self.room_group_name = f"notify_{self.user.id}"
         await self.channel_layer.group_add(self.room_group_name, self.channel_name)
         await self.accept()
 
     async def disconnect(self, close_code):
-        await self.channel_layer.group_discard(self.room_group_name, self.channel_name)
+        if hasattr(self, 'room_group_name'):
+            await self.channel_layer.group_discard(self.room_group_name, self.channel_name)
 
-    # Méthode appelée par les Signaux pour envoyer l'alerte
     async def send_notification(self, event):
         await self.send(text_data=json.dumps(event['data']))
