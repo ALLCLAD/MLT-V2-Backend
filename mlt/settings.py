@@ -36,6 +36,9 @@ INSTALLED_APPS = [
     # app pour enseignant
     'enseignant',
 
+    # app pour la synthèse vocale (Piper TTS)
+    'tts',
+
     # app pour la gestion des quiz
     'mlt_quiz',
 
@@ -194,3 +197,14 @@ CHANNEL_LAYERS = {
         "BACKEND": "channels.layers.InMemoryChannelLayer",
     },
 }
+
+# ===== PIPER TTS CONFIGURATION =====
+import platform
+
+if platform.system() == 'Windows':
+    PIPER_EXECUTABLE = r'C:\piper\piper.exe'
+    PIPER_MODEL = r'C:\piper\fr_FR-siwis-medium.onnx'
+else:
+    # Linux (production / déploiement)
+    PIPER_EXECUTABLE = '/opt/piper/piper'
+    PIPER_MODEL = '/opt/piper/fr_FR-siwis-medium.onnx'

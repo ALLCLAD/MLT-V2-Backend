@@ -3,7 +3,13 @@ from . import views
 
 urlpatterns = [
 
-   
+    # EXTRACTION DE TEXTE DOCUMENT (PDF / DOCX)
+    path(
+        'extraire-texte/',
+        views.ExtraireTexteView.as_view(),
+        name='extraire-texte'
+    ),
+
     # ÉLÈVES
     # Recherche d'un élève par nom/prénom (filtrée par classe)
    
@@ -87,6 +93,13 @@ urlpatterns = [
         'exercices/<int:exercice_id>/',
         views.ExerciceDeleteView.as_view(),
         name='enseignant-exercice-delete'
+    ),
+
+    # TÉLÉCHARGEMENT D'UNE LEÇON EN PDF OU DOCX
+    path(
+        'lecons/<int:lecon_id>/telecharger/',
+        views.TelechargementLeconView.as_view(),
+        name='enseignant-lecon-telecharger'
     ),
 
 

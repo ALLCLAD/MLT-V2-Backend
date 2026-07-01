@@ -72,3 +72,6 @@ uritemplate==4.2.0
 urllib3==2.6.2
 websockets==16.0
 zope.interface==8.3
+python-docx
+pypdf
+reportlab

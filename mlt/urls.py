@@ -20,5 +20,8 @@ urlpatterns = [
     
     # Application de communication
     path('communication/', include('communication.urls')),
+
+    # Synthèse vocale (Piper TTS)
+    path('tts/', include('tts.urls')),
 ]
 

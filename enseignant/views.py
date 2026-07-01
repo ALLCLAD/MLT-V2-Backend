@@ -4,13 +4,18 @@ from rest_framework import status, permissions
 from django.db.models import Avg, Count, ExpressionWrapper, FloatField, F, Sum
 from django.utils import timezone
 from datetime import timedelta, date
+from django.http import HttpResponse
 from Uauth.models import Enfant, SuiviEnseignantEnfant
 from .models import Lecon, Exercice, EvenementCalendrier
 from .serializers import (RechercheEleveSerializer,EleveEnseignantSerializer,LeconCreateSerializer,LeconListSerializer,LeconDetailSerializer,ExerciceSerializer,EvenementCalendrierSerializer,)
 from mlt_quiz.models import ScoreQuiz, ThemeQuiz
+import io
+import re
 
 
 # VUE : GESTION DES ÉLÈVES (Ajout / Suppression)
+# Note : Dépendances d'importation (docx, pypdf, reportlab) installées avec succès.
+
 
 class RechercheEleveView(APIView):
     permission_classes = [permissions.IsAuthenticated]
@@ -192,7 +197,250 @@ class ExerciceDeleteView(APIView):
         return Response({"message": "Exercice supprimé."}, status=status.HTTP_204_NO_CONTENT)
 
 
-# VUE : PROFILES ET SCORES INDIVIDUELS POUR L'ENSEIGNANT
+# VUE : EXTRACTION DE TEXTE DEPUIS UN PDF OU WORD
+
+class ExtraireTexteView(APIView):
+    """
+    Reçoit un fichier PDF ou DOCX en multipart/form-data.
+    Extrait le texte brut et le retourne en JSON.
+    """
+    permission_classes = [permissions.IsAuthenticated]
+
+    def post(self, request):
+        if request.user.role != 'ENSEIGNANT':
+            return Response({"error": "Action non autorisée."}, status=status.HTTP_403_FORBIDDEN)
+
+        fichier = request.FILES.get('fichier')
+        if not fichier:
+            return Response({"error": "Aucun fichier fourni."}, status=status.HTTP_400_BAD_REQUEST)
+
+        nom = fichier.name.lower()
+        texte = ""
+
+        try:
+            if nom.endswith('.pdf'):
+                from pypdf import PdfReader
+                reader = PdfReader(fichier)
+                pages = []
+                for page in reader.pages:
+                    t = page.extract_text()
+                    if t:
+                        pages.append(t.strip())
+                texte = "\n\n".join(pages)
+
+            elif nom.endswith('.docx') or nom.endswith('.doc'):
+                import docx
+                doc = docx.Document(fichier)
+                paragraphes = [p.text.strip() for p in doc.paragraphs if p.text.strip()]
+                texte = "\n\n".join(paragraphes)
+
+            else:
+                return Response({"error": "Format non supporté. Utilisez PDF ou DOCX."}, status=status.HTTP_400_BAD_REQUEST)
+
+            if not texte.strip():
+                return Response({"error": "Impossible d'extraire du texte de ce fichier."}, status=status.HTTP_422_UNPROCESSABLE_ENTITY)
+
+            # Nettoyer le texte (espaces multiples, lignes vides successives)
+            texte = re.sub(r'\n{3,}', '\n\n', texte)
+            texte = re.sub(r' {2,}', ' ', texte)
+
+            return Response({"texte": texte, "nb_caracteres": len(texte)}, status=status.HTTP_200_OK)
+
+        except Exception as e:
+            return Response({"error": f"Erreur lors de l'extraction : {str(e)}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+
+# VUE : TÉLÉCHARGEMENT D'UNE LEÇON EN PDF OU WORD
+
+class TelechargementLeconView(APIView):
+    """
+    Génère et retourne un fichier PDF ou DOCX du contenu d'une leçon.
+    Paramètre URL : format = 'pdf' ou 'docx' (défaut: pdf)
+    """
+    permission_classes = [permissions.IsAuthenticated]
+
+    def get(self, request, lecon_id):
+        if request.user.role != 'ENSEIGNANT':
+            return Response({"error": "Action non autorisée."}, status=status.HTTP_403_FORBIDDEN)
+
+        try:
+            lecon = Lecon.objects.get(id=lecon_id, enseignant__utilisateur=request.user)
+        except Lecon.DoesNotExist:
+            return Response({"error": "Leçon introuvable."}, status=status.HTTP_404_NOT_FOUND)
+
+        format_export = request.GET.get('format', 'pdf').lower()
+        contenu_brut = lecon.contenu or "Aucun contenu disponible."
+        # Supprimer la syntaxe Markdown de base pour le texte brut
+        contenu_txt = re.sub(r'#{1,6}\s?', '', contenu_brut)
+        contenu_txt = re.sub(r'\*{1,2}([^*]+)\*{1,2}', r'\1', contenu_txt)
+        contenu_txt = re.sub(r'`([^`]+)`', r'\1', contenu_txt)
+
+        nom_fichier = f"{lecon.titre.replace(' ', '_')}_{lecon.classe}"
+
+        if format_export == 'pdf':
+            try:
+                from reportlab.lib.pagesizes import A4
+                from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
+                from reportlab.lib.units import cm
+                from reportlab.lib import colors
+                from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, HRFlowable
+                from reportlab.lib.enums import TA_LEFT, TA_CENTER
+
+                buffer = io.BytesIO()
+                doc = SimpleDocTemplate(
+                    buffer,
+                    pagesize=A4,
+                    rightMargin=2*cm,
+                    leftMargin=2*cm,
+                    topMargin=2*cm,
+                    bottomMargin=2*cm
+                )
+
+                styles = getSampleStyleSheet()
+                story = []
+
+                # Style titre
+                titre_style = ParagraphStyle(
+                    'TitreLecon',
+                    parent=styles['Title'],
+                    fontSize=22,
+                    spaceAfter=6,
+                    textColor=colors.HexColor('#4F46E5'),
+                    fontName='Helvetica-Bold'
+                )
+                # Style sous-titre
+                sous_titre_style = ParagraphStyle(
+                    'SousTitre',
+                    parent=styles['Normal'],
+                    fontSize=10,
+                    textColor=colors.HexColor('#6B7280'),
+                    spaceAfter=20
+                )
+                # Style corps
+                corps_style = ParagraphStyle(
+                    'Corps',
+                    parent=styles['Normal'],
+                    fontSize=11,
+                    leading=18,
+                    spaceAfter=8,
+                    fontName='Helvetica'
+                )
+                # Style titre de section
+                section_style = ParagraphStyle(
+                    'Section',
+                    parent=styles['Heading2'],
+                    fontSize=13,
+                    spaceBefore=14,
+                    spaceAfter=6,
+                    textColor=colors.HexColor('#1E293B'),
+                    fontName='Helvetica-Bold'
+                )
+
+                story.append(Paragraph(lecon.titre, titre_style))
+                story.append(Paragraph(f"Classe : {lecon.classe}  •  Thème : {lecon.theme}  •  Durée : {lecon.duree or '45 min'}", sous_titre_style))
+                story.append(HRFlowable(width="100%", thickness=1, color=colors.HexColor('#E0E7FF'), spaceAfter=16))
+
+                if lecon.description:
+                    story.append(Paragraph(f"<i>{lecon.description}</i>", corps_style))
+                    story.append(Spacer(1, 10))
+
+                # Parcourir les lignes du contenu
+                for ligne in contenu_brut.split('\n'):
+                    ligne_stripped = ligne.strip()
+                    if not ligne_stripped:
+                        story.append(Spacer(1, 6))
+                    elif ligne_stripped.startswith('## '):
+                        story.append(Paragraph(ligne_stripped[3:], section_style))
+                    elif ligne_stripped.startswith('# '):
+                        story.append(Paragraph(ligne_stripped[2:], section_style))
+                    elif ligne_stripped.startswith('- ') or ligne_stripped.startswith('* '):
+                        story.append(Paragraph(f"• {ligne_stripped[2:]}", corps_style))
+                    else:
+                        # Convertir le gras Markdown en tags ReportLab
+                        ligne_formatee = re.sub(r'\*\*(.+?)\*\*', r'<b>\1</b>', ligne_stripped)
+                        story.append(Paragraph(ligne_formatee, corps_style))
+
+                doc.build(story)
+                buffer.seek(0)
+
+                response = HttpResponse(buffer, content_type='application/pdf')
+                response['Content-Disposition'] = f'attachment; filename="{nom_fichier}.pdf"'
+                return response
+
+            except Exception as e:
+                return Response({"error": f"Erreur génération PDF: {str(e)}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+        elif format_export == 'docx':
+            try:
+                import docx
+                from docx.shared import Pt, RGBColor, Cm
+                from docx.enum.text import WD_ALIGN_PARAGRAPH
+
+                doc_word = docx.Document()
+
+                # Marges
+                for section in doc_word.sections:
+                    section.top_margin = Cm(2)
+                    section.bottom_margin = Cm(2)
+                    section.left_margin = Cm(2.5)
+                    section.right_margin = Cm(2.5)
+
+                # Titre
+                titre_para = doc_word.add_heading(lecon.titre, level=1)
+                titre_para.runs[0].font.color.rgb = RGBColor(0x4F, 0x46, 0xE5)
+
+                # Sous-titre
+                sous = doc_word.add_paragraph(f"Classe : {lecon.classe}  •  Thème : {lecon.theme}  •  Durée : {lecon.duree or '45 min'}")
+                sous.runs[0].font.size = Pt(10)
+                sous.runs[0].font.color.rgb = RGBColor(0x6B, 0x72, 0x80)
+                doc_word.add_paragraph()
+
+                if lecon.description:
+                    desc_para = doc_word.add_paragraph(lecon.description)
+                    desc_para.runs[0].italic = True
+                    doc_word.add_paragraph()
+
+                # Parcourir les lignes du contenu
+                for ligne in contenu_brut.split('\n'):
+                    ligne_stripped = ligne.strip()
+                    if not ligne_stripped:
+                        doc_word.add_paragraph()
+                    elif ligne_stripped.startswith('## ') or ligne_stripped.startswith('# '):
+                        niveau = 2 if ligne_stripped.startswith('## ') else 1
+                        texte_titre = ligne_stripped.lstrip('#').strip()
+                        doc_word.add_heading(texte_titre, level=niveau)
+                    elif ligne_stripped.startswith('- ') or ligne_stripped.startswith('* '):
+                        p = doc_word.add_paragraph(style='List Bullet')
+                        p.add_run(ligne_stripped[2:])
+                    else:
+                        # Traiter le gras
+                        p = doc_word.add_paragraph()
+                        parties = re.split(r'(\*\*.+?\*\*)', ligne_stripped)
+                        for partie in parties:
+                            if partie.startswith('**') and partie.endswith('**'):
+                                run = p.add_run(partie[2:-2])
+                                run.bold = True
+                            else:
+                                p.add_run(partie)
+
+                buffer = io.BytesIO()
+                doc_word.save(buffer)
+                buffer.seek(0)
+
+                response = HttpResponse(
+                    buffer,
+                    content_type='application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+                )
+                response['Content-Disposition'] = f'attachment; filename="{nom_fichier}.docx"'
+                return response
+
+            except Exception as e:
+                return Response({"error": f"Erreur génération Word: {str(e)}"}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+
+        else:
+            return Response({"error": "Format non supporté. Utilisez 'pdf' ou 'docx'."}, status=status.HTTP_400_BAD_REQUEST)
+
+
 
 class EleveDetailView(APIView):
     permission_classes = [permissions.IsAuthenticated]

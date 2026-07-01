@@ -12,5 +12,5 @@ websocket_urlpatterns = [
     re_path(r'^ws/chat/famille/(?P<parent_id>\d+)/$', consumers.ChatConsumer.as_asgi()),
 
     # Route pour le système global de notifications temps réel
-    re_path(r'^ws/notifications/$', consumers.NotificationConsumer.as_asgi()),
+    re_path(r'^ws/notify/$', consumers.NotificationConsumer.as_asgi()),
 ]
