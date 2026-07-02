@@ -182,3 +182,26 @@ class UserProfileView(APIView):
         return Response(data, status=status.HTTP_200_OK)
 
 
+# VUE : VerifierDisponibiliteView
+
+class VerifierDisponibiliteView(APIView):
+    """
+    Vue publique pour vérifier en temps réel si un nom d'utilisateur
+    ou une adresse email est déjà utilisée par un autre compte.
+    Utilisée par le formulaire d'inscription pour la validation instantanée.
+    """
+    permission_classes = [permissions.AllowAny]
+
+    def get(self, request):
+        username = request.query_params.get('username', '').strip()
+        email = request.query_params.get('email', '').strip()
+
+        result = {}
+
+        if username:
+            result['username_disponible'] = not Utilisateur.objects.filter(username__iexact=username).exists()
+
+        if email:
+            result['email_disponible'] = not Utilisateur.objects.filter(email__iexact=email).exists()
+
+        return Response(result, status=status.HTTP_200_OK)

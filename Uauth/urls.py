@@ -51,6 +51,11 @@ urlpatterns = [
         name='modifier-supprimer-enfant'
     ),
 
-
+    # Vérification en temps réel de la disponibilité username/email
+    path(
+        'verifier-disponibilite/',
+        views.VerifierDisponibiliteView.as_view(),
+        name='verifier-disponibilite'
+    ),
 
 ]
