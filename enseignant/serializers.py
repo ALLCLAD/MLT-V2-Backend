@@ -106,10 +106,11 @@ class LeconListSerializer(serializers.ModelSerializer):
             'description',
             'classe',
             'duree',
-            'statut',            # brouillon ou publie
+            'statut',                      # brouillon ou publie
             'theme',
-            'nombre_exercices',  # Nombre d'exercices liés
+            'nombre_exercices',            # Nombre d'exercices liés
             'date_creation',
+            'date_publication_programmee', # Date/heure de publication programmée
         ]
 
 
@@ -134,15 +135,16 @@ class LeconDetailSerializer(serializers.ModelSerializer):
             'id',
             'titre',
             'description',
-            'contenu',           # Contenu généré par l'IA
+            'contenu',                     # Contenu généré par l'IA
             'classe',
             'duree',
             'statut',
             'theme',
             'nombre_exercices',
-            'exercices',         # Liste des exercices imbriqués
+            'exercices',                   # Liste des exercices imbriqués
             'date_creation',
             'date_modification',
+            'date_publication_programmee', # Date/heure de publication programmée
         ]
 
 
@@ -154,17 +156,29 @@ class EvenementCalendrierSerializer(serializers.ModelSerializer):
     Serializer pour les événements du calendrier enseignant.
     Permet de créer, lister et supprimer des événements
     liés à des leçons ou à d'autres activités.
+    - `lecon` est l'ID de la leçon (ForeignKey, optionnel)
+    - `heure` est optionnelle (null si non renseignée)
+    - `publier_automatiquement` déclenche la publication de la leçon à la date/heure de l'événement
     """
+
+    # Expose le titre de la leçon liée pour affichage dans le calendrier
+    lecon_titre = serializers.SerializerMethodField(read_only=True)
 
     class Meta:
         model  = EvenementCalendrier
         fields = [
             'id',
-            'titre',           # Titre de l'événement
-            'type_evenement',  # cours, reunion ou autre
-            'date',            # Date 
-            'heure',           # Heure 
-            'lecon',           # Leçon liée 
+            'titre',                   # Titre de l'événement
+            'type_evenement',          # cours, reunion ou autre
+            'date',                    # Date
+            'heure',                   # Heure (optionnelle)
+            'lecon',                   # ID de la leçon liée (PrimaryKeyRelatedField)
+            'lecon_titre',             # Titre de la leçon (lecture seule)
+            'publier_automatiquement', # Publier la leçon automatiquement à cet horaire
         ]
-        # L'enseignant est assigné automatiquement dans la vue
-       
+
+    def get_lecon_titre(self, obj):
+        if obj.lecon:
+            return obj.lecon.titre
+        return None
+

@@ -118,6 +118,13 @@ urlpatterns = [
         name='enseignant-calendrier-delete'
     ),
 
+    # Déclencher la publication programmée des leçons
+    path(
+        'lecons/publier-programmees/',
+        views.PublierLeconsProgrammeesView.as_view(),
+        name='enseignant-lecons-publier-programmees'
+    ),
+
     # ESPACE ENFANT — Accès aux leçons et exercices
     # Liste des leçons publiées pour l'enfant connecté
     path(

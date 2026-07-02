@@ -82,6 +82,14 @@ class Lecon(models.Model):
         verbose_name="Statut"
     )
 
+    # Date/heure de publication programmée (optionnel)
+    # Si renseignée, la leçon passera automatiquement en 'publie' à cette date/heure
+    date_publication_programmee = models.DateTimeField(
+        null=True,
+        blank=True,
+        verbose_name="Publication programmée le"
+    )
+
     # Thème mathématique de la leçon
     # Utilisé pour catégoriser les scores des exercices
     theme = models.CharField(
@@ -229,9 +237,17 @@ class EvenementCalendrier(models.Model):
         verbose_name="Date"
     )
 
-    # Heure de l'événement
+    # Heure de l'événement (optionnelle)
     heure = models.TimeField(
+        null=True,
+        blank=True,
         verbose_name="Heure"
+    )
+
+    # Si type='cours' et une leçon est liée, indique si on doit la publier automatiquement à cette date/heure
+    publier_automatiquement = models.BooleanField(
+        default=False,
+        verbose_name="Publier la leçon automatiquement à cet horaire"
     )
 
     # Leçon liée à cet événement (optionnel)
